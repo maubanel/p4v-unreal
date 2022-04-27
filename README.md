@@ -18,6 +18,14 @@ Tips for Perforce User with Write Access for Unreal Engine
 
 - You need to use [Global Protect]() when off campus.
 
+- Make sure that in command prompt that you are hooked up to the correct server and with the right username and password.  Type `p4 info` to find out which server and user you are using currently.
+
+- `P4 set P4PORT=helixcore.cct.lsu.edu:1818`
+
+- `p4 set P4USER=xrlab`
+
+- `p4 set P4PASSWD=XR1001Studio`
+
 - When setting up a workspace for an Unreal project make sure **Allwrite**. **Clobber** and **Compress** to `false`.  Set **Modtime** and **Rmdir** to `true`.  Set **On submit** to `Revert unchanged files`.
 
 - To add multiple files it is best to do this in **P4V** and not in **Unreal**.  Click on the folder that you would like for it to mark all unadded files to include (minus the ones indicated in .p4ignre) and select `Reconcile Offline Work`.
