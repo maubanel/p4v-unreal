@@ -20,7 +20,7 @@ Tips for Perforce User with Write Access for Unreal Engine
 
 - When setting up a workspace for an Unreal project make sure **Allwrite**. **Clobber** and **Compress** to `false`.  Set **Modtime** and **Rmdir** to `true`.  Set **On submit** to `Revert unchanged files`.
 
-- To add multiple files it is best to do this in **P4V** and not in unreal.  Click on the folder that you would like for it to mark all unadded files to include (minus the ones indicated in .p4ignre) and select `Reconcile Offline Work`.
+- To add multiple files it is best to do this in **P4V** and not in **Unreal**.  Click on the folder that you would like for it to mark all unadded files to include (minus the ones indicated in .p4ignre) and select `Reconcile Offline Work`.
 
 
 
