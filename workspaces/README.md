@@ -51,7 +51,7 @@ Now you can pick a **Workspace name:** and I set mine to something short - I lik
 
 Select a folder to place it in.  I am putting it in the root of my only drive `c:\p4` in a folder of the same name.
 
-![alt_text](images/nameWorkspace.png)
+![p4 workspace on c drive](images/nameWorkspace.png)
 
 ![](../images/line2.png)
 
