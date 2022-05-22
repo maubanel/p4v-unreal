@@ -14,7 +14,7 @@ Tips for Perforce User with *Write* Access for Unreal Engine
 
 - To get access to Perforce at LSU please email [maubanel@cct.lsu.edu](mailto:maubanel@cct.lsu.edu).
 
-- [Downalod P4V](https://www.perforce.com/downloads/helix-visual-client-p4v) which is the GUI manager that should work for most issues that arise.  If you need command line access download [p4](https://www.perforce.com/products/helix-core-apps/command-line-client).
+- [Download P4V](https://www.perforce.com/downloads/helix-visual-client-p4v) which is the GUI manager that should work for most issues that arise.  If you need command line access download [p4](https://www.perforce.com/products/helix-core-apps/command-line-client).
 
 - You need to use [Global Protect]() when off campus.
 
