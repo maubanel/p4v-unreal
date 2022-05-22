@@ -15,7 +15,7 @@ There are three main applications to install.  **P4V** which is tthe GUI control
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
-[Download P4V](https://www.perforce.com/downloads/helix-visual-client-p4v) which is the GUI manager that should work for most issues that arise.  If you have access you can also download the installer on [BOX | DMAE-software | Perforce | p4vinst64.msi(https://lsu.box.com/s/wmjeky4pj2jtg7t8uyfmr4g4xfce9d9r).
+[Download P4V](https://www.perforce.com/downloads/helix-visual-client-p4v) which is the GUI manager that should work for most issues that arise.  If you have access you can also download the installer on [BOX | DMAE-software | Perforce | p4vinst64.msi](https://lsu.box.com/s/wmjeky4pj2jtg7t8uyfmr4g4xfce9d9r).
 
 ![alt_text](images/.png)
 
