@@ -58,7 +58,7 @@ Everyone has access to Depot which is the main depot (but no projects in it).  E
 
 If the password was assigned you will need to change it for a more secure password.  
 
-![alt_text](images/changePassword.png)
+![change password](images/changePassword.png)
 
 ![](../images/line2.png)
 
