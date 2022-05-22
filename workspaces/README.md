@@ -82,9 +82,9 @@ Now this will download all the files in the depot.  Go to your depot in **Finder
 
 ##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now next
+Now next time you run **p4v** you can select **Browse** next toe **Workspace:** and select the workspace you want.  In this case it is **p4** and then I will press the <kbd>OK</kbd> button.  Then you are loaded into this workspace when it opens.
 
-![alt_text](images/loadWorspaceOnBoot.png)
+![open project in workspace](images/loadWorspaceOnBoot.png)
 
 ![](../images/line2.png)
 
