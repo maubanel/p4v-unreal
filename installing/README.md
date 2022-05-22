@@ -23,7 +23,7 @@ If you have access to LSU BOx you can also download the installer on [BOX | DMAE
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+![install p4v](images/InstallPerforce.gif)
 
 ![](../images/line2.png)
 
