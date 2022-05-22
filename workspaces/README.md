@@ -23,7 +23,9 @@ Now open up and loginto **P4V** and open up the app.  You need to select **View 
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Right mouse click and on the open area in the **Workspaces** tab and select **New Workspace...**.
+
+![alt_text](images/newWorkspace.png)
 
 ![](../images/line2.png)
 
