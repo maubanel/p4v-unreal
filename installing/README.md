@@ -68,4 +68,4 @@ If the password was assigned you will need to change it for a more secure passwo
 ![](../images/line.png)
 
 [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents)
-|---
+|---||
