@@ -57,7 +57,9 @@ Select a folder to place it in.  I am putting it in the root of my only drive `c
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Select the **Advanced** tab.  
+
+![alt_text](images/advancedWorkspaces.png)
 
 ![](../images/line2.png)
 
