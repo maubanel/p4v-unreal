@@ -84,7 +84,7 @@ Now this will download all the files in the depot.  Go to your depot in **Finder
 
 Now next
 
-![alt_text](images/advancedWorkspaces.png)
+![alt_text](images/loadWorspaceOnBoot.png)
 
 ![](../images/line2.png)
 
