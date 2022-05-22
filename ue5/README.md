@@ -6,7 +6,7 @@
 
 ![](../images/line3.png)
 
-Chapter introduction here.
+Unreal integrates **Perforce** into their workflow nicely.  They make it easy to use and it avoids conflicts with other team members when editing binaries.
 
 <br>
 
