@@ -65,13 +65,18 @@ Select the **Advanced** tab.  Set **Modtime: ...** to `true` so that the timezon
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Select the **Workspaces** tab and go to the top of the directory.  Press the <kbd>Get Latest</kbd> button on the top menu.
+
+![get latest from workspace](images/getLatest.png)
+
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now this will download all the files in the depot.  Go to your depot in **Finder** and you will see the files in the workspace.  Now in this project we have a single file called `.p4ignore`.
+
+![see files downloaded in workspace](images/filesPulledDown.png)
 
 ![](../images/line2.png)
 
