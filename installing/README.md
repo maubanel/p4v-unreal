@@ -63,7 +63,7 @@ If the password was assigned you will need to change it for a more secure passwo
 
 ![](../images/line.png)
 
-![Installing P4V](../images/installingP4V.png)
+![Installing P4V](images/installingP4V.png)
 
 ![](../images/line.png)
 
