@@ -82,7 +82,9 @@ Now this will download all the files in the depot.  Go to your depot in **Finder
 
 ##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now next
+
+![alt_text](images/advancedWorkspaces.png)
 
 ![](../images/line2.png)
 
