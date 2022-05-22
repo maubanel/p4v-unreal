@@ -17,7 +17,7 @@ There are three main applications to install.  **P4V** which is tthe GUI control
 
 If you have access to LSU BOx you can also download the installer on [BOX | DMAE-software | Perforce | p4vinst64.msi](https://lsu.box.com/s/wmjeky4pj2jtg7t8uyfmr4g4xfce9d9r). Otherwise, download [P4V](https://www.perforce.com/downloads/helix-visual-client-p4v) which is the GUI manager that should work for most issues that arise.  
 
-![alt_text](images/.png)
+![download p4v installer from perforce](images/downloadHelix.png)
 
 ![](../images/line2.png)
 
