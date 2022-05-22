@@ -23,7 +23,11 @@ If you have access to LSU BOx you can also download the installer on [BOX | DMAE
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
-![install p4v](images/InstallPerforce.gif)
+Double click the `p4vinst64.msi` file. Install at least the **Helix Visual Client (P4V)** and **Command Line Client (P4)**.  The **Merge and Diff Tool** and **Administration Tool** are optional.
+
+Then for **Server** enter `helix.core.cct.lsu.edu`, **Username** use your lsu id *without* the @lsu.edu. YOu can select your text editor of choice or leave the default.  Press the <kbd>Next</kbd> button.
+
+![install p4v](images/InstallPerforce.gif).   
 
 ![](../images/line2.png)
 
