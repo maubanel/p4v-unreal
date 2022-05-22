@@ -2,7 +2,7 @@
 
 ### Installing P4V
 
-<sub>[previous](../) • [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) • [next](../)</sub>
+[home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents)</sub>
 
 ![](../images/line3.png)
 
