@@ -67,5 +67,5 @@ If the password was assigned you will need to change it for a more secure passwo
 
 ![](../images/line.png)
 
-| [previous](../)| [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) | [next](../)|
-|---|---|---|
+[home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents)
+|---
