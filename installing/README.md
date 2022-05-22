@@ -15,25 +15,25 @@ There are three main applications to install.  **P4V** which is tthe GUI control
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
+You need to loginto [Global Protect](https://grok.lsu.edu/article.aspx?articleid=14785) when off campus before you install.  Otherwise the installer will not find the server. Make sure the vpn is active before moving forward if you are off campus.
+
+![](../images/line2.png)
+
+##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
+
 If you have access to LSU BOx you can also download the installer on [BOX | DMAE-software | Perforce | p4vinst64.msi](https://lsu.box.com/s/wmjeky4pj2jtg7t8uyfmr4g4xfce9d9r). Otherwise, download [P4V](https://www.perforce.com/downloads/helix-visual-client-p4v) which is the GUI manager that should work for most issues that arise.  
 
 ![download p4v installer from perforce](images/downloadHelix.png)
 
 ![](../images/line2.png)
 
-##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
+##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Double click the `p4vinst64.msi` file. Install at least the **Helix Visual Client (P4V)** and **Command Line Client (P4)**.  The **Merge and Diff Tool** and **Administration Tool** are optional.
 
-Then for **Server** enter `helix.core.cct.lsu.edu`, **Username** use your lsu id *without* the @lsu.edu. YOu can select your text editor of choice or leave the default.  Press the <kbd>Next</kbd> button.
+Then for **Server** enter `helix.core.cct.lsu.edu`, **Username** use your lsu id *without* the @lsu.edu. You can select your text editor of choice or leave the default.  Press the <kbd>Next</kbd> button. Then press the <kbd>Install</kbd> button.  You can then close the screen out.
 
-![install p4v](images/InstallPerforce.gif).   
-
-![](../images/line2.png)
-
-##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
+![install p4v](images/InstallPerforce.gif)
 
 ![](../images/line2.png)
 
