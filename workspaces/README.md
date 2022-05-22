@@ -57,9 +57,9 @@ Select a folder to place it in.  I am putting it in the root of my only drive `c
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
-Select the **Advanced** tab.  
+Select the **Advanced** tab.  Set **Modtime: ...** to `true` so that the timezone of each contributor is respected.  Set **Rmdir:** to `true` so empty folders are removed.  Then select in **On submit:** `Revert unchanged files`.  Now select <kbd>OK</kbd> to create this new workspace.
 
-![alt_text](images/advancedWorkspaces.png)
+![advanced workspace settings](images/advancedWorkspaces.png)
 
 ![](../images/line2.png)
 
