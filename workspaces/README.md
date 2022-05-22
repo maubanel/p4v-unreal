@@ -25,13 +25,15 @@ Now open up and loginto **P4V** and open up the app.  You need to select **View 
 
 Right mouse click and on the open area in the **Workspaces** tab and select **New Workspace...**.
 
-![alt_text](images/newWorkspace.png)
+![right mouse click to add new workspace](images/newWorkspace.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now you get a pop up that has you selected to add all the depots that you have permission to. We will now unsubscribe to some of the depots that we don't need.
+
+![list of available depots](images/whichDepots.png)
 
 ![](../images/line2.png)
 
