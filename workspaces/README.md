@@ -15,7 +15,9 @@ Depots are the projects that you have access to either read, write or both.  The
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
-![alt_text](images/.png)
+Now open up and loginto **P4V** and open up the app.  You need to select **View | Workspaces** to select your workspaces tab.
+
+![select workspaces tab](images/workspacesTab.png)
 
 ![](../images/line2.png)
 
