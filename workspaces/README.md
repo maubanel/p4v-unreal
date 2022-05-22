@@ -39,7 +39,9 @@ Now you get a pop up that has you selected to add all the depots that you have p
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+We don't need the **Templates** or the **OldLocalProjects** so you can right click on them and select `exclude tree`.  There will be a **red X** next to the depot name which means it won't download it and waste space.  Don't worry at any point you can add it to this depot and download them at any time.
+
+![exclude templates and oldlocalprojects depots](images/excludeTrees.png)
 
 ![](../images/line2.png)
 
