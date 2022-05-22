@@ -47,7 +47,11 @@ We don't need the **Templates** or the **OldLocalProjects** so you can right cli
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Now you can pick a **Workspace name:** and I set mine to something short - I like `p4`.  Try not to use spaces in your names as it will make it easier if you have to use command line.
+
+Select a folder to place it in.  I am putting it in the root of my only drive `c:\p4` in a folder of the same name.
+
+![alt_text](images/nameWorkspace.png)
 
 ![](../images/line2.png)
 
