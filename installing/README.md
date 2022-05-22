@@ -2,7 +2,7 @@
 
 ### Installing P4V
 
-[home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents)</sub>
+[home](../README.md#user-content-p4v)</sub>
 
 ![](../images/line3.png)
 
@@ -67,5 +67,5 @@ If the password was assigned you will need to change it for a more secure passwo
 
 ![](../images/line.png)
 
-| [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents)  |
+| [home](../README.md#user-content-#user-content-p4v)  |
 |---|
