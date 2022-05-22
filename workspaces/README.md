@@ -2,7 +2,7 @@
 
 ### Workspaces in P4V
 
-<sub>[home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents)</sub>
+<sub>[home](../README.md#user-content-p4v)</sub>
 
 ![](../images/line3.png)
 
@@ -93,5 +93,5 @@ CREATE BANNER WITH https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next
 
 ![](../images/line.png)
 
-| [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) |
+| [home](../README.md#user-content-p4v) |
 |---|
