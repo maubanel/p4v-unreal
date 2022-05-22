@@ -16,7 +16,7 @@ Tips for Perforce User with *Write* Access for Unreal Engine
 
 - [Download P4V](https://www.perforce.com/downloads/helix-visual-client-p4v) which is the GUI manager that should work for most issues that arise.  If you need command line access download [p4](https://www.perforce.com/products/helix-core-apps/command-line-client).
 
-- You need to use [Global Protect]() when off campus.
+- You need to use [Global Protect](https://grok.lsu.edu/article.aspx?articleid=14785) when off campus.
 
 - Make sure that in command prompt that you are hooked up to the correct server and with the right username and password.  Type `p4 info` to find out which server and user you are using currently.
 
