@@ -63,7 +63,7 @@ If the password was assigned you will need to change it for a more secure passwo
 
 ![](../images/line.png)
 
-CREATE BANNER WITH https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT PAGE
+![](../images/installingP4V.png)
 
 ![](../images/line.png)
 
