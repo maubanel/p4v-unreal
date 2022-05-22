@@ -39,7 +39,7 @@ Then for **Server** enter `helix.core.cct.lsu.edu:1818`, **Username** use your l
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Run **P4V** and use the same **Server** and port by entering `helix.core.cct.lsu.edu:1818`, and use your lsu user id *without* the @lsu.edu. Use the supplied password. We will leave the **Workspace** blank and login to the perforce server. Press the <kbd>OK</kbd> button.
+Run **P4V** and use the same **Server** and port by entering `helix.core.cct.lsu.edu:1818`, and use your lsu **User** id *without* the @lsu.edu. Use the supplied password. We will leave the **Workspace** blank and login to the perforce server. Press the <kbd>OK</kbd> button.
 
 ![running p4v for the first time](images/login.png)
 
@@ -47,13 +47,18 @@ Run **P4V** and use the same **Server** and port by entering `helix.core.cct.lsu
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-![alt_text](images/.png)
+When it loads up go to the **Depot** tab.  This is all the projects that you have access to that are on the server (cloud).  
+Everyone has access to Depot which is the main depot (but no projects in it).  Everyone has **read** accesss only to **Templates** and **Old Projects**.  Templates are various templates that have the plugins and our XR Lab Configuration set up.  The **Old Projects** are previous projects done by students in prior terms.  You can use these as reference but will not be able to chnage or save to these projects in the repository.  You will also have access to the projects that you are assigned to work on.
+
+![look at depot with various projects](images/depot.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+If the password was assigned you will need to change it for a more secure password.  
+
+![alt_text](images/changePassword.png)
 
 ![](../images/line2.png)
 
