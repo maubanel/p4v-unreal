@@ -20,6 +20,26 @@ A selection of common icons that appears next to files in **P4V**.
 
 * ![](images/p4v_file_notsync.png)&nbsp;&nbsp;&nbsp;File in your workspace behind the depot -need to get latest version from server
 
+* ![](images/p4v_file_needs_resolve.png)&nbsp;&nbsp;&nbsp;There is an issue like a merge conflict that needs to be resolved
+
+* ![](images/p4v_file_delete_other.png)&nbsp;&nbsp;&nbsp;There is an issue like a merge conflict that needs to be resolved
+
+* ![](images/p4v_file_delete.png)&nbsp;&nbsp;&nbsp;There is an issue like a merge conflict that needs to be resolved
+
+* ![](images/p4v_file_add_other_ws.png)&nbsp;&nbsp;&nbsp;There is an issue like a merge conflict that needs to be resolved
+
+* ![](images/p4v_file_add.png)&nbsp;&nbsp;&nbsp;There is an issue like a merge conflict that needs to be resolved
+
+* ![](images/p4v_file_edit_other.png)&nbsp;&nbsp;&nbsp;There is an issue like a merge conflict that needs to be resolved
+
+* ![](images/p4v_file_edit_head.png)&nbsp;&nbsp;&nbsp;There is an issue like a merge conflict that needs to be resolved
+
+* ![](images/p4v-global-lock1.png)&nbsp;&nbsp;&nbsp;There is an issue like a merge conflict that needs to be resolved
+
+* ![](images/p4v_file_lock.png)&nbsp;&nbsp;&nbsp;There is an issue like a merge conflict that needs to be resolved
+
+* ![](images/p4v_file_needs_resolve.png)&nbsp;&nbsp;&nbsp;There is an issue like a merge conflict that needs to be resolved
+
 ![](../images/line.png)
 
 CREATE BANNER WITH https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT PAGE
