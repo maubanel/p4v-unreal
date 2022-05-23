@@ -92,6 +92,12 @@ Now we need to make sure that your workspace is set up to recognize the `.p4igno
 
 ![enter p4ignore environment variable](images/setp4ignorevar.png)
 
+##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
+
+Confirm that the `.p4ignore` file works by right clicking on the depot then selecting `Reconcile offline work...`.  Files in the `.p4ignore` file should not be included.  In this case our file in the **Saved** folder was not added to the depot.
+
+![check .p4ignore file](images/checkP4Ignore.png)
+
 
 ![](../images/line.png)
 
