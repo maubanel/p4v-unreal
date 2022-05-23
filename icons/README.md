@@ -16,9 +16,9 @@ A selection of common icons that appears next to files in **P4V**.
 
 * ![](images/p4v_file_sync.png)&nbsp;&nbsp;&nbsp;File is synced and is the latest version
 
-* ![](images/p4v_file_differs.png)&nbsp;&nbsp;&nbsp;File in your workspace has changed and is ahead of the depot.  Needs to be added and submitted
+* ![](images/p4v_file_differs.png)&nbsp;&nbsp;&nbsp;File in your workspace has changed and is ahead of the depot - needs to be added and submitted
 
-
+* ![](images/p4v_file_notsync.png)&nbsp;&nbsp;&nbsp;File in your workspace behind the depot -need to get latest version from server
 
 ![](../images/line.png)
 
