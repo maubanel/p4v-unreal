@@ -6,7 +6,7 @@
 
 <sub>[home](../README.md#user-content-p4v)</sub>
 
-Start-Up Procedure for Operator 1
+You will need administration rights to create a new depot.  But it can be simply added to Perforce.
 
 <br>
 
