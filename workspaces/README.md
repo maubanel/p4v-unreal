@@ -86,6 +86,12 @@ Now next time you run **p4v** you can select **Browse** next to **Workspace:** a
 
 ![open project in workspace](images/loadWorspaceOnBoot.png)
 
+##### `Step 10.`\|`BTS`| :large_blue_diamond:
+
+Now we need to make sure that your workspace is set up to recognize the `.p4ignore` file.  Go to a commmand prompt and enter `p4 set P4IGNORE=.p4ignore` environment variable.
+
+![enter p4ignore environment variable](images/setp4ignorevar.png)
+
 
 ![](../images/line.png)
 
