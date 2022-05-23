@@ -34,11 +34,11 @@ A selection of common icons that appears next to files in **P4V**.
 
 * ![](images/p4v_file_edit_other.png)&nbsp;&nbsp;&nbsp;File open for edit by other
 
-* ![](images/p4v-global-lock1.png)&nbsp;&nbsp;&nbsp;There is an issue like a merge conflict that needs to be resolved
+* ![](images/p4v_file_lock.png)&nbsp;&nbsp;&nbsp;File locked by you
 
-* ![](images/p4v-global-lock2.png)&nbsp;&nbsp;&nbsp;There is an issue like a merge conflict that needs to be resolved
+* ![](images/p4v-global-lock1.png)&nbsp;&nbsp;&nbsp;File globally locked by you
 
-* ![](images/p4v_file_lock.png)&nbsp;&nbsp;&nbsp;There is an issue like a merge conflict that needs to be resolved
+* ![](images/p4v-global-lock2.png)&nbsp;&nbsp;&nbsp;File locked or globally locked by other
 
 ![](../images/line.png)
 
