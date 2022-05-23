@@ -42,8 +42,6 @@ A selection of common icons that appears next to files in **P4V**.
 
 ![](../images/line.png)
 
-CREATE BANNER WITH https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT PAGE
-
 * ![p4 icons banner](images/p4vicons.png)
 
 ![](../images/line.png)
