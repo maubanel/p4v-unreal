@@ -36,9 +36,9 @@ A selection of common icons that appears next to files in **P4V**.
 
 * ![](images/p4v-global-lock1.png)&nbsp;&nbsp;&nbsp;There is an issue like a merge conflict that needs to be resolved
 
-* ![](images/p4v_file_lock.png)&nbsp;&nbsp;&nbsp;There is an issue like a merge conflict that needs to be resolved
+* ![](images/p4v-global-lock2.png)&nbsp;&nbsp;&nbsp;There is an issue like a merge conflict that needs to be resolved
 
-* ![](images/p4v_file_needs_resolve.png)&nbsp;&nbsp;&nbsp;There is an issue like a merge conflict that needs to be resolved
+* ![](images/p4v_file_lock.png)&nbsp;&nbsp;&nbsp;There is an issue like a merge conflict that needs to be resolved
 
 ![](../images/line.png)
 
