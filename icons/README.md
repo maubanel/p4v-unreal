@@ -12,7 +12,13 @@ A selection of common icons that appears next to files in **P4V**.
 
 ---
 
-* ![](images/p4v_file_txt.png)&nbsp;&nbsp;&nbsp;File in workspace but not in depot.  If it is in .p4ignore file, this is normal behavior.  If not, it needs to be added and submitted to the depot
+* ![](images/p4v_file_txt.png)&nbsp;&nbsp;&nbsp;File in workspace but not in depot.  If it is in .p4ignore file, this is normal behavior -  ff not, it needs to be added and submitted to the depot
+
+* ![](images/p4v_file_sync.png)&nbsp;&nbsp;&nbsp;File is synced and is the latest version
+
+* ![](images/p4v_file_differs.png)&nbsp;&nbsp;&nbsp;File in your workspace has changed and is ahead of the depot.  Needs to be added and submitted
+
+
 
 ![](../images/line.png)
 
