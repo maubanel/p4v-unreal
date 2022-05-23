@@ -42,7 +42,7 @@ A selection of common icons that appears next to files in **P4V**.
 
 ![](../images/line.png)
 
-* ![p4 icons banner](images/p4vicons.png)
+![p4 icons banner](images/p4vicons.png)
 
 ![](../images/line.png)
 
