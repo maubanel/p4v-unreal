@@ -22,17 +22,17 @@ A selection of common icons that appears next to files in **P4V**.
 
 * ![](images/p4v_file_needs_resolve.png)&nbsp;&nbsp;&nbsp;There is an issue like a merge conflict that needs to be resolved
 
-* ![](images/p4v_file_delete_other.png)&nbsp;&nbsp;&nbsp;There is an issue like a merge conflict that needs to be resolved
+* ![](images/p4v_file_delete.png)&nbsp;&nbsp;&nbsp;File open for delete by you
 
-* ![](images/p4v_file_delete.png)&nbsp;&nbsp;&nbsp;There is an issue like a merge conflict that needs to be resolved
+* ![](images/p4v_file_delete_other.png)&nbsp;&nbsp;&nbsp;File open for delete by other
 
-* ![](images/p4v_file_add_other_ws.png)&nbsp;&nbsp;&nbsp;There is an issue like a merge conflict that needs to be resolved
+* ![](images/p4v_file_add.png)&nbsp;&nbsp;&nbsp;File added by you
 
-* ![](images/p4v_file_add.png)&nbsp;&nbsp;&nbsp;There is an issue like a merge conflict that needs to be resolved
+* ![](images/p4v_file_add_other_ws.png)&nbsp;&nbsp;&nbsp;File added by other
 
-* ![](images/p4v_file_edit_other.png)&nbsp;&nbsp;&nbsp;There is an issue like a merge conflict that needs to be resolved
+* ![](images/p4v_file_edit_head.png)&nbsp;&nbsp;&nbsp;File open for edit by you
 
-* ![](images/p4v_file_edit_head.png)&nbsp;&nbsp;&nbsp;There is an issue like a merge conflict that needs to be resolved
+* ![](images/p4v_file_edit_other.png)&nbsp;&nbsp;&nbsp;File open for edit by other
 
 * ![](images/p4v-global-lock1.png)&nbsp;&nbsp;&nbsp;There is an issue like a merge conflict that needs to be resolved
 
