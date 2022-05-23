@@ -4,7 +4,7 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-<sub>[home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents)</sub>
+<sub>[home](../README.md#user-content-p4v)</sub>
 
 Start-Up Procedure for Operator 1
 
@@ -44,5 +44,5 @@ Start-Up Procedure for Operator 1
 
 <br><br>
 
-| [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) | 
+| [home](../README.md#user-content-p4v) | 
 |---|
