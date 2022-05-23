@@ -16,7 +16,9 @@ P4 ADMIN
 
 ---
 
-<details><summary>Dev Tips</summary>
-make git m="add commit message"
+<details>
+  <summary>Dev Tips</summary>
+
+  make git m="add commit message"
 </details>
 =======
