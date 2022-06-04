@@ -41,6 +41,8 @@ Now you get a pop up that has you selected to add all the depots that you have p
 
 We don't need the **Templates** or the **OldLocalProjects** so you can right click on them and select `exclude tree`.  There will be a **red X** next to the depot name which means it won't download it and waste space.  Don't worry at any point you can add it to this depot and download them at any time.
 
+It is probably best to create a single workspace per depot and do not combine different depot types in a single workspace (the stream icon indicates a different kind of depot from one without the stream icon).
+
 ![exclude templates and oldlocalprojects depots](images/excludeTrees.png)
 
 ![](../images/line2.png)
