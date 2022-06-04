@@ -49,11 +49,10 @@ It is probably best to create a single workspace per depot and do not combine di
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-Now you can pick a **Workspace name:** starting with your P4 user name. I set mine to `maubanel-p4`.  Try not to use spaces in your names as it will make it easier if you have to use command line.
+Now you can pick a **Workspace name:** starting with your P4 user name and the device I am using. I set mine to `maubanel-laptop`.  Try not to use spaces in your names as it will make it easier if you have to use command line.
 
 Select a folder to place it in.  I am putting it in the root of my only drive `c:\p4`.
 
-Now select which depot you would like to sync with.
 
 ![p4 workspace on c drive](images/nameWorkspace.png)
 
