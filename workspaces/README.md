@@ -53,7 +53,7 @@ Now you can pick a **Workspace name:** starting with your P4 user name. I set mi
 
 Select a folder to place it in.  I am putting it in the root of my only drive `c:\p4`.
 
-Now select which depots you would like to sync with.
+Now select which depot you would like to sync with.
 
 ![p4 workspace on c drive](images/nameWorkspace.png)
 
@@ -90,18 +90,30 @@ Now next time you run **p4v** you can select **Browse** next to **Workspace:** a
 
 ![open project in workspace](images/loadWorspaceOnBoot.png)
 
+![](../images/line2.png)
+
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
 Now we need to make sure that your workspace is set up to recognize the `.p4ignore` file.  Go to a commmand prompt and enter `p4 set P4IGNORE=.p4ignore` environment variable.
 
 ![enter p4ignore environment variable](images/setp4ignorevar.png)
 
+![](../images/line2.png)
+
 ##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
+
+Now press `p4 set` to see if all your settings are correct.  The most important ones are **P4CLIENT** which is your **Workspace**. **P4IGNORE** should now be set to `.p4ignore`.  The **P4PORT** should be pointing to `helixcore.cct.lsu.edu:1818` and **P4USER** should be your perforce username.
+
+![alt_text](images/p4Set.png)
+
+
+![](../images/line2.png)
+
+##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Confirm that the `.p4ignore` file works by right clicking on the depot then selecting `Reconcile Offline Work...`.  Files in the `.p4ignore` file should not be included.  In this case our file in the **Saved** folder was not added to the depot.
 
 ![check .p4ignore file](images/checkP4Ignore.png)
-
 
 ![](../images/line.png)
 

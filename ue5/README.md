@@ -15,11 +15,15 @@ Unreal integrates **Perforce** into their workflow nicely.  They make it easy to
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
+It is best practice to have **P4V** running when working in **UE5**.  To make sure you are doing this, it is good to launch the game from within the **P4F** interface.  Double click on the `.uproject` within **P4V**.
+
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
+
+
 
 ![alt_text](images/.png)
 
