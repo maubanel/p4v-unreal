@@ -104,7 +104,9 @@ Now we need to make sure that your workspace is set up to recognize the `.p4igno
 
 Now press `p4 set` to see if all your settings are correct.  The most important ones are **P4CLIENT** which is your **Workspace**. **P4IGNORE** should now be set to `.p4ignore`.  The **P4PORT** should be pointing to `helixcore.cct.lsu.edu:1818` and **P4USER** should be your perforce username.
 
-![alt_text](images/p4Set.png)
+If any of these are wrong or missing you can set them with `p4 set P4CLIENT=nameofworkspace`.  Make sure there are no spaces before and after the `=` sign.
+
+![confirm p4 set settings](images/p4Set.png)
 
 
 ![](../images/line2.png)
