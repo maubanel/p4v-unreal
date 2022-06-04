@@ -47,9 +47,11 @@ We don't need the **Templates** or the **OldLocalProjects** so you can right cli
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-Now you can pick a **Workspace name:** and I set mine to something short - I like `p4`.  Try not to use spaces in your names as it will make it easier if you have to use command line.
+Now you can pick a **Workspace name:** starting with your P4 user name. I set mine to `maubanel-p4`.  Try not to use spaces in your names as it will make it easier if you have to use command line.
 
-Select a folder to place it in.  I am putting it in the root of my only drive `c:\p4` in a folder of the same name.
+Select a folder to place it in.  I am putting it in the root of my only drive `c:\p4`.
+
+Now select which depots you would like to sync with.
 
 ![p4 workspace on c drive](images/nameWorkspace.png)
 
