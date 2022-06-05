@@ -6,7 +6,7 @@
 
 ![](../images/line3.png)
 
-If you have copied a new project or updated a lot of files outside of the Unreal engine.  It is best to update the **Perforce** depot outside of the engine directly in **P4V**.
+If you have copied a new project or updated a lot of files outside of the Unreal engine.  It is best to update the **Perforce** depot outside of the engine directly in **P4V**. Inside the engine I have not found a quick way to mark a large amount of files to add in the editor.  Instead we use **P4V**.
 
 <br>
 
@@ -35,13 +35,17 @@ p4ignoreset
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![check that p4 i](images/p4ignoreset.png)
+Now open up **P4V** and highlight the folder with a large amount of filechanges (or a brand new folder entirely). Press the **Add** button
+
+![check that p4 i](images/addChanges.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now if the `.p4ignore` file works correctly and there are files that match it will list all the files it will not submit.  In this case a large amount of files in the **Saved** and **Intermediate** folder.  We don't need these as when we run our project it will generate them if they are not already there. If you are happy then press the <kbd>OK</kbd> button.
+
+![list of ignored files](images/ignoredFiles.png)
 
 ![](../images/line2.png)
 
