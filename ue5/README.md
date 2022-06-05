@@ -27,9 +27,9 @@ Now one of the advantages of how **Perforce** is configured is that it won't all
 
 What we don't want is to edit a level for 3 hours then when we go to save it find out that someone else has it checked out.  We can avoid this by automatically checking out a file when it is edited.  
 
-Go to **Edit | Edtior Preferences** and select **
+Go to **Edit | Edtior Preferences** and select **General | Loading & Saving** and turn on **Automatically Checkout on Asset Modification**.
 
-![alt_text](images/automaticallyCheckoutOnChange.png)
+![automatically checkout on asset modification](images/automaticallyCheckoutOnChange.png)
 
 ![](../images/line2.png)
 
