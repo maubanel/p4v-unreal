@@ -35,7 +35,7 @@ Go to **Edit | Edtior Preferences** and select **General | Loading & Saving** an
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now there is a small message on the bottom right stating that source control is not turned on.  Select it and choose **Perforce** from the list.
+Now there is a small message on the bottom right stating that source control is not turned on.  Select it and choose **Connect to Source Control** to bring up the source control menu and then select **Perforce** from the list.
 
 ![turn on source control](images/turnOnSource.png)
 
