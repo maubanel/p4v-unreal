@@ -35,7 +35,9 @@ Go to **Edit | Edtior Preferences** and select **General | Loading & Saving** an
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now there is a small message on the bottom right stating that source control is not turned on.  Select it and choose **Perforce** from the list.
+
+![turn on source control](images/turnOnSource.png)
 
 ![](../images/line2.png)
 
