@@ -2,7 +2,7 @@
 
 ### Setting Up Perforce in UE5
 
-<sub>[previous](../) • [home](../README.md#user-content-p4v) • [next](../)</sub>
+<sub>[home](../README.md#user-content-p4v)</sub>
 
 ![](../images/line3.png)
 
@@ -78,5 +78,5 @@ Now that we are set up.  It is best before starting in **UE5** to sync with the 
 
 ![](../images/line.png)
 
-| [previous](../)| [home](../README.md#user-content-p4v) | [next](../)|
-|---|---|---|
+| [home](../README.md#user-content-p4v) | 
+|---|
