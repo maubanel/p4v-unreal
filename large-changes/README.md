@@ -58,7 +58,7 @@ Now we get a list of all the files it will add.  Make sure again, there are no f
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
-Now all the files that are in the **Content** folder are added. You will see a very small green checkmark.  To find out the meaning of the **P4V** icons go to this [github page on p4v icons](https://github.com/maubanel/p4v-unreal/blob/main/icons/README.md#user-content-p4v-icons). For files that are ignored they have no icons meaning they are not tracked by **Perforce** which is what we want.
+Now all the files that are in the **Content** folder are added. You will see a very small green checkmark which means it has the latest version from the dept.  To find out the meaning of the **P4V** icons go to this [github page on p4v icons](https://github.com/maubanel/p4v-unreal/blob/main/icons/README.md#user-content-p4v-icons). For files that are ignored they have no icons meaning they are not tracked by **Perforce** which is what we want.
 
 ![files tracked and untracked by perforce](images/allAdded.png)
 
