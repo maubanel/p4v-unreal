@@ -64,7 +64,7 @@ Now all the files that are in the **Content** folder are added. You will see a v
 
 ![](../images/line.png)
 
-CREATE BANNER WITH https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT PAGE
+![large changes to project banner](images/banner.png)
 
 ![](../images/line.png)
 
