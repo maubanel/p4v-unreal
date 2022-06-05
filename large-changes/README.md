@@ -31,7 +31,6 @@ If not run the command `p4 set P4IGNORE=.p4ignore` then run `p4 set` again to ma
 
 ![](../images/line2.png)
 
-p4ignoreset
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
