@@ -111,27 +111,29 @@ If you are not in a workspace or in the wrong workspace you can switch to it by 
 
 For working in **UE5** you need to make sure the is a `.p4ignore` file in the root of the project (in the same directory as the `.uproject` file). If you are going to bre adding an existing project to this folder you can download a preconfigured file [.p4ignore](../files/.p4ignore).
 
+![make sure p4ignore is present](images/sameDirectory.png)
 
+![](../images/line2.png)
 
-Now we need to make sure that your workspace is set up to recognize the `.p4ignore` file.  Go to a commmand prompt and enter `p4 set P4IGNORE=.p4ignore` environment variable.
+##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![enter p4ignore environment variable](images/setp4ignorevar.png)
+Now there is a final step. We need to make sure that your workspace is set up to recognize the `.p4ignore` file.  Go to a commmand prompt and enter `p4 set P4IGNORE=.p4ignore` environment variable.
 
+![set up .p4ignore to be recognized in workspace](images/setp4ignorevar.png)
+
+![](../images/line2.png)
+
+##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Now press `p4 set` to see if all your settings are correct.  The most important ones are **P4CLIENT** which is your **Workspace**. **P4IGNORE** should now be set to `.p4ignore`.  The **P4PORT** should be pointing to `helixcore.cct.lsu.edu:1818` and **P4USER** should be your perforce username.
 
 If any of these are wrong or missing you can set them with `p4 set P4CLIENT=nameofworkspace`.  Make sure there are no spaces before and after the `=` sign.
 
 ![confirm p4 set settings](images/p4Set.png)
-
+p4Set
 
 ![](../images/line2.png)
 
-##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
-
-Confirm that the `.p4ignore` file works by right clicking on the depot then selecting `Reconcile Offline Work...`.  Files in the `.p4ignore` file should not be included.  In this case our file in the **Saved** folder was not added to the depot.
-
-![check .p4ignore file](images/checkP4Ignore.png)
 
 ![](../images/line.png)
 
