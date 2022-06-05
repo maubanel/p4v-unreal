@@ -1,6 +1,6 @@
 ![](../images/line3.png)
 
-### Perforce in UE5
+### Setting Up Perforce in UE5
 
 <sub>[previous](../) • [home](../README.md#user-content-p4v) • [next](../)</sub>
 
@@ -59,7 +59,9 @@ If the settings were correct a pop up will briefly appear at the bottom right sa
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now in the future if you boot up **Unreal** and it is saying it is connected to source control you can put your cursor on top and it will pop up to make sure you have the correct settings.
+
+![confirm source control settings](images/confirmSettings.png)
 
 ![](../images/line2.png)
 
