@@ -6,7 +6,7 @@
 
 ![](../images/line3.png)
 
-Depots are the projects that you have access to either read, write or both.  They live on the LSU servers.  To work you need to have those files locally.  In **Perforce** this is a called a workspace.  You can have as many workspaces as you like, but one will suffice.
+Depots are the projects that you have access to either read, write or both.  They live on the Helix server.  To work you need to have those files locally.  In **Perforce** this is a called a **workspace**.  You can have as many workspaces as you like, but one will suffice.
 
 ![topology of a perforce server](images/topology.png)
 
