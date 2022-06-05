@@ -31,7 +31,7 @@ Right mouse click and on the open area in the **Workspaces** tab and select **Ne
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now you get a pop up that has you selected to add all the depots that you have permission to. We will now unsubscribe to some of the depots that we don't need.
+Now you get a pop up that has all the depots that you have permission to subscribe to. 
 
 ![list of available depots](images/whichDepots.png)
 
@@ -39,7 +39,7 @@ Now you get a pop up that has you selected to add all the depots that you have p
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-We don't need the **Templates** or the **OldLocalProjects** so you can right click on them and select `exclude tree`.  There will be a **red X** next to the depot name which means it won't download it and waste space.  Don't worry at any point you can add it to this depot and download them at any time.
+You can decide which depots you want to work on and take up hard drive space.  For Depots you don/t want you can right click on them and select `exclude tree`.  There will be a **red X** next to the depot name which means it won't download it and waste space.  Don't worry at any point you can add it to this **Workspace** and download them later.  You would do this by right clicking on a excluded depot and select `include  tree`.
 
 It is probably best to create a single workspace per depot and do not combine different depot types in a single workspace (the stream icon indicates a different kind of depot from one without the stream icon).
 
@@ -68,7 +68,7 @@ Select the **Advanced** tab.  Set **Modtime: ...** to `true` so that the timezon
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Select the **Workspaces** tab and go to the top of the directory.  Press the <kbd>Get Latest</kbd> button on the top menu.
+Select the **Workspaces** tab and go to the top of the directory.  Press the <kbd>Get Latest</kbd> button on the top menu. If the workspace 
 
 ![get latest from workspace](images/getLatest.png)
 
