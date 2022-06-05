@@ -57,17 +57,17 @@ If you want to connect to a stream depot you can only set up a single workspace 
 
 ![](../images/line2.png)
 
+##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
 Now you can pick a **Workspace name:** starting with your P4 user name and the device I am using. I set mine to `maubanel-laptop`.  Try not to use spaces in your names as it will make it easier if you have to use command line.
 
 Select a folder to place it in.  I am putting it in the root of my only drive `c:\p4`.
 
-
 ![p4 workspace on c drive](images/nameWorkspace.png)
 
 ![](../images/line2.png)
 
-##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
+##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Select the **Advanced** tab.  Set **Modtime: ...** to `true` so that the timezone of each contributor is respected.  Set **Rmdir:** to `true` so empty folders are removed.  Then select in **On submit:** `Revert unchanged files`.  Now select <kbd>OK</kbd> to create this new workspace.
 
@@ -75,16 +75,15 @@ Select the **Advanced** tab.  Set **Modtime: ...** to `true` so that the timezon
 
 ![](../images/line2.png)
 
-##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Select the **Workspaces** tab and go to the top of the directory.  Press the <kbd>Get Latest</kbd> button on the top menu. This will create a directory and get all the folders in it.  Be patient, this could take a while if the project is large.
 
 ![get latest from workspace](images/getLatest.png)
 
-
 ![](../images/line2.png)
 
-##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now you will see all the **Depots** that you subscribed to in this **Workspace** in the folder you set it up in.
 
@@ -92,7 +91,7 @@ Now you will see all the **Depots** that you subscribed to in this **Workspace**
 
 ![](../images/line2.png)
 
-##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
 Now next time you run **p4v** you can select **Browse** next to **Workspace:** and select the workspace you want.  In this case it is **p4** and then I will press the <kbd>OK</kbd> button.  Then you are loaded into this workspace when it opens.
 
@@ -100,7 +99,7 @@ Now next time you run **p4v** you can select **Browse** next to **Workspace:** a
 
 ![](../images/line2.png)
 
-##### `Step 10.`\|`BTS`| :large_blue_diamond:
+##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
 Now we need to make sure that your workspace is set up to recognize the `.p4ignore` file.  Go to a commmand prompt and enter `p4 set P4IGNORE=.p4ignore` environment variable.
 
@@ -108,7 +107,7 @@ Now we need to make sure that your workspace is set up to recognize the `.p4igno
 
 ![](../images/line2.png)
 
-##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
+##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Now press `p4 set` to see if all your settings are correct.  The most important ones are **P4CLIENT** which is your **Workspace**. **P4IGNORE** should now be set to `.p4ignore`.  The **P4PORT** should be pointing to `helixcore.cct.lsu.edu:1818` and **P4USER** should be your perforce username.
 
