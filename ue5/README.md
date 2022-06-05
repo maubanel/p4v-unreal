@@ -6,7 +6,7 @@
 
 ![](../images/line3.png)
 
-Unreal integrates **Perforce** into their workflow nicely.  They make it easy to use and it avoids conflicts with other team members when editing binaries.
+Unreal integrates **Perforce** into their workflow nicely.  They make it easy to use and it avoids conflicts with other team members when editing binaries. We can do most operations for version control inside of UE5.
 
 <br>
 
@@ -15,9 +15,9 @@ Unreal integrates **Perforce** into their workflow nicely.  They make it easy to
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
-It is best practice to have **P4V** running when working in **UE5**.  To make sure you are doing this, it is good to launch the game from within the **P4F** interface.  Double click on the `.uproject` within **P4V**.
+It is best practice to have **P4V** running when working in **UE5**.  To make sure you are doing this, it is good to launch the game from within the **P4V** interface.  Double click on the `.uproject` within **P4V** to open the project.
 
-![alt_text](images/.png)
+![open project through Perforce](images/doubleClickProject.png)
 
 ![](../images/line2.png)
 
