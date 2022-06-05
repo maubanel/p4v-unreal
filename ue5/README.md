@@ -51,7 +51,9 @@ Now we enter the provider as **Perforce**, the **Server** as `helixcore.cct.lsu.
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-![alt_text](images/.png)
+If the settings were correct a pop up will briefly appear at the bottom right saying the connection was succesful.
+
+![succesful perforce connection](images/succesful.png)
 
 ![](../images/line2.png)
 
