@@ -8,7 +8,7 @@ These are quick guides for using a **Perforce Helix Core** server at LSU. To get
 
 * [Installing P4V](installing/README.md#user-content-installing-p4v)
 * [Workspaces in P4V](workspaces/README.md#user-content-workspaces-in-p4v)
-* Perforce in UE5  <!-- (ue5/README.md#user-content-perforce-in-ue5)-->
+* [Perforce in UE5](ue5/README.md#user-content-perforce-in-ue5)
 * [P4V Icons](icons/README.md#user-content-p4v-icons)
 * [P4 Ignore](ignore/README.md#user-content-p4-ignore)
 * Large Changes Outside of UE5<!-- (large-changes/README.md#user-content-large-changes-outside-of-ue5)-->
