@@ -84,9 +84,9 @@ Select the **Workspaces** tab and go to the top of the directory.  Press the <kb
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now this will download all the files in the depot.  Go to your depot in **Finder** and you will see the files in the workspace.  Now in this project we have a single file called `.p4ignore`.
+Now you will see all the **Depots** that you subscribed to in this **Workspace** in the folder you set it up in.
 
-![see files downloaded in workspace](images/filesPulledDown.png)
+![see files downloaded in workspace](images/seeDepots.png)
 
 ![](../images/line2.png)
 
