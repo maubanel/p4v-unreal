@@ -125,14 +125,11 @@ Now there is a final step. We need to make sure that your workspace is set up to
 
 ##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now press `p4 set` to see if all your settings are correct.  The most important ones are **P4CLIENT** which is your **Workspace**. **P4IGNORE** should now be set to `.p4ignore`.  The **P4PORT** should be pointing to `helixcore.cct.lsu.edu:1818` and **P4USER** should be your perforce username.
+Now press `p4 set` to see if all your settings are correct.  The most important ones are * **P4IGNORE** which should now be set to `.p4ignore`.  The **P4PORT** should be pointing to your Peforce server, in our case `helixcore.cct.lsu.edu:1818` and **P4USER** should be your perforce username.
 
 If any of these are wrong or missing you can set them with `p4 set P4CLIENT=nameofworkspace`.  Make sure there are no spaces before and after the `=` sign.
 
 ![confirm p4 set settings](images/p4Set.png)
-p4Set
-
-![](../images/line2.png)
 
 
 ![](../images/line.png)
