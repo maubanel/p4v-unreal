@@ -34,7 +34,7 @@ If not run the command `p4 set P4IGNORE=.p4ignore` then run `p4 set` again to ma
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now open up **P4V** and highlight the folder with a large amount of filechanges (or a brand new folder entirely). Press the **Add** button
+Now open up **P4V** and highlight the folder with a large amount of filechanges (or a brand new folder entirely). Press the **Add** button.
 
 ![check that p4 i](images/addChanges.png)
 
@@ -50,7 +50,9 @@ Now if the `.p4ignore` file works correctly and there are files that match it wi
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Now we get a list of all the files it will add.  Make sure again, there are no files that should have been removed from the `.p4ignore`.  Check the ones you want to include then add a detailed message.  Press the <kbd>submit</bbd> button.
+
+![alt_text](images/submitAllChangedFiles.png)
 
 ![](../images/line2.png)
 
