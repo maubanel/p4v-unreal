@@ -61,7 +61,7 @@ If you want to connect to a stream depot you can only set up a single workspace 
 
 Now you can pick a **Workspace name:** starting with your P4 user name and the device I am using. I set mine to `maubanel-laptop`.  Try not to use spaces in your names as it will make it easier if you have to use command line.
 
-Select a folder to place it in.  I am putting it in the root of my only drive `c:\p4`.
+Select a folder to place it in.  I am putting it in the root of my only drive `c:\p4`. This folder does not have to exist as **P4V** will create it for you. Don't make the name too long.
 
 ![p4 workspace on c drive](images/nameWorkspace.png)
 
@@ -101,13 +101,22 @@ Now next time you run **p4v** you can select **Browse** next to **Workspace:** a
 
 ##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
-Now we need to make sure that your workspace is set up to recognize the `.p4ignore` file.  Go to a commmand prompt and enter `p4 set P4IGNORE=.p4ignore` environment variable.
+If you are not in a workspace or in the wrong workspace you can switch to it by select **Connection** and then `Switch to Workspace`. You will then select the workspace you would like to switch to.
 
-![enter p4ignore environment variable](images/setp4ignorevar.png)
+![switch to workspace](images/switchToWorkspace.png)
 
 ![](../images/line2.png)
 
 ##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
+For working in **UE5** you need to make sure the is a `.p4ignore` file in the root of the project (in the same directory as the `.uproject` file). If you are going to bre adding an existing project to this folder you can download a preconfigured file [.p4ignore](../files/.p4ignore).
+
+
+
+Now we need to make sure that your workspace is set up to recognize the `.p4ignore` file.  Go to a commmand prompt and enter `p4 set P4IGNORE=.p4ignore` environment variable.
+
+![enter p4ignore environment variable](images/setp4ignorevar.png)
+
 
 Now press `p4 set` to see if all your settings are correct.  The most important ones are **P4CLIENT** which is your **Workspace**. **P4IGNORE** should now be set to `.p4ignore`.  The **P4PORT** should be pointing to `helixcore.cct.lsu.edu:1818` and **P4USER** should be your perforce username.
 
