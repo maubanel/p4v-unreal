@@ -109,7 +109,7 @@ If you are not in a workspace or in the wrong workspace you can switch to it by 
 
 ##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-For working in **UE5** you need to make sure the is a `.p4ignore` file in the root of the project (in the same directory as the `.uproject` file). If you are going to bre adding an existing project to this folder you can download a preconfigured file [.p4ignore](../files/.p4ignore).
+For working in **UE5** you need to make sure the is a `.p4ignore` file in the root of the project (in the same directory as the `.uproject` file). If you are going to be adding an existing project to this folder you can download a preconfigured file [.p4ignore](../files/.p4ignore) and place it in your project folder accordingly.
 
 ![make sure p4ignore is present](images/sameDirectory.png)
 
