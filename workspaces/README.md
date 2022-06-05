@@ -39,15 +39,22 @@ Now you get a pop up that has all the depots that you have permission to subscri
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-You can decide which depots you want to work on and take up hard drive space.  For Depots you don/t want you can right click on them and select `exclude tree`.  There will be a **red X** next to the depot name which means it won't download it and waste space.  Don't worry at any point you can add it to this **Workspace** and download them later.  You would do this by right clicking on a excluded depot and select `include  tree`.
+For a classic depot (one without the two waves over the name representing **Streams**), you can decide which depots you want to work on and take up hard drive space.  For Depots you don't want you can right click on them and select `exclude tree`.  There will be a **red X** next to the depot name which means it won't download it and waste space.  Don't worry at any point you can add it to this **Workspace** and download them later.  You would do this by right clicking on a excluded depot and select `include  tree`.
 
-It is probably best to create a single workspace per depot and do not combine different depot types in a single workspace (the stream icon indicates a different kind of depot from one without the stream icon).
+You cannot combine streamed and classic depot's in the same workspace.  Seperate workspaces need to be set up.
 
 ![exclude templates and oldlocalprojects depots](images/excludeTrees.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
+
+If you want to connect to a stream project you can only set up a single workspace to a single streamed project.  Click on the <kbd>Browse</kbd> button and select the stream you want to subscribe to (includes the name and the branch/stream). You can switch streams later on.
+
+![set up stream](images/setUpStream.png)
+
+![](../images/line2.png)
+
 
 Now you can pick a **Workspace name:** starting with your P4 user name and the device I am using. I set mine to `maubanel-laptop`.  Try not to use spaces in your names as it will make it easier if you have to use command line.
 
