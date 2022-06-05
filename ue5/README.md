@@ -23,9 +23,13 @@ It is best practice to have **P4V** running when working in **UE5**.  To make su
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
+Now one of the advantages of how **Perforce** is configured is that it won't allow for two people to save to the same file (unless they are text files). This is very convenient as it will reduce the amount of collisions when working as a team.  
 
+What we don't want is to edit a level for 3 hours then when we go to save it find out that someone else has it checked out.  We can avoid this by automatically checking out a file when it is edited.  
 
-![alt_text](images/.png)
+Go to **Edit | Edtior Preferences** and select **
+
+![alt_text](images/automaticallyCheckoutOnChange.png)
 
 ![](../images/line2.png)
 
