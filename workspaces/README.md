@@ -49,7 +49,7 @@ You cannot combine streamed and classic depot's in the same workspace.  Seperate
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-If you want to connect to a stream project you can only set up a single workspace to a single streamed project.  Click on the <kbd>Browse</kbd> button and select the stream you want to subscribe to (includes the name and the branch/stream). You can switch streams later on.
+If you want to connect to a stream depot you can only set up a single workspace to a single streamed project.  Click on the <kbd>Browse</kbd> button and select the stream you want to subscribe to (includes the name and the branch/stream). You can switch streams later on.
 
 ![set up stream](images/setUpStream.png)
 
@@ -75,7 +75,7 @@ Select the **Advanced** tab.  Set **Modtime: ...** to `true` so that the timezon
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Select the **Workspaces** tab and go to the top of the directory.  Press the <kbd>Get Latest</kbd> button on the top menu. If the workspace 
+Select the **Workspaces** tab and go to the top of the directory.  Press the <kbd>Get Latest</kbd> button on the top menu. This will create a directory and get all the folders in it.  Be patient, this could take a while if the project is large.
 
 ![get latest from workspace](images/getLatest.png)
 
