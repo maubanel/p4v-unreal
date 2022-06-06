@@ -41,7 +41,7 @@ Now select a new **Empty Level** then press the <kbd>Create</kbd> button.
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/newFolder.png)
 
 ![](../images/line2.png)
 
