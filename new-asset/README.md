@@ -41,7 +41,9 @@ Now select a new **Empty Level** then press the <kbd>Create</kbd> button.
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/newFolder.png)
+Open up the **Content Drawer** (you can use the <kbd>Cntrl Space</kbd> as a keyboard shortcut) and right click on **Content** and select `New Folder`.
+
+![add new folder to content ](images/newFolder.png)
 
 ![](../images/line2.png)
 
