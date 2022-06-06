@@ -1,12 +1,12 @@
 ![](../images/line3.png)
 
-### Add  Title
+### Editing Config Files
 
 <sub>[previous](../) • [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) • [next](../)</sub>
 
 ![](../images/line3.png)
 
-Add Introduction.
+Editing configuration files like those saved for **Editor Preferences** and **Project Settings** cannot be submitted through the UE5 editor to **Perforce**.  If the file does not show up in the **Contents** folder it will not be commited to source control when saving all files.  Lets look at a few examples.
 
 <br>
 
@@ -15,13 +15,15 @@ Add Introduction.
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
-Open up your **Workspace** in **P4V** and open up your project by double left mouse clicking on the `uproject` file.
+Open up ***UE5** and select **Edit | Project Settings**.  Go to **Project | Maps & Modes** and I am changing what level we are booting up in.
 
-![alt_text](images/.png)
+![change level in maps and modes](images/mapsAndModes.png)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
+
+Press **File | Save All** then go to commit the changes.  Notice there is an error. Or if there is not, you see other files as having changed and nothing with an `.ini` as an extension.
 
 ![alt_text](images/.png)
 
