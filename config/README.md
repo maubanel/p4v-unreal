@@ -25,7 +25,7 @@ Open up ***UE5** and select **Edit | Project Settings**.  Go to **Project | Maps
 
 Press **File | Save All** then go to commit the changes.  Notice there is an error. Or if there is not, you see other files as having changed and nothing with an `.ini` as an extension.
 
-![alt_text](images/.png)
+![no changes to submit](images/noChangesToSubmit.png)
 
 ![](../images/line2.png)
 
