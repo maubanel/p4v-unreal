@@ -73,7 +73,9 @@ Select the **Maps** folder and name the level.  I named mine `HelloWorld`.  Pres
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now right click on your project file and select **Source Control | Check In**.  This will add this file to the **Depot** so other members can **Sync** and see the newly completed level.
+
+![check in new file](images/chekinNewFile.png)
 
 ![](../images/line2.png)
 
