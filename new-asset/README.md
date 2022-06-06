@@ -91,11 +91,15 @@ Press the <kbd>Submit</kbd> button.
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
-![alt_text](images/.png)
+Now you can confirm in **P4V** that this change was pushed to the server.  Select **View | History** and open that tab.  Click on the project ald look at the list of commits.  We can see the one we just created with our comment.
+
+![commit in repo](images/history.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
+
+You will also notice that in game the **Red X** is no longer on the file name.
 
 ![alt_text](images/.png)
 
