@@ -81,7 +81,7 @@ Now right click on your project file and select **Source Control | Check In**.  
 
 ##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/addFileToDepot.png)
 
 ![](../images/line2.png)
 
