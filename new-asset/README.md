@@ -65,7 +65,9 @@ Now lets save this new level we created.  Press **File | Save Current Level**.
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/nameFile.png)
+Select the **Maps** folder and name the level.  I named mine `HelloWorld`.  Press the <kbd>Save</kbd> button.
+
+![save level to Maps folder](images/nameFile.png)
 
 ![](../images/line2.png)
 
