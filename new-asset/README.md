@@ -49,7 +49,9 @@ Open up the **Content Drawer** (you can use the <kbd>Cntrl Space</kbd> as a keyb
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Call the new folder `Maps`.
+
+![call new folder Maps](images/mapsFolder.png)
 
 ![](../images/line2.png)
 
