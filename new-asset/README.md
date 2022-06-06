@@ -33,9 +33,9 @@ Open up your **Workspace** in **P4V** and open up your project by double left mo
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now select a new **Empty Level** then press 
+Now select a new **Empty Level** then press the <kbd>Create</kbd> button.
 
-![alt_text](images/createEmptyLevel.png)
+![create new empty level](images/createEmptyLevel.png)
 
 ![](../images/line2.png)
 
