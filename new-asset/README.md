@@ -2,7 +2,7 @@
 
 ### Adding new Assets to Perforce
 
-<sub>[previous](../) • [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) • [next](../)</sub>
+<sub>[home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents)</sub>
 
 ![](../images/line3.png)
 
@@ -173,5 +173,5 @@ CREATE BANNER WITH https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next
 
 ![](../images/line.png)
 
-| [previous](../)| [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) | [next](../)|
-|---|---|---|
+| [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) | 
+|---|
