@@ -65,7 +65,7 @@ Now lets save this new level we created.  Press **File | Save Current Level**.
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/nameFile.png)
 
 ![](../images/line2.png)
 
