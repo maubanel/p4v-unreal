@@ -31,7 +31,11 @@ Press **File | Save All** then go to commit the changes.  Notice there is an err
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Quit **UE5** and look at **P4V**.  Open up the **Content | Config** folder.  You will notice that the [icon](https://github.com/maubanel/p4v-unreal/blob/main/icons/README.md#user-content-p4v-icons) has changed in the **DefaultGame.ini** file.  This is a solid color over the file and it indicates that this `file in your workspace has changed and is ahead of the depot - needs to be added and submitted`.
+
+What ahead of depot means is that this change is in your **Workspace** but has not been **submitted** to the **Depot**.
+
+![file ahead of depot](images/aheadOfDepot.png)
 
 ![](../images/line2.png)
 
