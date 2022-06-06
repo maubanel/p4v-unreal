@@ -99,9 +99,9 @@ Now you can confirm in **P4V** that this change was pushed to the server.  Selec
 
 ##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
-You will also notice that in game the **Red X** is no longer on the file name.
+You will also notice that in game the **Red X** is no longer on the file name. This indicates that it is in the **Perforce Depot** now.
 
-![alt_text](images/.png)
+![no more red x on this file and it is in the depot](images/noMoreIcon.png)
 
 
 ![](../images/line.png)
