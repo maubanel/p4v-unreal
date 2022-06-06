@@ -1,12 +1,12 @@
 ![](../images/line3.png)
 
-### Add Title
+### Adding new Assets to Perforce
 
 <sub>[previous](../) • [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) • [next](../)</sub>
 
 ![](../images/line3.png)
 
-Chapter introduction here.
+We are going to add new assets to Perforce that we create in the editor.  We will add a new level to UE5. This new level does not exist in the **Depot** and will only be in your **Workspace**.
 
 <br>
 
@@ -15,7 +15,9 @@ Chapter introduction here.
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
-![alt_text](images/.png)
+Open up your **Workspace** in **P4V** and open up your project by double left mouse clicking on the `.uproject` to open Unreal.
+
+![open up project](images/doubleClickProject.png)
 
 ![](../images/line2.png)
 
