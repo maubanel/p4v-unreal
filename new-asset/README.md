@@ -27,13 +27,15 @@ Open up your **Workspace** in **P4V** and open up your project by double left mo
 
  Press **File | New Level** to load up a new level.
 
-![alt_text](images/doubleCheckSource.png)
+![add a new level](images/doubleCheckSource.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now select a new **Empty Level** then press 
+
+![alt_text](images/createEmptyLevel.png)
 
 ![](../images/line2.png)
 
