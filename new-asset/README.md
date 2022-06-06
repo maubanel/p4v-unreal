@@ -57,7 +57,9 @@ Call the new folder `Maps`.
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now lets save this new level we created.  Press **File | Save Current Level**.
+
+![alt_text](images/fileSave.png)
 
 ![](../images/line2.png)
 
