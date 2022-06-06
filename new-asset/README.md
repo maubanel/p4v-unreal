@@ -23,7 +23,11 @@ Open up your **Workspace** in **P4V** and open up your project by double left mo
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+ Now make sure that **Source Control** is green.  If not reconnect to source control by signing back in with **Unreal**.
+
+ Press **File | New Level** to load up a new level.
+
+![alt_text](images/doubleCheckSource.png)
 
 ![](../images/line2.png)
 
