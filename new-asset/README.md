@@ -81,7 +81,11 @@ Now right click on your project file and select **Source Control | Check In**.  
 
 ##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/addFileToDepot.png)
+Now add an approriate comment to the **Changelist Description**. Make sure the assets are correct, in my case the only thing we are doing is submitting the **Hello World** level to the **Depot**.
+
+Press the <kbd>Submit</kbd> button.
+
+![submit new map to depot](images/addFileToDepot.png)
 
 ![](../images/line2.png)
 
