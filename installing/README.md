@@ -39,7 +39,9 @@ Then for **Server** enter `helix.core.cct.lsu.edu:1818`, **Username** use your l
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Run **P4V** and use the same **Server** and port by entering `helix.core.cct.lsu.edu:1818`, and use your lsu **User** id *without* the @lsu.edu. Use the supplied password. We will leave the **Workspace** blank and login to the perforce server. Press the <kbd>OK</kbd> button.
+Run **P4V** and use the same **Server** and port by entering `ssl:helix.core.cct.lsu.edu:1818`, and use your lsu **User** id *without* the @lsu.edu. Use the supplied password. It will 
+
+We will leave the **Workspace** blank and login to the perforce server. Press the <kbd>OK</kbd> button.
 
 ![running p4v for the first time](images/login.png)
 
