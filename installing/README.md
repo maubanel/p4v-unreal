@@ -6,7 +6,7 @@
 
 ![](../images/line3.png)
 
-There are three main applications to install.  **P4V** which is tthe GUI controller for source control.  **P4** which is the command line version control.  **P4Admin** for administration if you have admininstration access.  You are not an administrator you do not need to install **P4Admin**.
+There are three main applications to install.  **P4V** which is tthe GUI controller for source control.  **P4** which is the command line version control.  **P4Admin** for administration if you have admininstration access.  If you are not an administrator then you do not need to install **P4Admin**.
 
 <br>
 
@@ -15,7 +15,7 @@ There are three main applications to install.  **P4V** which is tthe GUI control
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
-You need to logi nto [Global Protect](https://grok.lsu.edu/article.aspx?articleid=14785) when off campus before you install Perfo.  Otherwise the installer will not find the server. Make sure the vpn is active before moving forward if you are off campus.
+You need to login to [Global Protect](https://grok.lsu.edu/article.aspx?articleid=14785) when off campus before you install Perfo.  Otherwise the installer will not find the server. Make sure the vpn is active before moving forward if you are off campus.
 
 ![](../images/line2.png)
 
@@ -39,7 +39,9 @@ Then for **Server** enter `helix.core.cct.lsu.edu:1818`, **Username** use your l
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Run **P4V** and use the same **Server** and port by entering `helix.core.cct.lsu.edu:1818`, and use your lsu **User** id *without* the @lsu.edu. Use the supplied password. We will leave the **Workspace** blank and login to the perforce server. Press the <kbd>OK</kbd> button.
+Run **P4V** and use the same **Server** and port by entering `ssl:helix.core.cct.lsu.edu:1818`, and use your lsu **User** id *without* the @lsu.edu. Use the supplied password. It will 
+
+We will leave the **Workspace** blank and login to the perforce server. Press the <kbd>OK</kbd> button.
 
 ![running p4v for the first time](images/login.png)
 
