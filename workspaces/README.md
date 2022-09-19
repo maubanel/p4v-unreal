@@ -125,13 +125,13 @@ Now there is a final step. We need to make sure that your workspace is set up ev
 
 ##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Select in **P4V** with the right mouse button the **setconfig.bat** file and select **Show In | Show in Explorer**.
+Select in **P4V** with the right mouse button the **setconfig.bat** file and select **Show In | Show in Explorer**. If **Windows Protect** comes up and the select **More info** and the <kbd>Run Anyway</kbd>. 
 
 ![confirm p4 set settings](images/showInExplorer.png)
 
 ##### `Step 15.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: 
 
-https://user-images.githubusercontent.com/5504953/191109990-004f4144-055a-4b89-be96-3be26b974893.mp4
+Double click in **Explorer** the **setconfig.bat** batch file. If windows complains about the file press **More info** then press the <kbd>Open Anyway</kbd> button.
 
 ![](../images/line.png)
 
