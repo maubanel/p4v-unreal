@@ -129,6 +129,9 @@ Select in **P4V** with the right mouse button the **setconfig.bat** file and sel
 
 ![confirm p4 set settings](images/showInExplorer.png)
 
+##### `Step 15.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: 
+
+
 
 ![](../images/line.png)
 
