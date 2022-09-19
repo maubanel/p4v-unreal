@@ -5,7 +5,7 @@ chcp 65001
 echo P4IGNORE=.p4ignore > .p4config
 echo P4PORT=ssl:helixcore.cct.lsu.edu:1818 >> .p4config
 
-set /p username=What is your P4V UsernameZ? 
+set /p username=What is your P4V Username? 
 echo P4USER=%username% >> .p4config
 
 set /p host=What is your P4V Host (Look in Advanced in Edit Workspace) 
