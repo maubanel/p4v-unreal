@@ -133,6 +133,8 @@ Select in **P4V** with the right mouse button the **setconfig.bat** file and sel
 
 Double click in **Explorer** the **setconfig.bat** batch file. If windows complains about the file press **More info** then press the <kbd>Open Anyway</kbd> button.
 
+https://user-images.githubusercontent.com/5504953/191112088-026fb56a-588e-4a55-a529-876095b25bb1.mp4
+
 ![](../images/line.png)
 
 ![workspaces banner](images/workspacesBanner.png)
