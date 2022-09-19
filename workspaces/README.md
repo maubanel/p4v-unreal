@@ -117,9 +117,9 @@ You need to make sure the is a `.p4ignore` file in the root of the project. If y
 
 ##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now there is a final step. We need to make sure that your workspace is set up every time you run **P4V**.  Download [setconfig.bat](../files/setconfig.bat) by right clicking on **Faw** and selecting **Save As** and call it `setconfig.bat`. Put it in the same directory as the **.p4ignore** file.
+Now there is a final step. We need to make sure that your workspace is set up every time you run **P4V**.  Download [setconfig.bat](../files/setconfig.bat) by right clicking on **Faw** and selecting **Save As** and call it `setconfig.bat`. Put it in the same directory as the **.p4ignore** file. Press the **Refresh** button in **P4V** and you should see the folder.
 
-![set up .p4ignore to be recognized in workspace](images/setp4ignorevar.png)
+![add setconfig.bat to folder](images/configLocation.png)
 
 ![](../images/line2.png)
 
