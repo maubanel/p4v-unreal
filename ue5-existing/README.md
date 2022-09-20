@@ -19,8 +19,6 @@ It is best practice to have **P4V** running when working in **UE5**.  To make su
 
 ![open project through Perforce](images/doubleClickProject.png)
 
-![alt text](images/.jpg)
-
 ![](../images/line3.png)
 
 ##### `Step 2.`\|`P4VUE5`|:small_blue_diamond: :small_blue_diamond: 

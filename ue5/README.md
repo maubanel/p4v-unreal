@@ -23,8 +23,9 @@ First make sure you have access to a valid depot for your project.  A depot can 
 
 ##### `Step 2.`\|`P4VUE5`|:small_blue_diamond: :small_blue_diamond: 
 
-Pick the appropriate
-![alt text](images/createNewGame.png)
+Pick the appropriate template to start with.  You **HAVE** to put it in the same directory as the name of the depot and the folder within it as to be the same as the depot. So in this case my depot is `//New_Project/`, and the location of the depot is in `C\p4\`.  So I place the project in `C:\p4\New_Project\`.  I then name the project and press the <kbd>Create</kbd> button.
+
+![create new third person game project](images/createNewGame.png)
 
 
 ![](../images/line2.png)
