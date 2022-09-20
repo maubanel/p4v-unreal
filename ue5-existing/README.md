@@ -63,9 +63,9 @@ If the settings were correct a pop up will briefly appear at the bottom right sa
 
 ##### `Step 6.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond:
 
-Do your work as you normally would.  At the very end of the session press the **File | Save All** selection.  To save the game.
+Do your work as you normally would.  At the very end of the session press the **File | Save All** selection.  To save the game. Now it may ask you to checkout files.  Unreal does check out (locks others including yourself on another computer) from editing these files until they are submitted back in the repository. Make sure you checkout all the files (tick marks selected).
 
-![alt text](images/checkoutSave.png)
+![save all and checkout files](images/checkoutSave.png)
 
 ![](../images/line3.png)
 
