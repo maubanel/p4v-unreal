@@ -15,33 +15,36 @@ If you have a project set up you just need to set-up your [Workspace](https://gi
 
 ##### `Step 1.`\|`P4VUE5`|:small_blue_diamond:
 
+First make sure you have access to a valid depot for your project.  A depot can contain as many Unreal projects as you like.  Talk to your teacher to get one made for your team.
+
+![alt text](images/runUnrealEngine.png)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`P4VUE5`|:small_blue_diamond: :small_blue_diamond: 
 
 
-
+![alt text](images/.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`P4VUE5`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
+![alt text](images/.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`P4VUE5`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 
-
+![alt text](images/.png)
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`P4VUE5`| :small_orange_diamond:
 
 
-
+![alt text](images/.png)
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond:
@@ -54,7 +57,7 @@ Now in the future if you boot up **Unreal** and it is saying it is connected to 
 
 ##### `Step 7.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
+![alt text](images/.png)
 
 ![](../images/line.png)
 
