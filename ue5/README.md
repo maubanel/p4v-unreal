@@ -23,8 +23,8 @@ First make sure you have access to a valid depot for your project.  A depot can 
 
 ##### `Step 2.`\|`P4VUE5`|:small_blue_diamond: :small_blue_diamond: 
 
-
-![alt text](images/.png)
+Pick the appropriate
+![alt text](images/createNewGame.png)
 
 
 ![](../images/line2.png)
