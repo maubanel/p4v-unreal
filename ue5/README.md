@@ -51,7 +51,9 @@ First make sure you have access to a valid depot for your project.  A depot can 
 
 Now in the future if you boot up **Unreal** and it is saying it is connected to source control you can put your cursor on top and it will pop up to make sure you have the correct settings.
 
-![confirm source control settings](images/confirmSettings.png)
+Open up **Epic Games Launcer** and run **Unreal Engine 5.0.X.**
+
+![run ue5](images/runUnrealEngine.png)
 
 ![](../images/line2.png)
 
