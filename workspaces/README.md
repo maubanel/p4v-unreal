@@ -149,8 +149,26 @@ Now we need to add these files we created to **Perforce**.  Press the <kbd>+ Add
 
 ![add files to perforce](images/newChangelist.png)
 
+![](../images/line2.png)
+
+##### `Step 17.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Put the cursor on the project folder in **P4V** and select the <kbd>Submit</kbd> button. This will bring up the changelist you created and press the popped up kbd>Submit</kbd> button. 
+
+![add files to perforce](images/submitFiles.png)
 
 ![](../images/line2.png)
+
+##### `Step 18.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Notice that the .p4ignore and setconfig.bat are checked into the project as they have a small green check mark.  Notice that the **.p4config** file does not have a green checkmark.  That is becuase the `.p4ignore` file is stopping that file from being uploaded to the depot and being shared with other users.
+
+![green checkmark](images/greenCheckmark.png)
+
+![p4ignore file](images/viewP4Ignore.png)
+
+![](../images/line2.png)
+
 
 ![](../images/line.png)
 
