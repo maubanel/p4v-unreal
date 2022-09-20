@@ -70,6 +70,30 @@ Press **File | Save All** to save all of your work.  If Unreal insists, you migh
 
 ![save project](images/saveAll.png)
 
+##### `Step 8.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Our basic UE5 [.p4ignore](../files/ue5/.p4ignore) is to make sure that files that don't need to be generated are not stored in the repository. Put this `.p4ignore` in the same folder as the `.uproject` file.
+
+![contents of p4ignore file](images/p4v.png)
+
+![alt text](images/.png)
+
+![](../images/line3.png)
+
+##### `Step 9.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+![alt text](images/addFiles.png)
+
+![](../images/line3.png)
+
+##### `Step 10.`\|`P4VUE5`| :large_blue_diamond:
+
+![alt text](images/.png)
+
+
+
+
+
 ![](../images/line.png)
 
 ![setting up p4 banner](images/banner.png)
