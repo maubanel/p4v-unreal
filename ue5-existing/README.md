@@ -63,7 +63,7 @@ If the settings were correct a pop up will briefly appear at the bottom right sa
 
 ##### `Step 6.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond:
 
-Do your work as you normally would.  At the very end of the session press the *File | Save All** selection.  To save the game.
+Do your work as you normally would.  At the very end of the session press the **File | Save All** selection.  To save the game.
 
 ![alt text](images/checkoutSave.png)
 
