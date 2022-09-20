@@ -76,11 +76,12 @@ Our basic UE5 [.p4ignore](../files/ue5/.p4ignore) is to make sure that files tha
 
 ![contents of p4ignore file](images/p4v.png)
 
-![alt text](images/.png)
 
 ![](../images/line3.png)
 
 ##### `Step 9.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now go to **P4V** and select the top project folder.  Press the <kbd>+ Add</kbd> button. Use a default changelist and select **OK**.
 
 ![alt text](images/addFiles.png)
 
