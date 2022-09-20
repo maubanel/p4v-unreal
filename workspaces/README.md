@@ -147,7 +147,7 @@ https://user-images.githubusercontent.com/5504953/191112088-026fb56a-588e-4a55-a
 
 Now we need to add these files we created to **Perforce**.  Press the <kbd>+ Add</kbd> button and select a **New** changelist.  Add an appropriate message and press the <kbd>OK</kbd> button.
 
-![confirm p4 set settings](images/newChangelist.png)
+![add files to perforce](images/newChangelist.png)
 
 
 ![](../images/line2.png)
