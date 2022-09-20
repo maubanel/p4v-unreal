@@ -1,6 +1,6 @@
 ![](../images/line3.png)
 
-### Using Perforce in UE5]
+### Using Perforce in UE5
 
 <sub>[previous](../first-hour/README.md#user-content-first-hour-in-ue4) • [home](../README.md#user-content-ue4-hello-world) • [next](../readme/README.md#user-content-readmemd-file)</sub>
 
@@ -87,82 +87,9 @@ Now you need to press the <kbd>Submit</kbd> button the a submit pop up with all 
 
 ##### `Step 9.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt text](images/.jpg)
+If you select the **History** tab you will see that it has added this lates changelist.  If you double click on it, you can see all the files that you changes as well as your comment. Now this is safely on the depot and your **Pending** list **HAS** to be cleared and empty before you end your session.
 
-![](../images/line3.png)
-
-##### `Step 10.`\|`P4VUE5`| :large_blue_diamond:
-
-![alt text](images/.jpg)
-
-![](../images/line3.png)
-
-##### `Step 11.`\|`P4VUE5`| :large_blue_diamond: :small_blue_diamond: 
-
-![alt text](images/.jpg)
-
-![](../images/line3.png)
-
-
-##### `Step 12.`\|`P4VUE5`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
-
-![alt text](images/.jpg)
-
-![](../images/line3.png)
-
-##### `Step 13.`\|`P4VUE5`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
-![alt text](images/.jpg)
-
-![](../images/line3.png)
-
-##### `Step 14.`\|`P4VUE5`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
-![alt text](images/.jpg)
-
-![](../images/line3.png)
-
-##### `Step 15.`\|`P4VUE5`| :large_blue_diamond: :small_orange_diamond: 
-
-![alt text](images/.jpg)
-
-![](../images/line3.png)
-
-##### `Step 16.`\|`P4VUE5`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
-
-![alt text](images/.jpg)
-
-![](../images/line3.png)
-
-##### `Step 17.`\|`P4VUE5`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt text](images/.jpg)
-
-![](../images/line3.png)
-
-##### `Step 18.`\|`P4VUE5`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt text](images/.jpg)
-
-![](../images/line3.png)
-
-##### `Step 19.`\|`P4VUE5`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt text](images/.jpg)
-
-![](../images/line3.png)
-
-##### `Step 20.`\|`P4VUE5`| :large_blue_diamond: :large_blue_diamond:
-
-![alt text](images/.jpg)
-
-![](../images/line3.png)
-
-##### `Step 21.`\|`P4VUE5`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
-
-![alt text](images/.jpg)
-
-___
+![show commit history](images/history.png)
 
 ![](../images/line.png)
 
