@@ -48,9 +48,9 @@ Now if you are using open world levels, then there is nothing else to do. But if
 
 ##### `Step 5.`\|`P4VUE5`| :small_orange_diamond:
 
-Now for each level you will need to go to **World Settings** (it is in **Windows** menu if it does nto appear).  Go to  
+Now for each level you will need to go to **World Settings** (it is in **Windows** menu if it does nto appear).  Go to  **World | Advanced | Use External Actors** and set to `true`.
 
-![alt text](images/useExternalActors.png)
+![turn on use external actors](images/useExternalActors.png)
 
 ![](../images/line2.png)
 
