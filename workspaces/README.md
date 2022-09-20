@@ -169,6 +169,12 @@ Notice that the .p4ignore and setconfig.bat are checked into the project as they
 
 ![](../images/line2.png)
 
+##### `Step 19.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now if you select the **Depot** tab you can see what is up on the server (and will be seen by other users when they press **Get Latest**).  Notice that it has the two files with the checkmark but not the `.p4config` file which is left off because of the ignore file.
+
+![p4ignore file](images/depotOnServer.png)
+
 
 ![](../images/line.png)
 
