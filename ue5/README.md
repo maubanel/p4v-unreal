@@ -6,7 +6,7 @@
 
 ![](../images/line3.png)
 
-Unreal integrates **Perforce** into their workflow but it is fairly bug ridden at the moment.  We strongly encourage you not to use Unreal to sync, receive or submit changes.  This should be done through P4V.  If you have a project set up you just need to set-up your **[Workspace](https://github.com/maubanel/p4v-unreal/blob/main/workspaces/README.md#user-content-workspaces-in-p4v) and you are ready to go.  This guide is for swetting up Perforce for the first time use.
+Unreal integrates **Perforce** into their workflow but it is fairly bug ridden at the moment.  We strongly encourage you not to use Unreal to sync, receive or submit changes.  This should be done through P4V.  If you have a project set up you just need to set-up your [Workspace](https://github.com/maubanel/p4v-unreal/blob/main/workspaces/README.md#user-content-workspaces-in-p4v) and you are ready to go.  This guide is for swetting up Perforce for the first time use.
 
 <br>
 
