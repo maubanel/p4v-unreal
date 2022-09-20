@@ -66,7 +66,7 @@ Open up **Epic Games Launcer** and run **Unreal Engine 5.0.X.**
 
 ##### `Step 7.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Press **File | Save All** to save all of your work.  If Unreal insists, you might have to loginto source control.  More information can be found about this in [Setting Up Perforce in UE5](ue5/README.md#user-content-setting-up-perforce-in-ue5) *for the first time use*.
+Press **File | Save All** to save all of your work.  If Unreal insists, you might have to loginto source control.  More information can be found about this in [Setting Up Perforce in UE5](../ue5/README.md#user-content-setting-up-perforce-in-ue5) *for the first time use*.
 
 ![save project](images/saveAll.png)
 
