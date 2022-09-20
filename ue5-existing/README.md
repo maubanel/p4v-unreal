@@ -93,9 +93,9 @@ If you select the **History** tab you will see that it has added this lates chan
 
 ![](../images/line.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - README.md File">
+![setting up p4 banner](images/banner.png)
 
 ![](../images/line.png)
 
 | [home](../README.md#user-content-ue4-hello-world) | 
-|---|
+|---|---|---|
