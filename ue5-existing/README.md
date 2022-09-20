@@ -35,23 +35,31 @@ Go to **Edit | Edtior Preferences** and select **General | Loading & Saving** an
 
 ##### `Step 3.`\|`P4VUE5`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt text](images/.jpg)
+Now there is a small message on the bottom right stating that source control is not turned on.  Select it and choose **Connect to Source Control** to bring up the source control menu and then select **Perforce** from the list.
+
+![turn on source control](images/turnOnSource.png)
 
 ![](../images/line3.png)
 
 ##### `Step 4.`\|`P4VUE5`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt text](images/.jpg)
+Now we enter the provider as **Perforce**, the **Server** as `helixcore.cct.lsu.edu:1818`, the user name and the workspace. Press the <kbd>Accept Settings</kbd> button.
+
+![set up version control](images/p4location.png)
 
 ![](../images/line3.png)
 
 ##### `Step 5.`\|`P4VUE5`| :small_orange_diamond:
 
-![alt text](images/.jpg)
+If the settings were correct a pop up will briefly appear at the bottom right saying the connection was succesful.
+
+![succesful perforce connection](images/succesful.png)
 
 ![](../images/line3.png)
 
 ##### `Step 6.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond:
+
+Do your work as you normally would.  At the very end of the session press the *File | Save All** selection.  To save the game.
 
 ![alt text](images/.jpg)
 
