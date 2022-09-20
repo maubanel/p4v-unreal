@@ -8,6 +8,8 @@
 
 **Depots** contain the project(s) that you have access to either read, write or both.  They live on the Helix server.  To work you need to have those files locally.  In **Perforce** this is a called a **workspace**.  You can have as many workspaces as you like, but one will suffice. Please note you cannot share workspaces between machines, it is one workspace per computer/login.
 
+Follow this entire walk through if you do not have a workspace on your computer.  Please note that you can have as many projects in a single workspace as you like.  If you are using regular perforce workspaces **AND** streams you will needa separate workspace for regular spaces and one for streams.
+
 ![topology of a perforce server](images/topology.png)
 
 <br>
@@ -43,7 +45,7 @@ Now you get a pop up that has all the depots that you have permission to subscri
 
 For a classic depot (one without the two waves over the name representing **Streams**), you can decide which depots you want to work on and take up hard drive space.  For Depots you don't want you can right click on them and select `exclude tree`.  There will be a **red X** next to the depot name which means it won't download it and waste space.  Don't worry at any point you can add it to this **Workspace** and download them later.  You would do this by right clicking on a excluded depot and select `include  tree`. A **green checkmark** means that this folder and all of its children will be downloaded to your hard drive.
 
-You cannot combine streamed and classic depot's in the same workspace.  Seperate workspaces need to be set up.
+You cannot combine streamed and classic depot's in the same workspace.  Seperate workspaces need to be set up. Also, when you exclude a tree, it will free up hard drive space but will NOT delete the depot in **Perforce**.  It will allow you to only have downloaded the projects you need to work on.
 
 ![exclude templates and oldlocalprojects depots](images/excludeTrees.png)
 
@@ -129,11 +131,21 @@ Select in **P4V** with the right mouse button the **setconfig.bat** file and sel
 
 ![confirm p4 set settings](images/showInExplorer.png)
 
+![](../images/line2.png)
+
 ##### `Step 15.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: 
 
 Double click in **Explorer** the **setconfig.bat** batch file. If windows complains about the file press **More info** then press the <kbd>Open Anyway</kbd> button. Enter the **username** used to login to **P4V**.  This should be your lsu user name without the @lsu.edu.  The back in **P4V** get to your **Workspace** tab (Press **View | Workspace** to get it on your menu bar) and double click on your workspace.  Copy the **Host:** then in command prompt press the right mouse button to paste it into the command line. Press the <kbd>Enter</kbd> key.  Repeat for the actual **Workspace** name. Press <kbd>Enter</kbd> again and you will get the output of `p4 set`.  We should have the **P4Client**, **P4CONFIG**, **P4Host**, **P4IGNORE**, **P4PORT** and **P4USER** set.  
 
+Please note that as long as you do not change the order of files this config file will always run ensuring that you are set up correctly in **P4V** moving forward.
+
 https://user-images.githubusercontent.com/5504953/191112088-026fb56a-588e-4a55-a529-876095b25bb1.mp4
+
+![](../images/line2.png)
+
+##### `Step 16.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+
+![](../images/line2.png)
 
 ![](../images/line.png)
 
