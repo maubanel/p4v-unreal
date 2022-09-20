@@ -2,7 +2,7 @@
 
 ### Using Perforce in UE5
 
-<sub>[previous](../first-hour/README.md#user-content-first-hour-in-ue4) • [home](../README.md#user-content-ue4-hello-world) • [next](../readme/README.md#user-content-readmemd-file)</sub>
+[home](../README.md#user-content-ue4-hello-world)</sub>
 
 ![](../images/line3.png)
 
@@ -97,5 +97,5 @@ If you select the **History** tab you will see that it has added this lates chan
 
 ![](../images/line.png)
 
-| [previous](../first-hour/README.md#user-content-first-hour-in-ue4)| [home](../README.md#user-content-ue4-hello-world) | [next](../readme/README.md#user-content-readmemd-file)|
-|---|---|---|
+| [home](../README.md#user-content-ue4-hello-world) | 
+|---|
