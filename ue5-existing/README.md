@@ -31,6 +31,8 @@ What we don't want is to edit a level for 3 hours then when we go to save it fin
 
 Go to **Edit | Edtior Preferences** and select **General | Loading & Saving** and turn on **Automatically Checkout on Asset Modification**.
 
+![automatically checkout on asset modification](images/automaticallyCheckoutOnChange.png)
+
 ![](../images/line3.png)
 
 ##### `Step 3.`\|`P4VUE5`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
@@ -61,7 +63,7 @@ If the settings were correct a pop up will briefly appear at the bottom right sa
 
 Do your work as you normally would.  At the very end of the session press the *File | Save All** selection.  To save the game.
 
-![alt text](images/.jpg)
+![alt text](images/checkoutSave.png)
 
 ![](../images/line3.png)
 
