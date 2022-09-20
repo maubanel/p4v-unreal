@@ -98,4 +98,4 @@ If you select the **History** tab you will see that it has added this lates chan
 ![](../images/line.png)
 
 | [home](../README.md#user-content-ue4-hello-world) | 
-|---|---|---|
+|---|
