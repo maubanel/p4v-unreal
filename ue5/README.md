@@ -6,7 +6,7 @@
 
 ![](../images/line3.png)
 
-Unreal integrates **Perforce** into their workflow but it is fairly bug ridden at the moment.  We strongly encourage you not to use Unreal to sync, receive or submit changes.  This should be done through P4V.  If you have a project set up you just need to set-up your [Workspace](https://github.com/maubanel/p4v-unreal/blob/main/workspaces/README.md#user-content-workspaces-in-p4v) and you are ready to go.  This guide is for swetting up Perforce for the first time use.
+If you have a project set up you just need to set-up your [Workspace](https://github.com/maubanel/p4v-unreal/blob/main/workspaces/README.md#user-content-workspaces-in-p4v) and you are ready to go.  This guide is for setting up Unreal for Perforce for the VERY first time use. Only one person on the team needs to do this.  Everyone else will just press <kbd>Get Latest</kbd> to get all the work done here.
 
 <br>
 
@@ -22,7 +22,7 @@ Unreal integrates **Perforce** into their workflow but it is fairly bug ridden a
 
 
 
-![automatically checkout on asset modification](images/automaticallyCheckoutOnChange.png)
+
 
 ![](../images/line2.png)
 
