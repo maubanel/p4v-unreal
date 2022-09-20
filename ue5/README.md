@@ -91,7 +91,7 @@ Now go to **P4V** and select the top project folder.  Press the <kbd>+ Add</kbd>
 
 Now you have to press the <kbd>Submit</kbd> button and add a description for the changelist.  Press **Submit** to get it to the depot.
 
-![submit project(images/submitChangelist.png)
+![submit project](images/submitChangelist.png)
 
 ![](../images/line3.png)
 
@@ -99,7 +99,7 @@ Now you have to press the <kbd>Submit</kbd> button and add a description for the
 
 The only thing left to do is to make sure the `.p4ignore` file is working.  The **Depot** should just be saving the **Content** and **Config** folders and the **Workspace** has all the folders that Unreal dynamically creates on each person's machine.  If this is working you are good to deploy! The team is ready to get the latest version and start working on the project.
 
-![submit project(images/confirmP4Ignore.png)
+![submit project](images/confirmP4Ignore.png)
 
 
 ![](../images/line.png)
