@@ -15,7 +15,7 @@ This guide is for daily use of UE5 and the appropriate workflow.
 
 ##### `Step 1.`\|`P4VUE5`|:small_blue_diamond:
 
-It is best practice to have **P4V** running when working in **UE5**.  To make sure you are doing this, it is good to launch the game from within the **P4V** interface.  Double click on the `.uproject` within **P4V** to open the project.
+It is best practice to have **P4V** running when working in **UE5**.  To make sure you are doing this, it is good to launch the game from within the **P4V** interface.  Highlight the folder that holds your `.uproject` and press the <kbd>Get Latest</kbd> button. Double click on the `.uproject` within **P4V** to open the project.
 
 ![open project through Perforce](images/doubleClickProject.png)
 
