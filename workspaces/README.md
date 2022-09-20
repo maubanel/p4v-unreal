@@ -145,6 +145,11 @@ https://user-images.githubusercontent.com/5504953/191112088-026fb56a-588e-4a55-a
 
 ##### `Step 16.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
+
+
+![confirm p4 set settings](images/newChangelist.png)
+
+
 ![](../images/line2.png)
 
 ![](../images/line.png)
