@@ -71,11 +71,19 @@ Do your work as you normally would.  At the very end of the session press the **
 
 Now the first thing we are going to do is add all files that are not currently in the database that you added the project during your work session. Right click the folder that holds your project (the folder with the `.uproject` file) and select <kbd>Reconcile Offline Work</kbd> menu item. Press the <kbd>OK</kbd> button. This will add the files to the pending changelist (which already contains the files that Unreal checked out).
 
-![add new files to repo](images/rootOfProject.png)
+![reconcile offline work](images/rootOfProject.png)
 
 ![](../images/line3.png)
 
 ##### `Step 8.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Leave all the defaults and press the <kbd>Reconcile</kbd> button.
+
+![press the reconcile button](images/reconcile.png)
+
+![](../images/line3.png)
+
+##### `Step 9.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now you need to press the <kbd>Submit</kbd> button the a submit pop up with all the changed and added files pops up.  Add a description of what work was done.  Be VERY specific and detailed here.  Press the <kbd>Submit</kbd> button when you are done.  A progress bar will appear.  Wait until it has completely finished before ending your session.
 
@@ -83,7 +91,7 @@ Now you need to press the <kbd>Submit</kbd> button the a submit pop up with all 
 
 ![](../images/line3.png)
 
-##### `Step 9.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 10.`\|`P4VUE5`| :large_blue_diamond:
 
 If you select the **History** tab you will see that it has added this lates changelist.  If you double click on it, you can see all the files that you changes as well as your comment. Now this is safely on the depot and your **Pending** list **HAS** to be cleared and empty before you end your session.
 
