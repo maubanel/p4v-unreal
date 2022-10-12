@@ -69,7 +69,7 @@ Do your work as you normally would.  At the very end of the session press the **
 
 ##### `Step 7.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now the first thing we are going to do is add all files that are not currently in the database that you added the project during your work session. Highlight the folder that holds your project (the folder with the `.uproject` file).  Press the <kbd>+ Add</kbd> button. Press the <kbd>OK</kbd> button. This will add the files to the pending changelist (which already contains the files that Unreal checked out).
+Now the first thing we are going to do is add all files that are not currently in the database that you added the project during your work session. Right click the folder that holds your project (the folder with the `.uproject` file) and select <kbd>Reconcile Offline Work</kbd> menu item. Press the <kbd>OK</kbd> button. This will add the files to the pending changelist (which already contains the files that Unreal checked out).
 
 ![add new files to repo](images/rootOfProject.png)
 
