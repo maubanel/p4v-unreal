@@ -8,3 +8,7 @@
 * This will add a `.p4config` file root of your project folder (same folder as you `.uproject`) if you have done this correctly.
 
 ![.p4fonfig screenshot](./p4Config.png)
+
+* Right click on the `.p4config` and select **Start from here...**. This will bring up the command prompt in your project directory.  Type `p4 set` and press the <kbd>Return</kbd> key.
+
+![.p4fonfig screenshot](./p4set.png)
