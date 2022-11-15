@@ -1,3 +1,3 @@
 ## Environment Variables
 
-* Run [setconfig.bat](/setconfig.bat)
+* Run [setconfig.bat](./setconfig.bat)
