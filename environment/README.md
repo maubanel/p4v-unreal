@@ -7,4 +7,4 @@
 * This file has to be created for each Workspace and can't be shared amongst projects and are ignored in the `.p4ignore` file.
 * This will add a `.p4config` file root of your project folder (same folder as you `.uproject`) if you have done this correctly.
 
-![.p4fonfig screenshot](./p4config.png)
+![.p4fonfig screenshot](./p4Config.png)
