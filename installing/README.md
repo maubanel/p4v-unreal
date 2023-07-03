@@ -15,7 +15,7 @@ There are three main applications to install.  **P4V** which is tthe GUI control
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
-You need to login to [Global Protect](https://grok.lsu.edu/article.aspx?articleid=14785) when off campus before you install Perfo.  Otherwise the installer will not find the server. Make sure the vpn is active before moving forward if you are off campus.
+You need to login to [Global Protect](https://grok.lsu.edu/article.aspx?articleid=14785) when off campus before you install Perforce.  Otherwise the installer will not find the server. Make sure the vpn is active before moving forward if you are off campus.
 
 ![](../images/line2.png)
 
