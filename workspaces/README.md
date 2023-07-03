@@ -114,7 +114,7 @@ If you are not in a workspace or in the wrong workspace you can switch to it by 
 
 ##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-You need to make sure the is a `.p4ignore` file in the root of the project. If you are going to be adding an existing project to this folder you can download a preconfigured file [.p4ignore](../files/.p4ignore) by right clicking on **Raw** and selecting **Save As** and call it `.p4ignore` (very important to have the `.`.  Place it in the root of your project folder accordingly.
+You need to make sure the is a `.p4ignore` file in the root of the project. If you are going to be adding an existing project to this folder you can download a preconfigured file [.p4ignore](../files/.p4ignore) by right clicking on **Raw** and selecting **Save Link** and call it `.p4ignore` (very important to have the dot before the `p4ignore` as it is a hidden file).  Make sure you chnage the **Save as type** to `All Files(*.*)`. Place it in the root of your project folder accordingly. Make sure there is no `.txt` extension at the end. 
 
 ![make sure p4ignore is present](images/sameDirectory.png)
 
