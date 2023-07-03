@@ -64,6 +64,8 @@ If you want to connect to a stream depot you can only set up a single workspace 
 
 Now you can pick a **Workspace name:** starting with your P4 user name and the device I am using. I set mine to `maubanel-laptop`.  Try not to use spaces in your names as it will make it easier if you have to use command line.
 
+Perforce and Unreal have file length limits (which includes the folders) so it is recommended to use short names and close to a root drive like **C:** or **D:**.
+
 Select a folder to place it in.  I am putting it in the root of my only drive `c:\p4`. This folder does not have to exist as **P4V** will create it for you. Don't make the name too long.
 
 ![p4 workspace on c drive](images/nameWorkspace.png)
