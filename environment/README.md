@@ -17,3 +17,10 @@
 * Now you should see that all the environment variables are set by this file.
 
 ![environment variables set](./envvarsset.png)
+
+## Hostnames on Mac OSX
+* Mac's will change hostnames when it is on networks like LSU's with dynamic IP's (and maybe some folks home syste).
+* Open **System Preference**s, click **General | Sharing** and take note of of the value in the **Local hostname** field (typically as a .local) at the end.
+* Click **Edit** and make sure the "Use dynamic global hostname" checkbox is **unchecked**.
+* Open up **Terminal** and check the name before the cursor and see if it i the same at the hostname above?
+* If not then enter `sudo scutil --set HostName new_hostname`.  So in my case it was `sudo scutil --set HostName MarcA.local`.
