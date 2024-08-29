@@ -33,7 +33,7 @@ Then for **Server** enter `ssl:helixcore.cct.lsu.edu:1818`, **Username** use you
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Run **P4V** and use the same **Server** and port by entering `ssl:helixcore.cct.lsu.edu:1818`, and use your lsu **User** id *without* the @lsu.edu. We will leave the **Workspace** blank and login to the perforce server. Press the <kbd>OK</kbd> button. It will ask you to validate the fingerprint.  That fingerprint should be `13:57:CE:06:14:E9:3A:72:84:B1:41:A3:BF:CC:17:A2:85:D7:AA:891`.  Accept this request. Use your mylsu password that you use to login to all of LSU's services. 
+Run **P4V** and use the same **Server** and port by entering `ssl:helixcore.cct.lsu.edu:1818`, and use your lsu **User** id *without* the @lsu.edu. We will leave the **Workspace** blank and login to the perforce server. Press the <kbd>OK</kbd> button. It will ask you to validate the fingerprint.  That fingerprint will look something like `XX:57:CE:06:14:E9:3A:72:84:B1:41:A3:BF:CC:17:A2:85:D7:AA:891` (We each get a unique fingerprint).  Accept this request. Use your mylsu password that you use to login to all of LSU's services. 
 
 ![running p4v for the first time](images/login.png)
 
