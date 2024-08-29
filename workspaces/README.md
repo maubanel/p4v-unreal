@@ -42,11 +42,10 @@ Now you get a pop up that has all the depots that you have permission to subscri
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-There are two types of depots classic and streams.  Most larger project with larger teams should try and use **Streams**. If you are creating a workspace for a **Streams** depot press on the <kbd>Browse</kbd> button next to **Streams** and select the stream.  You can only have one stream per stream workspace. The streams workspace has two waves over the name. **Do not** make a classic depot with a streams project!
 
-For a classic depot (one **without** the two waves over the name), you can have multiple depots on the same workspace. You can decide which depots you want to work on and take up hard drive space.  For Depots you don't want you can right click on them and select `exclude tree`.  There will be a **red X** next to the depot name which means it won't download it and waste space.  Don't worry at any point you can add it to this **Workspace** and download them later.  You would do this by right clicking on a excluded depot and select `include  tree`. A **green checkmark** means that this folder and all of its children will be downloaded to your hard drive.
+Give the depot a **Workspace Name**. The default name is not very helpful, I would call it something short and descriptive that describes the project and the comptuter I am using.  For example I could use `UnrealClassLptp`. 
 
-You cannot combine streamed and classic depot's in the same workspace.  Seperate workspaces need to be set up. Also, when you exclude a tree, it will free up hard drive space but will NOT delete the depot in **Perforce**.  It will allow you to only have downloaded the projects you need to work on.
+Select a location with enough room for your project. If you have a second drive on your desktop/laptop it might be best to save the data here.  Try to keep it as close to the root drive as possible as Perforce does have a character limit to how long your folder chain can be. In this case I only have a single drive and it is a Mac so I am keeping it in the default Perforce folder root to my user (same as PC that will keep it at: `c:User/Username/Perforce`.
 
 ![exclude templates and oldlocalprojects depots](images/excludeTrees.png)
 
