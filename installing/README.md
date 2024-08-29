@@ -50,9 +50,6 @@ Everyone has access to Depot which is the main depot (but no projects in it).  E
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-If the password was assigned you will need to change it for a more secure password.  In **P4V** select **Connection | Change Password** and enter the assigned password and come up with a new one.  It needs to be at least 8 characters with an upper and lower case letter plus one or more symbols or numbers. Now you are ready to create a Workspace.
-
-![change password](images/changePassword.png)
 
 ![](../images/line2.png)
 
