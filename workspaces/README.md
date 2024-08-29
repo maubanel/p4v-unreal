@@ -47,6 +47,8 @@ Give the depot a **Workspace Name**. The default name is not very helpful, I wou
 
 Select a location with enough room for your project. If you have a second drive on your desktop/laptop it might be best to save the data here.  Try to keep it as close to the root drive as possible as Perforce does have a character limit to how long your folder chain can be. In this case I only have a single drive and it is a Mac so I am keeping it in the default Perforce folder root to my user (same as PC that will keep it at: `c:User/Username/Perforce`.
 
+*Press* the **Browse** button on the **Stream** and select the **Depot**/Project you want to use.
+
 ![exclude templates and oldlocalprojects depots](images/excludeTrees.png)
 
 ![](../images/line2.png)
