@@ -46,18 +46,6 @@ Everyone has access to Depot which is the main depot (but no projects in it).  E
 
 ![look at depot with various projects](images/depot.png)
 
-![](../images/line2.png)
-
-##### `Step 5.`\|`BTS`| :small_orange_diamond:
-
-
-![](../images/line2.png)
-
-##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
-
-
-
-
 ![](../images/line.png)
 
 ![Installing P4V](images/installingP4V.png)
