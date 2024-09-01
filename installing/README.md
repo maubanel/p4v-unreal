@@ -44,8 +44,7 @@ Run **P4V** and use the same **Server** and port by entering `ssl:helixcore.cct.
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-When it loads up go to the **Depot** tab.  This is all the projects that you have access to that are on the server (cloud).  
-Everyone has access to Depot which is the main depot (but no projects in it).  Everyone has **read** accesss only to **Templates** and **Old Projects**.  Templates are various templates that have the plugins and our XR Lab Configuration set up.  The **Old Projects** are previous projects done by students in prior terms.  You can use these as reference but will not be able to chnage or save to these projects in the repository.  You will also have access to the projects that you are assigned to work on.
+When it loads up go to the **Depot** tab.  This is all the projects that you have access to that are on the server (cloud).  If you need access to a depot (project folder) then ask an administrator.
 
 ![look at depot with various projects](images/depot.png)
 
