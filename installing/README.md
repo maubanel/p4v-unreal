@@ -18,7 +18,7 @@ https://github.com/user-attachments/assets/dc84832a-0966-42a6-9116-43dfa54df8d6
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
-Download [P4V](https://www.perforce.com/downloads/helix-visual-client-p4v) which is the GUI manager that should work for most issues that arise.  
+Download [P4V](https://www.perforce.com/downloads/helix-visual-client-p4v) which is the GUI manager that should work for most issues that arise.  This will install all the software you need. If you are installing on a mac you need to select either the Intel or Apple Silicone and which version of the OS you are running.  On a PC select the `.exe` if you are not familiar with installing `.msi` programs (they both do the same thing). 
 
 ![download p4v installer from perforce](images/downloadHelix.png)
 
