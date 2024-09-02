@@ -8,6 +8,8 @@
 
 If you have a project set up you just need to set-up your [Workspace](https://github.com/maubanel/p4v-unreal/blob/main/workspaces/README.md#user-content-workspaces-in-p4v) and you are ready to go.  This guide is for setting up Unreal for Perforce for the VERY first time use. Only one person on the team needs to do this.  Everyone else will just press <kbd>Get Latest</kbd> to get all the work done here.
 
+https://github.com/user-attachments/assets/0c6adb16-2766-4f49-a0e4-e03ed2f2dfb4
+
 <br>
 
 ---
