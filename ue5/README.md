@@ -58,11 +58,11 @@ Open up the **Epic Launcher** and run the latest version of **Unreal**. Make sur
 
 ##### `Step 6.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond:
 
-Now in the future if you boot up **Unreal** and it is saying it is connected to source control you can put your cursor on top and it will pop up to make sure you have the correct settings.
+In the game on the bottom right corner click on **Revision Control** and select **Connect to Revision Control**. You can now select use `.p4config` but it is not always working properly for me.  It is always good to click on **Available Workspaces** and if nothign pops up you have a type on either the repository or the username.  Remember the username does not use `@email.com`.
 
 Open up **Epic Games Launcer** and run **Unreal Engine 5.0.X.**
 
-![run ue5](images/runUnrealEngine.png)
+![run ue5](images/connectToRevision.png)
 
 ![](../images/line2.png)
 
