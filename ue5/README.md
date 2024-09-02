@@ -87,7 +87,7 @@ Quit the game.
 
 ##### `Step 9.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now go to **P4V** and select the top project folder.  Press the <kbd>+ Add</kbd> button. Use a default changelist and select **OK**.
+Now you do not need to use the epic launcher to run your game.  It is best to loginto P4V and double click the `.uproject` file from perforce.  This loads the game and should auto connect to Perforce.  It should be a green check mark.  If not connect to revision control as you did above.  Make sure you are connected as you will not be able to save any work.
 
 ![add files to project](images/ReopenProject.png)
 
