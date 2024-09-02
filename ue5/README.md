@@ -17,7 +17,7 @@ https://github.com/user-attachments/assets/677c54a6-06b6-4c0b-8330-3dba2e87d389
 
 ##### `Step 1.`\|`P4VUE5`|:small_blue_diamond:
 
-Log into P4V before starting.  We need to be in a valid workspace.  So we start by logging into Perforce.
+Log into P4V before starting.  We need to be in a valid workspace.  So we start by logging into Perforce. You can select an existing workspace or leave it empty.  Enter your password.
 
 ![alt text](images/runUnrealEngine.png)
 
