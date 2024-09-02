@@ -50,7 +50,7 @@ Make sure you have a valid `p4config` file in the root folder at the very top fo
 
 ##### `Step 5.`\|`P4VUE5`| :small_orange_diamond:
 
-Now for each level you will need to go to **World Settings** (it is in **Windows** menu if it does nto appear).  Go to  **World | Advanced | Use External Actors** and set to `true`.
+Open up the **Epic Launcher** and run the latest version of **Unreal**. Make sure that you place the project within your workspace.  If you don't put it in a workspace you will not be able to connect to Perforce.  Give it a name and select the template you want with the appropriate settings.
 
 ![turn on use external actors](images/useExternalActors.png)
 
