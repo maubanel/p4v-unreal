@@ -34,7 +34,7 @@ Select the workspace you want to work in and right click on it (to get the Works
 
 ##### `Step 3.`\|`P4VUE5`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we want to turn on one more feature.  We want to go to **Editor Preferences** and turn on **Enable One File Per Actor**.  This only needs to be done once, and even though this will not carry over as the editor preferences are local, the entire project will support this feature.  This allows each actor to be individual files in a level getting rid of level conflicts and allowing multiple people to work on the same level.
+Click on your workspace tab and select the top folder.  Press the **Get Latest** button to get the latest files from the server.  Maybe someone else has checked something new in, or you are bringing in work from another computer.
 
 ![turn on one file per actor](images/enableOneFilePerActor.png)
 
