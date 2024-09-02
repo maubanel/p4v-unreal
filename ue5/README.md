@@ -42,7 +42,7 @@ Click on your workspace tab and select the top folder.  Press the **Get Latest**
 
 ##### `Step 4.`\|`P4VUE5`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now if you are using open world levels, then there is nothing else to do. But if you are using regular levels then you need to adjust one setting in **EVERY** level.  If you want to use regular levels, press **File | New Level** and add a **Basic** level.  Name it accordingly.
+Make sure you have a valid `p4config` file in the root folder at the very top folder of the workspace.  Make sure your login name and host are valid.
 
 ![add basic level](images/oneFilePerActor.png)
 
