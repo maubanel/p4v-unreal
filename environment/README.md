@@ -2,6 +2,10 @@
 
 
 
+https://github.com/user-attachments/assets/35199b48-922e-4b98-ac17-72dbe49dcca1
+
+
+
 * It is a good idea to use a config file so that it automatically configs your environment correctly in each project.
 * If you are unable to loginto Perforce inside of Unreal this might help with that making it work more consistently.
 * For PC's only,  copy this file into your project directory of your **Workspace** [setconfig.bat](../files/ue5/setconfig.bat)
