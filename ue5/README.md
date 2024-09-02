@@ -69,11 +69,13 @@ Open up **Epic Games Launcer** and run **Unreal Engine 5.0.X.**
 
 ##### `Step 7.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Press **File | Save All** to save all of your work.  If Unreal insists, you might have to loginto source control.  More information can be found about this in [Setting Up Perforce in UE5](../ue5/README.md#user-content-setting-up-perforce-in-ue5) *for the first time use*.
+Go to **Edit | Editor Preferences** and select **Loading and Saving | Source Control | Automatically Checkout on Asset Modification**. Set it to `true`. This allows for Unreal to checkout files and stop others from using it as soon as you need them.  We will get into this more in future tip.
 
-![save project](images/saveAll.png)
+![save project](images/CheckoutAuto.png)
 
 ##### `Step 8.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Press **File | Save All** to save all of your work.  If Unreal insists, you might have to loginto source control.  More information can be found about this in [Setting Up Perforce in UE5](../ue5/README.md#user-content-setting-up-perforce-in-ue5) *for the first time use*.
 
 Our basic UE5 [.p4ignore](../files/ue5/.p4ignore) is to make sure that files that don't need to be generated are not stored in the repository. Put this `.p4ignore` in the same folder as the `.uproject` file.
 
