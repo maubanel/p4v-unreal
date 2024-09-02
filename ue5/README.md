@@ -77,35 +77,9 @@ Go to **Edit | Editor Preferences** and select **Loading and Saving | Source Con
 
 Press **File | Save All** to save all of your work.  If Unreal insists, you might have to loginto source control.  More information can be found about this in [Setting Up Perforce in UE5](../ue5/README.md#user-content-setting-up-perforce-in-ue5) *for the first time use*.
 
-Our basic UE5 [.p4ignore](../files/ue5/.p4ignore) is to make sure that files that don't need to be generated are not stored in the repository. Put this `.p4ignore` in the same folder as the `.uproject` file.
+Quit the game.  
 
-![contents of p4ignore file](images/p4v.png)
-
-
-![](../images/line3.png)
-
-##### `Step 9.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Now go to **P4V** and select the top project folder.  Press the <kbd>+ Add</kbd> button. Use a default changelist and select **OK**.
-
-![add files to project](images/addFiles.png)
-
-![](../images/line3.png)
-
-##### `Step 10.`\|`P4VUE5`| :large_blue_diamond:
-
-Now you have to press the <kbd>Submit</kbd> button and add a description for the changelist.  Press **Submit** to get it to the depot.
-
-![submit project](images/submitChangelist.png)
-
-![](../images/line3.png)
-
-##### `Step 11.`\|`P4VUE5`| :large_blue_diamond: :small_blue_diamond: 
-
-The only thing left to do is to make sure the `.p4ignore` file is working.  The **Depot** should just be saving the **Content** and **Config** folders and the **Workspace** has all the folders that Unreal dynamically creates on each person's machine.  If this is working you are good to deploy! The team is ready to get the latest version and start working on the project.
-
-![submit project](images/confirmP4Ignore.png)
-
+![contents of p4ignore file](images/SaveItAll.png)
 
 ![](../images/line.png)
 
