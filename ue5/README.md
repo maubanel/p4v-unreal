@@ -17,7 +17,7 @@ https://github.com/user-attachments/assets/677c54a6-06b6-4c0b-8330-3dba2e87d389
 
 ##### `Step 1.`\|`P4VUE5`|:small_blue_diamond:
 
-First make sure you have access to a valid depot for your project.  A depot can contain as many Unreal projects as you like.  Talk to your teacher to get one made for your team.
+Log into P4V before starting.  We need to be in a valid workspace.  So we start by logging into Perforce.
 
 ![alt text](images/runUnrealEngine.png)
 
