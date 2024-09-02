@@ -1,7 +1,7 @@
 ## Environment Variables
 
-* If you are working on multiple projects with multiple workspaces, it is a good idea to use a config file so that it automatically configs your environment correctly in each project.
-* If you are unable to loginto Perforce in Unreal this might help with that making it work more consistently.
+* It is a good idea to use a config file so that it automatically configs your environment correctly in each project.
+* If you are unable to loginto Perforce inside of Unreal this might help with that making it work more consistently.
 * For PC's only,  copy this file into your project directory of your **Workspace** [setconfig.bat](./setconfig.bat)
 * You can copy it by right clicking on the above and then right clicking on **Raw** and selecting `Save link as...`
 * Double click the `setconfig.bat` file and answer all the questions.  This will set up a `.p4config file` that will ensure that environment variables are set properly.
