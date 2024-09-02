@@ -53,6 +53,7 @@ Now there is one final step.  Many times Unreal is not aware that files have cha
 
 ##### `Step 5.`\|`P4VUE5`| :small_orange_diamond:
 
+Select your outstanding pending list and press the **Submit** button. Make sure you are happy with your description then 
 ![alt text](images/SubmitFinalChanges.png)
 
 ![](../images/line3.png)
