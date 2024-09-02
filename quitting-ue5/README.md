@@ -6,7 +6,9 @@
 
 ![](../images/line3.png)
 
-Chapter introduction here.
+When we finish a session in Perforce we can submit everything in **P4V** or use a combination of the **Unreal** tools as well as **Perforce** to make sure that our work is all pushed to the server.
+
+https://github.com/user-attachments/assets/2adc4a32-6425-4917-9187-e8553aae63ac
 
 <br>
 
