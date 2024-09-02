@@ -12,6 +12,7 @@
 ![.p4fonfig screenshot](./p4Config.png)
 
 * Right click on the `.p4config` and select **Open Command Window Here**. This will bring up the command prompt in your project directory.  Type `p4 set` and press the <kbd>Return</kbd> key.
+* DO NOT run this batch file from P4V.  It will save the file to the wrong folder.
 
 ![open command prompt](./p4set.png)
 
