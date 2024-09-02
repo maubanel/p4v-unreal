@@ -47,11 +47,13 @@ Now there is one final step.  Many times Unreal is not aware that files have cha
 
 ![alt text](images/ReconcileOfflineWork.png)
 
+![alt text](images/RedAgain.png)
+
 ![](../images/line3.png)
 
 ##### `Step 5.`\|`P4VUE5`| :small_orange_diamond:
 
-![alt text](images/.png)
+![alt text](images/SubmitFinalChanges.png)
 
 ![](../images/line3.png)
 
