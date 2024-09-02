@@ -29,7 +29,7 @@ https://github.com/user-attachments/assets/35199b48-922e-4b98-ac17-72dbe49dcca1
 ![environment variables set](./envvarsset.png)
 
 ## Hostnames on Mac OSX
-* Mac's will change hostnames when it is on networks like LSU's with dynamic IP's (and maybe some folks home syste).
+* Mac's will change hostnames when it is on networks like LSU's with dynamic IP's (and maybe some folks home system).
 * Open **System Preference**s, click **General | Sharing** and take note of of the value in the **Local hostname** field (typically as a .local) at the end.
 * Click **Edit** and make sure the "Use dynamic global hostname" checkbox is **unchecked**.
 * Open up **Terminal** and check the name before the cursor and see if it i the same at the hostname above?
