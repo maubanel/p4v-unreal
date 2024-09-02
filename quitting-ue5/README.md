@@ -2,7 +2,7 @@
 
 ### Quitting UE5 with Perforce
 
-<sub>[[home](../README.md#user-content-ue4-hello-world)</sub>
+<sub>[home](../README.md#user-content-ue4-hello-world)</sub>
 
 ![](../images/line3.png)
 
