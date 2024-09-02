@@ -73,6 +73,8 @@ Go to **Edit | Editor Preferences** and select **Loading and Saving | Source Con
 
 ![save project](images/CheckoutAuto.png)
 
+![](../images/line2.png)
+
 ##### `Step 8.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Press **File | Save All** to save all of your work.  If Unreal insists, you might have to loginto source control.  More information can be found about this in [Setting Up Perforce in UE5](../ue5/README.md#user-content-setting-up-perforce-in-ue5) *for the first time use*.
@@ -80,6 +82,14 @@ Press **File | Save All** to save all of your work.  If Unreal insists, you migh
 Quit the game.  
 
 ![contents of p4ignore file](images/SaveItAll.png)
+
+![](../images/line2.png)
+
+##### `Step 9.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now go to **P4V** and select the top project folder.  Press the <kbd>+ Add</kbd> button. Use a default changelist and select **OK**.
+
+![add files to project](images/ReopenProject.png)
 
 ![](../images/line.png)
 
