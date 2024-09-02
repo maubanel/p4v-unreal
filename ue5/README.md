@@ -63,6 +63,7 @@ In the game on the bottom right corner click on **Revision Control** and select 
 Open up **Epic Games Launcer** and run **Unreal Engine 5.0.X.**
 
 ![run ue5](images/connectToRevision.png)
+![accept settings](images/AcceptSettings.png)
 
 ![](../images/line2.png)
 
