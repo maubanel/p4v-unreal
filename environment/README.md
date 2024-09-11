@@ -34,3 +34,11 @@ https://github.com/user-attachments/assets/35199b48-922e-4b98-ac17-72dbe49dcca1
 * Click **Edit** and make sure the "Use dynamic global hostname" checkbox is **unchecked**.
 * Open up **Terminal** and check the name before the cursor and see if it i the same at the hostname above?
 * If not then enter `sudo scutil --set HostName new_hostname`.  So in my case it was `sudo scutil --set HostName MarcA.local`.
+
+
+
+
+![](../images/line.png)
+
+| [home](../README.md#user-content-p4v) |
+|---|
