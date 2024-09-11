@@ -93,10 +93,5 @@ Now you do not need to use the epic launcher to run your game.  It is best to lo
 
 ![](../images/line.png)
 
-![setting up p4 banner](images/banner.png)
-
-
-![](../images/line.png)
-
 | [home](../README.md#user-content-p4v) | 
 |---|

@@ -59,9 +59,5 @@ Select your outstanding pending list and press the **Submit** button. Make sure 
 
 ![](../images/line.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - README.md File">
-
-![](../images/line.png)
-
 | [home](../README.md#user-content-ue4-hello-world) | 
 |---|
