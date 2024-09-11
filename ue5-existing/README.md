@@ -66,41 +66,102 @@ Now if I edit a file such as this material, it will automatically checkout the f
 
 ![alt text](images/CheckedOut.png)
 
-Do your work as you normally would.  At the very end of the session press the **File | Save All** selection.  To save the game. Now it may ask you to checkout files.  Unreal does check out (locks others including yourself on another computer) from editing these files until they are submitted back in the repository. Make sure you checkout all the files (tick marks selected).
-
-![save all and checkout files](images/checkoutSave.png)
 
 ![](../images/line3.png)
 
 ##### `Step 7.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now the first thing we are going to do is add all files that are not currently in the database that you added the project during your work session. Right click the folder that holds your project (the folder with the `.uproject` file) and select <kbd>Reconcile Offline Work</kbd> menu item. Press the <kbd>OK</kbd> button. This will add the files to the pending changelist (which already contains the files that Unreal checked out).
+This effectively does the same thing as checking out that file in **P4V**.  It is just easier and quicker to do it through the Unreal Engine which is tightly integrated with Perforce. 
 
-![reconcile offline work](images/rootOfProject.png)
+![save all and checkout files](images/checkoutP4V.png)
 
 ![](../images/line3.png)
 
 ##### `Step 8.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Leave all the defaults and press the <kbd>Reconcile</kbd> button.
+Do your work as you normally would.  At the very end of the unit of work you are workign is done press the **File | Save All** selection.  To save the game. Now it may ask you to checkout files.  Unreal does check out (locks others including yourself on another computer) from editing these files until they are submitted back in the repository. Make sure you checkout all the files (tick marks selected).
 
-![press the reconcile button](images/reconcile.png)
+![save all and checkout files](images/checkoutSave.png)
+
 
 ![](../images/line3.png)
 
 ##### `Step 9.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now you need to press the <kbd>Submit</kbd> button the a submit pop up with all the changed and added files pops up.  Add a description of what work was done.  Be VERY specific and detailed here.  Press the <kbd>Submit</kbd> button when you are done.  A progress bar will appear.  Wait until it has completely finished before ending your session.
+Now that you have done this work, what if you want to change it back.  You have saved it and maybe you can no longer undo (or your undo chain is not long enough)?  You can right click on the file then select **Revision Control | Revert**. Confirmt he file to revert then press the **Revert** button on the pop up.
 
-![submit work](images/submitCommits.png)
+![save all and checkout files](images/revertChange1.png)
+
 
 ![](../images/line3.png)
 
 ##### `Step 10.`\|`P4VUE5`| :large_blue_diamond:
 
-If you select the **History** tab you will see that it has added this lates changelist.  If you double click on it, you can see all the files that you changes as well as your comment. Now this is safely on the depot and your **Pending** list **HAS** to be cleared and empty before you end your session.
+Confirm the revert by pressing the **Yes** button.
 
-![show commit history](images/history.png)
+![save all and checkout files](images/ConfirmRevert.png)
+
+![](../images/line3.png)
+
+##### `Step 11.`\|`P4VUE5`| :large_blue_diamond: :small_blue_diamond:
+
+Now the material has reverted back to its original blue color.  Note that reverting is a destructive change.  So **Perforce** does not keep a history of reverts.  If you think you might go back then you can just change it manually back to blue and it will keep the prior pink version in the history that you can use later.
+
+![alt text](images/RevertBlue.png)
+
+![](../images/line3.png)
+
+##### `Step 12.`\|`P4VUE5`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+![alt text](images/.png)
+
+![](../images/line3.png)
+
+##### `Step 13.`\|`P4VUE5`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond:
+
+![alt text](images/.png)
+
+![](../images/line3.png)
+
+##### `Step 14.`\|`P4VUE5`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond:
+
+![alt text](images/.png)
+
+![](../images/line3.png)
+
+##### `Step 15.`\|`P4VUE5`| :large_blue_diamond: :small_orange_diamond:
+
+![alt text](images/.png)
+
+![](../images/line3.png)
+
+##### `Step 16.`\|`P4VUE5`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond:
+
+![alt text](images/.png)
+
+![](../images/line3.png)
+
+##### `Step 17.`\|`P4VUE5`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+![alt text](images/.png)
+
+![](../images/line3.png)
+
+##### `Step 18.`\|`P4VUE5`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+![alt text](images/.png)
+
+![](../images/line3.png)
+
+##### `Step 19.`\|`P4VUE5`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+![alt text](images/.png)
+
+![](../images/line3.png)
+
+##### `Step 20.`\|`P4VUE5`| :large_blue_diamond: :large_blue_diamond:
+
+![alt text](images/.png)
 
 ![](../images/line.png)
 
