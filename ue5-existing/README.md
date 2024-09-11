@@ -6,7 +6,7 @@
 
 ![](../images/line3.png)
 
-This guide is for daily use of UE5 and the appropriate workflow.
+This guide is for daily use of UE5 and the appropriate workflow. You can follow the instructions below or watch a [video on YouTube](https://www.youtube.com/watch?v=w72pwjTnf3k)
 
 <br>
 
@@ -23,7 +23,7 @@ It is best practice to have **P4V** running when working in **UE5**.  To make su
 
 ##### `Step 2.`\|`P4VUE5`|:small_blue_diamond: :small_blue_diamond: 
 
-If you have not set up automotic checkout out of files do it now!  This is only saved locally on the current machine and does not get shared across the project.  You will need to set this on each workstation you use. 
+If you have not set up automatic checkout out of files do it now!  This is only saved locally on the current machine and does not get shared across the project.  You will need to set this on each workstation you use. 
 
 Now one of the advantages of how **Perforce** is configured is that it won't allow for two people to save to the same file (unless they are text files). This is very convenient as it will reduce the amount of collisions when working as a team.  
 
@@ -60,6 +60,11 @@ If the settings were correct a pop up will briefly appear at the bottom right sa
 ![](../images/line3.png)
 
 ##### `Step 6.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond:
+
+Now if I edit a file such as this material, it will automatically checkout the file.  A red check mark will appear in **Content Drawer**.  Unreal has checked this out of Perforce which changes the file to writable - so Unreal can save over that file.
+
+
+![alt text](images/CheckedOut.png)
 
 Do your work as you normally would.  At the very end of the session press the **File | Save All** selection.  To save the game. Now it may ask you to checkout files.  Unreal does check out (locks others including yourself on another computer) from editing these files until they are submitted back in the repository. Make sure you checkout all the files (tick marks selected).
 
