@@ -50,9 +50,5 @@ When it loads up go to the **Depot** tab.  This is all the projects that you hav
 
 ![](../images/line.png)
 
-![Installing P4V](images/installingP4V.png)
-
-![](../images/line.png)
-
 | [home](../README.md#user-content-p4v)  |
 |---|
