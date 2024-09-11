@@ -47,7 +47,7 @@ Now you get a pop up that has all the depots that you have permission to subscri
 
 Give the depot a **Workspace Name**. The default name is not very helpful, I would call it something short and descriptive that describes the project and the computer I am using.  For example I could use `UnrealClassLptp`. You cannot use the same name as the depot it will not allow a workspace to share the exact name with a **Depot**.
 
-Select a location **Workspace Root** with enough room for your project. I use the actual name of the **Depot** so I don't get confused. If you have a second drive on your desktop/laptop it might be best to save the data here.  Use only SSD (preferably VVMe drives) for fast access.  NEVER STORE A REPO ON A CLOUD SERVICE like Icloud, Box, OneDrive or any other cloud drive service. 
+Select a location **Workspace Root** with enough room for your project. I use the actual name of the **Depot** so I don't get confused. If you have a second drive on your desktop/laptop it might be best to save the data here.  Use only SSD (preferably NVMe drives) for fast access.  NEVER STORE A REPO ON A CLOUD SERVICE like Icloud, Box, OneDrive or any other cloud drive service. 
 
 Try to keep it as close to the root drive as possible as Perforce does have a character limit to how long your folder chain can be. In this case I only have a single drive and it is a Mac so I am keeping it in the default Perforce folder root to my user (same as PC that will keep it at: `c:User/Username/Perforce`.
 
