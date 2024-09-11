@@ -10,6 +10,8 @@
 
 Follow this entire walk through if you do not have a workspace on your computer.  Please note that you can have as many projects in a single workspace as you like.  If you are using regular perforce workspaces **AND** streams you will needa separate workspace for regular spaces and one for streams.
 
+Watch teh below in video form on [YouTube](https://www.youtube.com/watch?v=LJ7jrB9tCTM).
+
 ![topology of a perforce server](images/topology.png)
 
 <br>
