@@ -1,6 +1,6 @@
 #Visual Studio files
 .vs/
-.vsoconfig
+*.vsoconfig
 *.suo
 *.opensdf
 *.vcxproj
@@ -51,7 +51,7 @@
 *.VC.opendb
 
 # Binary Files
-Binaries/*
+Binaries/
 Plugins/**/Binaries/*
 *.pdb
 
@@ -59,8 +59,6 @@ Plugins/**/Binaries/*
 Build/*
 
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
-!Build/*/
-Build/*/**
 !Build/*/PakBlacklist*.txt
 
 # Don't ignore icon files in Build
@@ -81,7 +79,6 @@ DerivedDataCache/*
 
 
 #Unreal Generated Folders (These can be deleted and Unreal will Regenerate them
-
 #MS Build
 *.csproj.*
 

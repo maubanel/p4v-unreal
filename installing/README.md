@@ -10,7 +10,7 @@ There are three main applications to install.  **P4V** which is tthe GUI control
 
 https://github.com/user-attachments/assets/dc84832a-0966-42a6-9116-43dfa54df8d6
 
-(https://youtu.be/cJb4anDVyAc)
+[YouTube](https://youtu.be/cJb4anDVyAc)
 <br>
 
 ---
@@ -28,7 +28,7 @@ Download [P4V](https://www.perforce.com/downloads/helix-visual-client-p4v) which
 
 Double click the `p4vinst64.msi` file. Install at least the **Helix Visual Client (P4V)** and **Command Line Client (P4)**.  The **Merge and Diff Tool** and **Administration Tool** are optional.
 
-Then for **Server** enter `ssl:helixcore.cct.lsu.edu:1818`, **Username** use your lsu id *without* the @lsu.edu. You can select your text editor of choice or leave the default.  Press the <kbd>Next</kbd> button. Then press the <kbd>Install</kbd> button.  You can then close the screen out.
+Then enter the address for your **P4 Server**. If you are an LSU student using the school server it is at `ssl:helixcore.cct.lsu.edu:1818`, **Username** use your lsu id *without* the @lsu.edu. You can select your text editor of choice or leave the default.  Press the <kbd>Next</kbd> button. Then press the <kbd>Install</kbd> button.  You can then close the screen out.
 
 ![install p4v](images/InstallPerforce.gif)
 
@@ -36,7 +36,9 @@ Then for **Server** enter `ssl:helixcore.cct.lsu.edu:1818`, **Username** use you
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Run **P4V** and use the same **Server** and port by entering `ssl:helixcore.cct.lsu.edu:1818`, and use your lsu **User** id *without* the @lsu.edu. We will leave the **Workspace** blank and login to the perforce server. Press the <kbd>OK</kbd> button. It will ask you to validate the fingerprint.  That fingerprint will look something like `XX:57:CE:06:14:E9:3A:72:84:B1:41:A3:BF:CC:17:A2:85:D7:AA:891` (We each get a unique fingerprint).  Accept this request. Use your mylsu password that you use to login to all of LSU's services. 
+Run **P4V** and use the same **Server** and port by entering `ssl:helixcore.cct.lsu.edu:1818`, and use your lsu **User** id *without* the @lsu.edu. We will leave the **Workspace** blank and login to the perforce server. 
+
+Press the <kbd>OK</kbd> button. It will ask you to validate the fingerprint.  That fingerprint will look something like `XX:57:CD:06:14:E9:3A:32:84:A1:41:A3:BF:CC:17:A2:85:D7:AA:591` (We each get a unique fingerprint).  Accept this request. Use your mylsu password that you use to login to all of LSU's services. 
 
 ![running p4v for the first time](images/login.png)
 

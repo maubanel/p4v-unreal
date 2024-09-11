@@ -8,9 +8,9 @@
 
 **Depots** contain the project(s) that you have access to either read, write or both.  They live on the Helix server.  To work you need to have those files locally.  In **Perforce** this is a called a **workspace**.  You can have as many workspaces as you like, but one will suffice. Please note you cannot share workspaces between machines, it is one workspace per computer/login.
 
-Follow this entire walk through if you do not have a workspace on your computer.  Please note that you can have as many projects in a single workspace as you like.  If you are using regular perforce workspaces **AND** streams you will needa separate workspace for regular spaces and one for streams.
+Follow this entire walk through if you do not have a workspace on your computer.  In this walk through we will only be covering Perforce Stream Projects.
 
-Watch teh below in video form on [YouTube](https://www.youtube.com/watch?v=LJ7jrB9tCTM).
+Watch the below in video form on [YouTube](https://www.youtube.com/watch?v=LJ7jrB9tCTM).
 
 ![topology of a perforce server](images/topology.png)
 
@@ -45,9 +45,13 @@ Now you get a pop up that has all the depots that you have permission to subscri
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Give the depot a **Workspace Name**. The default name is not very helpful, I would call it something short and descriptive that describes the project and the comptuter I am using.  For example I could use `UnrealClassLptp`. 
+Give the depot a **Workspace Name**. The default name is not very helpful, I would call it something short and descriptive that describes the project and the computer I am using.  For example I could use `UnrealClassLptp`. You cannot use the same name as the depot it will not allow a workspace to share the exact name with a **Depot**.
 
-Select a location with enough room for your project. If you have a second drive on your desktop/laptop it might be best to save the data here.  Try to keep it as close to the root drive as possible as Perforce does have a character limit to how long your folder chain can be. In this case I only have a single drive and it is a Mac so I am keeping it in the default Perforce folder root to my user (same as PC that will keep it at: `c:User/Username/Perforce`.
+Select a location **Workspace Root** with enough room for your project. I use the actual name of the **Depot** so I don't get confused. If you have a second drive on your desktop/laptop it might be best to save the data here.  Use only SSD (preferably VVMe drives) for fast access.  NEVER STORE A REPO ON A CLOUD SERVICE like Icloud, Box, OneDrive or any other cloud drive service. 
+
+Try to keep it as close to the root drive as possible as Perforce does have a character limit to how long your folder chain can be. In this case I only have a single drive and it is a Mac so I am keeping it in the default Perforce folder root to my user (same as PC that will keep it at: `c:User/Username/Perforce`.
+
+Select a 
 
 *Press* the **Browse** button on the **Stream** and select the **Depot**/Project you want to use.
 
@@ -93,76 +97,7 @@ If you are not in a workspace or in the wrong workspace you can switch to it by 
 
 ![switch to workspace](images/switchToWorkspace.png)
 
-![](../images/line2.png)
 
-##### `Step 10.`\|`BTS`| :large_blue_diamond:
-
-You need to make sure the is a `.p4ignore` file in the root of the project. If you are going to be adding an existing project to this folder you can download a preconfigured file [.p4ignore](../files/.p4ignore) by right clicking on **Raw** and selecting **Save Link** and call it `.p4ignore` (very important to have the dot before the `p4ignore` as it is a hidden file).  Make sure you chnage the **Save as type** to `All Files(*.*)`. Place it in the root of your project folder accordingly. Make sure there is no `.txt` extension at the end. 
-
-![make sure p4ignore is present](images/sameDirectory.png)
-
-![](../images/line2.png)
-
-##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
-
-Now there is a final step. We need to make sure that your workspace is set up every time you run **P4V**.  Download [setconfig.bat](../files/setconfig.bat) by right clicking on **Raw** and selecting **Save As** and call it `setconfig.bat`. Put it in the same directory as the **.p4ignore** file. Press the **Refresh** button in **P4V** and you should see the folder.
-
-![add setconfig.bat to folder](images/configLocation.png)
-
-
-![](../images/line2.png)
-
-##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
-
-Select in **P4V** with the right mouse button the **setconfig.bat** file and select **Show In | Show in Explorer**. If **Windows Protect** comes up and the select **More info** and the <kbd>Run Anyway</kbd>. 
-
-![confirm p4 set settings](images/showInExplorer.png)
-
-![](../images/line2.png)
-
-##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
-Double click in **Explorer** the **setconfig.bat** batch file. If windows complains about the file press **More info** then press the <kbd>Open Anyway</kbd> button. Enter the **username** used to login to **P4V**.  This should be your lsu user name without the @lsu.edu.  The back in **P4V** get to your **Workspace** tab (Press **View | Workspace** to get it on your menu bar) and double click on your workspace.  Copy the **Host:** then in command prompt press the right mouse button to paste it into the command line. Press the <kbd>Enter</kbd> key.  Repeat for the actual **Workspace** name. Press <kbd>Enter</kbd> again and you will get the output of `p4 set`.  We should have the **P4Client**, **P4CONFIG**, **P4Host**, **P4IGNORE**, **P4PORT** and **P4USER** set.  
-
-Please note that as long as you do not change the order of files this config file will always run ensuring that you are set up correctly in **P4V** moving forward.
-
-https://user-images.githubusercontent.com/5504953/191112088-026fb56a-588e-4a55-a529-876095b25bb1.mp4
-
-![](../images/line2.png)
-
-##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
-Now we need to add these files we created to **Perforce**.  Press the <kbd>+ Add</kbd> button and select a **New** changelist.  Add an appropriate message and press the <kbd>OK</kbd> button.
-
-![add files to perforce](images/newChangelist.png)
-
-![](../images/line2.png)
-
-##### `Step 15.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: 
-
-Put the cursor on the project folder in **P4V** and select the <kbd>Submit</kbd> button. This will bring up the changelist you created and press the popped up kbd>Submit</kbd> button. 
-
-![add files to perforce](images/submitFiles.png)
-
-![](../images/line2.png)
-
-##### `Step 16.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
-
-Notice that the .p4ignore and setconfig.bat are checked into the project as they have a small green check mark.  Notice that the **.p4config** file does not have a green checkmark.  That is becuase the `.p4ignore` file is stopping that file from being uploaded to the depot and being shared with other users.
-
-![green checkmark](images/greenCheckmark.png)
-
-![](../images/line2.png)
-
-##### `Step 17.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Now if you select the **Depot** tab you can see what is up on the server (and will be seen by other users when they press **Get Latest**).  Notice that it has the two files with the checkmark but not the `.p4config` file which is left off because of the ignore file.
-
-![p4ignore file](images/depotOnServer.png)
-
-![](../images/line.png)
-
-![workspaces banner](images/workspacesBanner.png)
 
 ![](../images/line.png)
 
