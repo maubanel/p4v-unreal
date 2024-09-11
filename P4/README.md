@@ -8,6 +8,7 @@
 
 The P4 ignore is really important in Unreal.  There are many files that in Unreal are written to your local hard drive that are generated from the project data.  Now these might differ machine to machine especially with different operating systems. This is especially true with Macs and PCs.
 
+[Watch YouTube Video Here](https://studio.youtube.com/video/S4A3MmBqtrw/edit)
 <br>
 
 ---
