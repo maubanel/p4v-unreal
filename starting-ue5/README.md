@@ -8,6 +8,7 @@
 
 Here is the procedure for starting a session in **Unreal** using **Perforce**. This should only be used when you have an existing [workspace](https://github.com/maubanel/p4v-unreal/blob/main/workspaces/README.md#user-content-workspaces-in-p4v) with your [environment variables](https://github.com/maubanel/p4v-unreal/blob/main/environment/README.md#user-content-set-up-environment-variables) correctly set up.
 
+Watch the [YouTube video](https://www.youtube.com/watch?v=EICQQTC3KO4).
 <br>
 
 ---
