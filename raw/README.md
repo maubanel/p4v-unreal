@@ -17,19 +17,27 @@ You can watch it on [YouTube](https://www.youtube.com/watch?v=MGEVi9CsQtY).
 
 ##### `Step 1.`\|`P4VUE5`|:small_blue_diamond:
 
-![alt text](images/.png)
+I normally create a folder next to the Unreal project called **Assets** that holds all the source files we use to make the game.  I made added **Textures** folder and added a photograph (any image will do here).
+
+![alt text](images/OriginalAsset.png)
 
 ![](../images/line3.png)
 
 ##### `Step 2.`\|`P4VUE5`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt text](images/.png)
+Here is what the original photo looks like.
+
+![alt text](images/originalPhoto.png)
 
 ![](../images/line3.png)
 
 ##### `Step 3.`\|`P4VUE5`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt text](images/.png)
+I want to commit this at every step of the way. So in **P4V** go to the **Assets | Textures** folder and highlight the image.  Press the **+ Add** button and enter a message for the pending changelist.  I typed (mistyped) `Import original raw photograph`.
+
+Finish submitting by pressing the **Submit** button.  We want to submit at EVERY stage as this gives us maximum ability to undo to any point in our history.
+
+![alt text](images/submitOriginal.png)
 
 ![](../images/line3.png)
 
