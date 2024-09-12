@@ -14,14 +14,8 @@ These are quick guides for using a **Perforce Helix Core** server at LSU. To get
 6. [Using Perforce in UE5](ue5-existing/README.md#user-content-using-perforce-in-ue5) *for an existing project*
 7. [Starting a Session in UE5 using Perforce](starting-ue5/README.md#user-content-starting-a-session-in-ue5-using-perforce)
 8. [Ending a Session in UE5 using Perforce](quitting-ue5/README.md#user-content-ending-a-session-in-ue5-using-perforce)
-
-
-8. [P4V Icons](icons/README.md#user-content-p4v-icons)
-10. [Large Changes Outside of UE5](large-changes/README.md#user-content-large-changes-outside-of-ue5)
-11. Managing Multiple Workspaces
-
-P4 ADMIN
-* [New Depot](newdepot/README.md#user-content-installing-p4v#user-content-p4-new-depot)
+9. [Creating Raw Assets for Games using Perforce](raw/README.md#user-content-creating-raw-assets-for-games-using-perforce)
+10. [P4V Icons](icons/README.md#user-content-p4v-icons)
 
 ---
 
