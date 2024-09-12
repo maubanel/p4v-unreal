@@ -37,7 +37,9 @@ Go to **Edit | Edtior Preferences** and select **General | Loading & Saving** an
 
 ##### `Step 3.`\|`P4VUE5`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now there is a small message on the bottom right stating that source control is not turned on.  Select it and choose **Connect to Source Control** to bring up the source control menu and then select **Perforce** from the list.
+If you have a green check mark on Source Control you can skip to step 6 (bottom right of the editor). 
+
+If there is not a green check markNow then select it and choose **Connect to Source Control** to bring up the source control menu and then select **Perforce** from the list.
 
 ![turn on source control](images/turnOnSource.png)
 
@@ -53,7 +55,7 @@ Now we enter the provider as **Perforce**, the **Server** as `ssl:helixcore.cct.
 
 ##### `Step 5.`\|`P4VUE5`| :small_orange_diamond:
 
-If the settings were correct a pop up will briefly appear at the bottom right saying the connection was succesful.
+If the settings were correct a pop up will briefly appear at the bottom right saying the connection was successful.
 
 ![succesful perforce connection](images/succesful.png)
 
@@ -61,7 +63,13 @@ If the settings were correct a pop up will briefly appear at the bottom right sa
 
 ##### `Step 6.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond:
 
-Now if I edit a file such as this material, it will automatically checkout the file.  A red check mark will appear in **Content Drawer**.  Unreal has checked this out of Perforce which changes the file to writable - so Unreal can save over that file.
+Now if I edit a file such as this material, it will automatically checkout the file.  In this case I am changing a blue material to pink. A red check mark will appear in **Content Drawer**.  Unreal has checked this out of Perforce which changes the file to writable - so Unreal can save over that file.
+
+If it doesn't get the red check mark or someone else has it checked out you will not be able to save over this file.  
+
+Never select **Make Writable** as you will create an unresolvable conflict.  You cannot merge two binary files that multiple people have changed.
+
+Only one person can change a file at a time.
 
 
 ![alt text](images/CheckedOut.png)
@@ -72,6 +80,8 @@ Now if I edit a file such as this material, it will automatically checkout the f
 ##### `Step 7.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 This effectively does the same thing as checking out that file in **P4V**.  It is just easier and quicker to do it through the Unreal Engine which is tightly integrated with Perforce. 
+
+But you will notice that the file is marked as checked out.  This will appear in the entire team's Perforce workspace.  So only that one person can save and work with `MI_Solid_Blue.uasset`.
 
 ![save all and checkout files](images/checkoutP4V.png)
 
@@ -88,7 +98,7 @@ Do your work as you normally would.  At the very end of the unit of work you are
 
 ##### `Step 9.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now that you have done this work, what if you want to change it back.  You have saved it and maybe you can no longer undo (or your undo chain is not long enough)?  You can right click on the file then select **Revision Control | Revert**. Confirmt he file to revert then press the **Revert** button on the pop up.
+Now that you have done this work, what if you want to change it back.  You have saved it and maybe you can no longer undo (or your undo chain is not long enough)?  You can right click on the file then select **Revision Control | Revert**. Confirm the file(s) to revert then press the **Revert** button on the pop-up confirmation.
 
 ![save all and checkout files](images/revertChange1.png)
 
