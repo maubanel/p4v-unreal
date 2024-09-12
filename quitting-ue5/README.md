@@ -10,6 +10,7 @@ When we finish a session in Perforce we can submit everything in **P4V** or use 
 
 https://github.com/user-attachments/assets/2adc4a32-6425-4917-9187-e8553aae63ac
 
+[YouTube Link](https://www.youtube.com/watch?v=Nx-aOAQGkwI)
 <br>
 
 ---
