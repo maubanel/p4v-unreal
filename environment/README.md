@@ -4,7 +4,7 @@
 
 https://github.com/user-attachments/assets/35199b48-922e-4b98-ac17-72dbe49dcca1
 
-[YouTube Link](https://github.com/maubanel/p4v-unreal/blob/main/environment/README.md#user-content-set-up-environment-variables)
+[YouTube Link](https://www.youtube.com/watch?v=ZZ0foIfY1Ac)
 
 
 * It is a good idea to use a config file so that it automatically configs your environment correctly in each project.
