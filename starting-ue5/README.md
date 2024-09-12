@@ -47,7 +47,7 @@ If you are not connected to Perforce and select **Revision Control** and **Conne
 
 You are ready to start your session.  That is all it takes to get up and running for a session in Unreal using Perforce!
 
-![alt text](images/Perforce Settings.png)
+![alt text](images/PerforceSettings.png)
 
 
 ![](../images/line.png)
