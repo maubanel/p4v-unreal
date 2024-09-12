@@ -11,7 +11,7 @@ These are quick guides for using a **Perforce Helix Core** server at LSU. To get
 3. [Set Up Environment Variables](environment/README.md#user-content-set-up-environment-variables)
 4. [Setting Up Perforce in UE5](ue5/README.md#user-content-setting-up-perforce-in-ue5) *for the first time use*
 5. [Using Perforce in UE5](ue5-existing/README.md#user-content-using-perforce-in-ue5) *for an existing project*
-6. [Ending a Session in UE5 using Perforce](quitting-ue5/README.md#user-content-quitting-ue5-with-perforce)
+6. [Ending a Session in UE5 using Perforce](quitting-ue5/README.md#user-content-ending-a-session-in-ue5-using-perforce)
 7. [P4 Ignore File](P4/README.md#user-content-p4ignore)
 8. [P4V Icons](icons/README.md#user-content-p4v-icons)
 9. [P4 Ignores](ignore/README.md#user-content-p4-ignore)
