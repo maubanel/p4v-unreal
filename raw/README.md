@@ -43,7 +43,11 @@ Finish submitting by pressing the **Submit** button.  We want to submit at EVERY
 
 ##### `Step 4.`\|`P4VUE5`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt text](images/.png)
+Now Perforce will maintain a history of the file.  There is no need to number a file such as `T_File01`, `T_File02` etc...  We can just use one name and only have to hold the latest file on our hard drive.  Every other version will be saved on the server.
+
+To see the history select **View | History** and select the file.  You can see it has a single entry of our initial submission.
+
+![alt text](images/History1.png)
 
 ![](../images/line3.png)
 
