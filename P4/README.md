@@ -126,6 +126,8 @@ Press the **Apply** button. Now we are protected on the clients and on the serve
 
 So now you will see on your **Workspace** locally you have all the files and folders.  The shared ones with the team and the ones for your computer and settings.  On the **Depot** tab the server just has the files you are all workign on together.  If you see the **Saved** or **Intermediate** folders on the server talk to your admin to have them permanently deleted (not removed through perforce as this is not going to remove them from the history and will take up unnecessary space on the server).
 
+![alt text](images/DepotServer.png)
+
 ![](../images/line.png)
 
 | [home](../README.md#user-content-ue4-hello-world) | 
