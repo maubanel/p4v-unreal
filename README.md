@@ -4,7 +4,7 @@
 
 ### P4V
 
-These are quick guides for using a **Perforce Helix Core** server at LSU. To get access to Perforce please ask your teacher or email [maubanel@cct.lsu.edu](mailto:maubanel@cct.lsu.edu).
+These are quick guides for using a **Perforce Helix Core** server at LSU with **Unreal Engine**. To get access to Perforce please ask your teacher or email [maubanel@cct.lsu.edu](mailto:maubanel@cct.lsu.edu).
 
 1. [Installing P4V](installing/README.md#user-content-installing-p4v)
 2. [Workspaces & configuration file in P4V](workspaces/README.md#user-content-workspaces-in-p4v)
