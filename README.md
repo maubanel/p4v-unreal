@@ -20,7 +20,7 @@ These are quick guides for using a **Perforce Helix Core** server at LSU with **
 ---
 
 <details>
-  <summary>Dev Tips ></summary>
+  <summary>Dev Tips</summary>
 
   make git m="add commit message"
 </details>
