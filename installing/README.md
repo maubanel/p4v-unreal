@@ -28,7 +28,7 @@ Download [P4V](https://www.perforce.com/downloads/helix-visual-client-p4v) which
 
 Double click the `p4vinst64.msi` file. Install at least the **Helix Visual Client (P4V)** and **Command Line Client (P4)**.  The **Merge and Diff Tool** and **Administration Tool** are optional.
 
-Then enter the address for your **P4 Server**. If you are an LSU student using the school server it is at `ssl:helixcore.cct.lsu.edu:1818`, **Username** use your lsu id *without* the @lsu.edu. You can select your text editor of choice or leave the default.  Press the <kbd>Next</kbd> button. Then press the <kbd>Install</kbd> button.  You can then close the screen out.
+Then enter the address for your **P4 Server** address and **Username**. You can select your text editor of choice or leave the default.  Press the <kbd>Next</kbd> button. Then press the <kbd>Install</kbd> button.  You can then close the screen out.
 
 ![install p4v](images/InstallPerforce.gif)
 
