@@ -51,9 +51,7 @@ Select a location **Workspace Root** with enough room for your project. I use th
 
 Try to keep it as close to the root drive as possible as Perforce does have a character limit to how long your folder chain can be. In this case I only have a single drive and it is a Mac so I am keeping it in the default Perforce folder root to my user (same as PC that will keep it at: `c:User/Username/Perforce`.
 
-Select a 
-
-*Press* the **Browse** button on the **Stream** and select the **Depot**/Project you want to use.
+*Press* the **Browse** button on the **Stream** and select the **Depot**/Project you want to use. It is recommended to use **Streams** - these operate like **Branches** do in **GitHub**. If you don't select a stream it will still connect but you will never be able to submit data to the repo and it will give you errors.
 
 ![exclude templates and oldlocalprojects depots](images/excludeTrees.png)
 
