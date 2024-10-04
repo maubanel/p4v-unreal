@@ -61,7 +61,7 @@ Select a
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-Select the **Advanced** tab.  Set **Modtime:** to `true` so that the timezone of each contributor is respected.  Set **Rmdir:** to `true` so empty folders are removed.  Then select in **On submit:** `Revert unchanged files`.  Set **Automatically get all revisions** to `true`. Now select <kbd>OK</kbd> to create this new workspace.
+Select the **Advanced** tab.  Set **Modtime:** to `true` so that the timezone of each contributor is respected.  Set **Rmdir:** to `true` so empty folders are removed.  I believe that Perforce stores the entire folder and name of the file so it doesn't have a concept of folders.  So it doesn't know to delete them as it doesn't automaticallyu know when they are empty.  Selecting this setting has it check for empty folders and delete them (at least on the Depot). Then select in **On submit:** `Revert unchanged files`.  Set **Automatically get all revisions** to `true`. This setting will get all the latest files the first time you log into the workspace (this option does not *stay* `true`). Now select <kbd>OK</kbd> to create this new workspace.
 
 ![advanced workspace settings](images/advancedWorkspaces.png)
 
