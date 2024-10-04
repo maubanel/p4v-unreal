@@ -61,7 +61,7 @@ Select a
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-Select the **Advanced** tab.  Set **Modtime: ...** to `true` so that the timezone of each contributor is respected.  Set **Rmdir:** to `true` so empty folders are removed.  Then select in **On submit:** `Revert unchanged files`.  Set **Automatically get all revisions** to `true`. Now select <kbd>OK</kbd> to create this new workspace.
+Select the **Advanced** tab.  Set **Modtime:** to `true` so that the timezone of each contributor is respected.  Set **Rmdir:** to `true` so empty folders are removed.  Then select in **On submit:** `Revert unchanged files`.  Set **Automatically get all revisions** to `true`. Now select <kbd>OK</kbd> to create this new workspace.
 
 ![advanced workspace settings](images/advancedWorkspaces.png)
 
