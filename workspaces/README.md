@@ -10,7 +10,7 @@
 
 Follow this entire walk through if you do not have a workspace on your computer.  In this walk through we will only be covering Perforce Stream Projects.
 
-Watch the below in video form on [YouTube](https://www.youtube.com/watch?v=LJ7jrB9tCTM).
+Watch the below in video form on [YouTube]([https://www.youtube.com/watch?v=LJ7jrB9tCTM](https://youtu.be/_4PouqEbglA).
 
 ![topology of a perforce server](images/topology.png)
 
