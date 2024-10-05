@@ -1,9 +1,5 @@
 ## Environment Variables
 
-
-
-https://github.com/user-attachments/assets/35199b48-922e-4b98-ac17-72dbe49dcca1
-
 [YouTube Link](https://youtu.be/ljbY4CH_JZE)
 
 * It is a good idea to use a config file so that it automatically configs your environment correctly in each project.
