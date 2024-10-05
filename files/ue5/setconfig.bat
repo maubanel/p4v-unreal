@@ -5,13 +5,13 @@ chcp 65001
 setlocal
 
 :: Run executable to get hostname from PC
-hostname.exe > temp.txt
+hostname.exe > %~dp0\temp.txt
 
 :: Read output of file to variable
-for /f "delims=" %%a in (temp.txt) do set "host=%%a"
+for /f "delims=" %%a in (%~dp0\temp.txt) do set "host=%%a"
 
 :: Delete Temp File
-del temp.txt
+del %~dp0\temp.txt
 
 echo P4HOST=%host% > %~dp0\.p4config
 
@@ -42,7 +42,7 @@ echo P4CLIENT=%workspace% >> %~dp0\.p4config
 
 endlocal
 
-p4 set P4CONFIG=%~dp0\.p4config
+p4 set P4CONFIG=.p4config
 
 :: empty line
 echo:
