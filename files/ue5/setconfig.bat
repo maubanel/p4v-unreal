@@ -10,7 +10,8 @@ echo P4IGNORE=.p4ignore > %~dp0\.p4config
 set /p username=What is your P4V Username? 
 echo P4USER=%username% >> .p4config
 
-echo P4HOST=%%COMPUTERNAME%% >> %~dp0\.p4config
+set host=%COMPUTERNAME%
+echo P4HOST=%host% >> %~dp0\.p4config
 
 set /p workspace=What is your P4V Workspace (Look in Advanced in Edit Workspace) ? 
 echo P4CLIENT=%workspace% >> %~dp0\.p4config
