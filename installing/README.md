@@ -8,9 +8,9 @@
 
 There are three main applications to install.  **P4V** which is tthe GUI controller for source control.  **P4** which is the command line version control.  **P4Admin** for administration if you have admininstration access.  If you are not an administrator then you do not need to install **P4Admin**.
 
-https://github.com/user-attachments/assets/dc84832a-0966-42a6-9116-43dfa54df8d6
+https://github.com/user-attachments/assets/55ae76ce-3c46-4720-b48a-66e507a9db0f
 
-[YouTube](https://youtu.be/cJb4anDVyAc)
+[YouTube Link](https://youtu.be/WM-TjoJc4no)
 <br>
 
 ---
@@ -28,7 +28,7 @@ Download [P4V](https://www.perforce.com/downloads/helix-visual-client-p4v) which
 
 Double click the `p4vinst64.msi` file. Install at least the **Helix Visual Client (P4V)** and **Command Line Client (P4)**.  The **Merge and Diff Tool** and **Administration Tool** are optional.
 
-Then enter the address for your **P4 Server**. If you are an LSU student using the school server it is at `ssl:helixcore.cct.lsu.edu:1818`, **Username** use your lsu id *without* the @lsu.edu. You can select your text editor of choice or leave the default.  Press the <kbd>Next</kbd> button. Then press the <kbd>Install</kbd> button.  You can then close the screen out.
+Then enter the address for your **P4 Server** address and **Username**. You can select your text editor of choice or leave the default.  Press the <kbd>Next</kbd> button. Then press the <kbd>Install</kbd> button.  You can then close the screen out.
 
 ![install p4v](images/InstallPerforce.gif)
 

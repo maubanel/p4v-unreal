@@ -10,7 +10,7 @@
 
 Follow this entire walk through if you do not have a workspace on your computer.  In this walk through we will only be covering Perforce Stream Projects.
 
-Watch the below in video form on [YouTube](https://www.youtube.com/watch?v=LJ7jrB9tCTM).
+Watch the below in video form on [YouTube](https://youtu.be/_4PouqEbglA).
 
 ![topology of a perforce server](images/topology.png)
 
@@ -51,9 +51,7 @@ Select a location **Workspace Root** with enough room for your project. I use th
 
 Try to keep it as close to the root drive as possible as Perforce does have a character limit to how long your folder chain can be. In this case I only have a single drive and it is a Mac so I am keeping it in the default Perforce folder root to my user (same as PC that will keep it at: `c:User/Username/Perforce`.
 
-Select a 
-
-*Press* the **Browse** button on the **Stream** and select the **Depot**/Project you want to use.
+*Press* the **Browse** button on the **Stream** and select the **Depot**/Project you want to use. It is recommended to use **Streams** - these operate like **Branches** do in **GitHub**. If you don't select a stream it will still connect but you will never be able to submit data to the repo and it will give you errors.
 
 ![exclude templates and oldlocalprojects depots](images/excludeTrees.png)
 
@@ -61,7 +59,7 @@ Select a
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-Select the **Advanced** tab.  Set **Modtime: ...** to `true` so that the timezone of each contributor is respected.  Set **Rmdir:** to `true` so empty folders are removed.  Then select in **On submit:** `Revert unchanged files`.  Set **Automatically get all revisions** to `true`. Now select <kbd>OK</kbd> to create this new workspace.
+Select the **Advanced** tab.  Set **Modtime:** to `true` so that the timezone of each contributor is respected.  Set **Rmdir:** to `true` so empty folders are removed.  I believe that Perforce stores the entire folder and name of the file so it doesn't have a concept of folders.  So it doesn't know to delete them as it doesn't automaticallyu know when they are empty.  Selecting this setting has it check for empty folders and delete them (at least on the Depot). Then select in **On submit:** `Revert unchanged files`.  Set **Automatically get all revisions** to `true`. This setting will get all the latest files the first time you log into the workspace (this option does not *stay* `true`). Now select <kbd>OK</kbd> to create this new workspace.
 
 ![advanced workspace settings](images/advancedWorkspaces.png)
 
