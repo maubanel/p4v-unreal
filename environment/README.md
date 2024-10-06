@@ -88,13 +88,12 @@ Lets test to make sure the `.p4config` file works properly.  Right click in **P4
 
 You need a separate workspace for each computer, which necessitates a separate `.p4config` file for each space.  Run the batch file on all the computers you are using and don't forget to do this when you are setting up!
 
-![.p4fonfig screenshot](images/p4Config.png)
+![.p4fonfig screenshot](images/p4Confi2g.png)
 
 ![](../images/line3.png)
 * This file has to be created for each Workspace and can't be shared amongst projects and are ignored in the `.p4ignore` file.
 * This will add a `.p4config` file root of your project folder (same folder as you `.uproject`) if you have done this correctly.
 
-![.p4fonfig screenshot](./p4Config2.png)
 
 * Right click on the `.p4config` and select **Open Command Window Here**. This will bring up the command prompt in your project directory.  Type `p4 set` and press the <kbd>Return</kbd> key.
 
