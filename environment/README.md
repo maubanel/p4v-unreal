@@ -8,9 +8,17 @@
 
 https://github.com/user-attachments/assets/35199b48-922e-4b98-ac17-72dbe49dcca1
 
-[YouTube Link](https://youtu.be/ljbY4CH_JZE)
+Perforce has some key environment variables that have to be set up correctly for it to work.  When working on multiple projects this can be tricky.  Below we will be looking at my preferred way of setting up these variables using a batch file.
 
+Watch the [YouTube Video](https://youtu.be/ljbY4CH_JZE) for a more complete explanation.
 
+##### `Step 1.`\|`P4VUE5`|:small_blue_diamond:
+
+It is a good idea to use a config file so that it automatically configs your environment correctly in each project. For PC's only,  copy this file into the root (top folder) of your project directory of your **Workspace** [setconfig.bat](../files/ue5/setconfig.bat)
+* 
+![alt text](images/.png)
+
+![](../images/line3.png)
 * It is a good idea to use a config file so that it automatically configs your environment correctly in each project.
 * If you are unable to loginto Perforce inside of Unreal this might help with that making it work more consistently.
 * For PC's only,  copy this file into your project directory of your **Workspace** [setconfig.bat](../files/ue5/setconfig.bat)
