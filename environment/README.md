@@ -56,7 +56,7 @@ Enter your user name (not your email address no `@gmail.com`).
 
 The final thing to do is to enter the name of the **Workspace**.  If you don't remember it go to the **Workspace** tab and double click the one you are using.  In the top right corner you can copy and paste the workspace name. 
 
-![enter workspace name](images/Workspace.png)
+![enter workspace name](images/Workspace2.png)
 
 ![](../images/line3.png)
 
