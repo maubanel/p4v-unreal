@@ -43,6 +43,7 @@ echo P4CLIENT=%workspace% >> %~dp0\.p4config
 endlocal
 
 p4 set P4CONFIG=.p4config
+p4 set P4IGNORE=.p4ignore
 
 :: empty line
 echo:
