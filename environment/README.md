@@ -14,11 +14,13 @@ Watch the [YouTube Video](https://youtu.be/ljbY4CH_JZE) for a more complete expl
 
 ##### `Step 1.`\|`P4VUE5`|:small_blue_diamond:
 
-It is a good idea to use a config file so that it automatically configs your environment correctly in each project. For PC's only,  copy this file into the root (top folder) of your project directory of your **Workspace** [setconfig.bat](../files/ue5/setconfig.bat)
+It is a good idea to use a config file so that it automatically configs your environment correctly in each project. For PC's only, download the [setconfig.bat](../files/ue5/setconfig.bat) file.
 * 
-![alt text](images/.png)
+![download batch file](images/DownloadBatchFile.png)
 
 ![](../images/line3.png)
+
+this file into the root (top folder) of your project directory of your **Workspace**
 * It is a good idea to use a config file so that it automatically configs your environment correctly in each project.
 * If you are unable to loginto Perforce inside of Unreal this might help with that making it work more consistently.
 * For PC's only,  copy this file into your project directory of your **Workspace** [setconfig.bat](../files/ue5/setconfig.bat)
