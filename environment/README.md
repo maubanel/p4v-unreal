@@ -15,16 +15,51 @@ Watch the [YouTube Video](https://youtu.be/ljbY4CH_JZE) for a more complete expl
 ##### `Step 1.`\|`P4VUE5`|:small_blue_diamond:
 
 It is a good idea to use a config file so that it automatically configs your environment correctly in each project. For PC's only, download the [setconfig.bat](../files/ue5/setconfig.bat) file.
-* 
+
 ![download batch file](images/DownloadBatchFile.png)
 
 ![](../images/line3.png)
 
-this file into the root (top folder) of your project directory of your **Workspace**
-* It is a good idea to use a config file so that it automatically configs your environment correctly in each project.
-* If you are unable to loginto Perforce inside of Unreal this might help with that making it work more consistently.
-* For PC's only,  copy this file into your project directory of your **Workspace** [setconfig.bat](../files/ue5/setconfig.bat)
-* Edit the batch file and enter the location of your perforce repository then save it to the root folder of your project.
+##### `Step 2.`\|`P4VUE5`|:small_blue_diamond: :small_blue_diamond:
+
+Right click on the **SetConfig.bat** file and select **Unblock**.  You only need to do this if you want to avoid getting a warning that it is not from a trusted developer everytime you run it.  The batch file just writes text the the directory it runs from.
+
+![unblock batch file](images/Unblock.png)
+
+![](../images/line3.png)
+
+##### `Step 3.`\|`P4VUE5`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Place this file into the root (top folder) of your project directory of your **Workspace**
+
+![place in root folder](images/RootFolder.png)
+
+![](../images/line3.png)
+
+##### `Step 4.`\|`P4VUE5`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Run the batch file by double clicking it. The first thing it will ask is for you to enter the location of the repository.  Remember if it is a secure ssl connection you need to preface the name with `ssl:` and after the repository location you need to give the port used to set it up `ssl:location.com:1666`.
+
+![Enter Server Location](images/ServerLocation.png)
+
+![](../images/line3.png)
+
+##### `Step 5.`\|`P4VUE5`| :small_orange_diamond:
+
+Enter your user name (not your email address no `@gmail.com`). 
+
+![enter username](images/UserName.png)
+
+![](../images/line3.png)
+
+##### `Step 6.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond:
+
+The final thing to do is to enter the name of the **Workspace**.  If you don't remember it go to the **Workspace** tab and double click the one you are using.  In the top right corner you can copy and paste the workspace name.
+
+![enter workspace name](images/Workspace.png)
+
+![](../images/line3.png)
+
 * You can copy it by right clicking on the above and then right clicking on **Raw** and selecting `Save link as...`
 * Place the `setconfig.bat` file in your root directory of your perforce workspace (this file should be in the topmost folder)
 * Double click the `setconfig.bat` file and answer all the questions.  This will set up a `.p4config file` that will ensure that environment variables are set properly.
