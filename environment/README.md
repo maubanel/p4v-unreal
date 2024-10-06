@@ -60,15 +60,41 @@ The final thing to do is to enter the name of the **Workspace**.  If you don't r
 
 ![](../images/line3.png)
 
-* You can copy it by right clicking on the above and then right clicking on **Raw** and selecting `Save link as...`
-* Place the `setconfig.bat` file in your root directory of your perforce workspace (this file should be in the topmost folder)
-* Double click the `setconfig.bat` file and answer all the questions.  This will set up a `.p4config file` that will ensure that environment variables are set properly.
-* * DO NOT run this batch file from P4V.  It will save the file to the wrong folder. Double click the `.bat` file from `explorer`.
-* Both the host and the workspace name can be copy and pasted by double clicking your workspace in `P4V`.
+##### `Step 7.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Press enter and make sure all the data is entered correctly. Behind the scenes we ran two commands that are required to use the `.p4ignore` and the `.p4config`.  The script ran `p4 set P4IGNORE=.p4ignore` and `p4 set P4CONFIG=.p4config`.  Please remember that you need to activate show hidden files (google it) on your computer to see these files. Adding these two files is not enough you need to run the command to set them.  This is done once on your computer then it will not have to be repeated.
+
+![final data](images/FinalMessage.png)
+
+![](../images/line3.png)
+
+##### `Step 8.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now in **P4V** press the **Refresh** button and you should see a `.p4config` file.  Double click it and you should see a file similar to the one below.
+
+![p4config file](images/p4config.png)
+
+![](../images/line3.png)
+
+##### `Step 9.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Lets test to make sure the `.p4config` file works properly.  Right click in **P4V** on any of the root folder files and select **Open Command Window Here**. Now in the command window type `p4 set` and press the **Enter/Return** key. You should see that it is loading from the config file.
+
+![test p4 config](images/TestConfig.png)
+
+![](../images/line3.png)
+
+##### `Step 10.`\|`P4VUE5`| :large_blue_diamond:
+
+You need a separate workspace for each computer, which necessitates a separate `.p4config` file for each space.  Run the batch file on all the computers you are using and don't forget to do this when you are setting up!
+
+![.p4fonfig screenshot](images/p4Config.png)
+
+![](../images/line3.png)
 * This file has to be created for each Workspace and can't be shared amongst projects and are ignored in the `.p4ignore` file.
 * This will add a `.p4config` file root of your project folder (same folder as you `.uproject`) if you have done this correctly.
 
-![.p4fonfig screenshot](./p4Config.png)
+![.p4fonfig screenshot](./p4Config2.png)
 
 * Right click on the `.p4config` and select **Open Command Window Here**. This will bring up the command prompt in your project directory.  Type `p4 set` and press the <kbd>Return</kbd> key.
 
