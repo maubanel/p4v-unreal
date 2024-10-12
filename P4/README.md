@@ -65,7 +65,7 @@ So the issue if we stage the files by adding them (select the top folder and pre
 
 ##### `Step 6.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond:
 
-One way of dealing with the issue is with a `.p4ignore` file. You should make sure you place the file in the root of the project. Here is the template that I use [.p4ignore](../files/UE5/.p4ignore). Make sure it is called `.p4ignore` and not `.p4ignore.txt` or `p4ignore.txt`.
+One way of dealing with the issue is with a `.p4ignore` file. You should make sure you place the file in the root of the project. Here is the template that I use [.p4ignore](../files/ue5/.p4ignore). Make sure it is called `.p4ignore` and not `.p4ignore.txt` or `p4ignore.txt`.
 
 The `.` in front of the name will hide it by default on macs and PCs.  Google `show hidden files` to find out how to un-hide files on yor computer.
 
