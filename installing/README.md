@@ -56,7 +56,7 @@ When it loads up go to the **Depot** tab.  This is all the projects that you hav
 
 The one change to their default settings that i like to make is to avoid issues trying to load your prior repository.  The default behavior is to _Restore all previous opened connections_ which sounds convenient.  The issue arises when this server is not available or you are trying to load a different server.  It takes a long time to determine if it is available and you do not get the connection dialogue.
 
-I prefer to always have the connection dialogue come up as it is immediate and I don't have to wait a minute or two for P4V to decide that it can't find the server.  So I change the **Edit | Preferences | Connections** category to *Show the Perforce Connection Dialogue*.
+I prefer to always have the connection dialogue come up as it is immediate and I don't have to wait a minute or two for P4V to decide that it can't find the server.  So I change the **Edit | Preferences | Connections** category to *Show the Perforce Connection Dialog*.
 
 ![change default to show at dialup](images/ShowAtDialup.png)
 
