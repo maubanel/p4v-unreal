@@ -8,9 +8,7 @@
 
 There are three main applications to install.  **P4V** which is tthe GUI controller for source control.  **P4** which is the command line version control.  **P4Admin** for administration if you have admininstration access.  If you are not an administrator then you do not need to install **P4Admin**.
 
-https://github.com/user-attachments/assets/55ae76ce-3c46-4720-b48a-66e507a9db0f
-
-[YouTube Link](https://youtu.be/WM-TjoJc4no)
+[Watch YouTube Video Here](https://www.youtube.com/watch?v=LyjX8e77vbY)
 <br>
 
 ---
