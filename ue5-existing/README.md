@@ -6,7 +6,7 @@
 
 ![](../images/line3.png)
 
-This guide is for daily use of UE5 and the appropriate workflow. You can follow the instructions below or watch a [video on YouTube](https://www.youtube.com/watch?v=w72pwjTnf3k)
+This guide is for daily use of UE5 and the appropriate workflow. You can follow the instructions below or watch a [video on YouTube](https://youtu.be/XCuE6wfNCF8)
 
 <br>
 
