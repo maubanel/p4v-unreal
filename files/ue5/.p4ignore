@@ -82,6 +82,9 @@ DerivedDataCache/*
 #MS Build
 *.csproj.*
 
+#Houdini backup files
+backup/*.hipnc
+
 #GenerAL
 *.tmp
 
