@@ -14,7 +14,7 @@ Watch the [YouTube Video](https://youtu.be/ljbY4CH_JZE) for a more complete expl
 
 ##### `Step 1.`\|`P4VUE5`|:small_blue_diamond:
 
-It is a good idea to use a config file so that it automatically configs your environment correctly in each project. For PC's only, download the [setconfig.bat](../files/ue5/setconfig.bat) file.
+It is a good idea to use a config file so that it automatically configs your environment correctly in each project. For PC's only, download the [set_p4_pc.bat for PCs](../files/ue5/set_p4_pc.bat) or [set_p4_mac.sh](../files/ue5/set_p4_mac.sh) file for macs.
 
 ![download batch file](images/DownloadBatchFile.png)
 
