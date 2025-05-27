@@ -22,7 +22,7 @@ It is a good idea to use a config file so that it automatically configs your env
 
 ##### `Step 2.`\|`P4VUE5`|:small_blue_diamond: :small_blue_diamond:
 
-Right click on the **SetConfig.bat** file and select **Unblock**.  You only need to do this if you want to avoid getting a warning that it is not from a trusted developer everytime you run it.  The batch file just writes text the the directory it runs from. For the mac you will need to open up command prompt and run `./setup_p4_mac.sh`.
+Right click on the **SetConfig.bat** file and select **Unblock**.  You only need to do this if you want to avoid getting a warning that it is not from a trusted developer everytime you run it.  The batch file just writes text the the directory it runs from. For the mac you will need to open up command prompt and run `./setup_p4_mac.sh`
 
 ![unblock batch file](images/Unblock.png)
 
