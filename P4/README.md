@@ -71,6 +71,7 @@ The `.` in front of the name will hide it by default on macs and PCs.  Google `s
 
 If you look at the file you will notice that it includes the following syntax: `Intermediate/*`.  This means that it will not upload to the server any files or folders within a directory called **Intermediate**. 
 
+Another great research is Perforce's own Jase Lindgren with his [p4 ignore on github](https://gist.github.com/jase-perf)
 
 ![alt text](images/p4Ignore.png)
 
