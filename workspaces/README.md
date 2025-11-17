@@ -19,7 +19,7 @@ Watch the below in video form on [YouTube](https://youtu.be/_4PouqEbglA).
 ---
 
 
-##### `Step 1.`\|`BTS`|:small_blue_diamond:
+##### `Step 1.`\|`BTS`|🔹
 
 Now open up and loginto **P4V** and open up the app.  You need to select **View | Workspaces** to select your workspaces tab.
 
@@ -27,7 +27,7 @@ Now open up and loginto **P4V** and open up the app.  You need to select **View 
 
 ![](../images/line2.png)
 
-##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
+##### `Step 2.`\|`BTS`|🔹 🔹 
 
 Right mouse click and on the open area in the **Workspaces** tab and select **New Workspace...**.
 
@@ -35,7 +35,7 @@ Right mouse click and on the open area in the **Workspaces** tab and select **Ne
 
 ![](../images/line2.png)
 
-##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 3.`\|`BTS`|🔹 🔹 🔹
 
 Now you get a pop up that has all the depots that you have permission to subscribe to. 
 
@@ -43,7 +43,7 @@ Now you get a pop up that has all the depots that you have permission to subscri
 
 ![](../images/line2.png)
 
-##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 4.`\|`BTS`|🔹 🔹 🔹 🔹
 
 Give the depot a **Workspace Name**. The default name is not very helpful, I would call it something short and descriptive that describes the project and the computer I am using.  For example I could use `UnrealClassLptp`. You cannot use the same name as the depot it will not allow a workspace to share the exact name with a **Depot**.
 
@@ -57,7 +57,7 @@ Try to keep it as close to the root drive as possible as Perforce does have a ch
 
 ![](../images/line2.png)
 
-##### `Step 5.`\|`BTS`| :small_orange_diamond:
+##### `Step 5.`\|`BTS`| 🔸
 
 Select the **Advanced** tab.  Set **Modtime:** to `true` so that the timezone of each contributor is respected.  Set **Rmdir:** to `true` so empty folders are removed.  I believe that Perforce stores the entire folder and name of the file so it doesn't have a concept of folders.  So it doesn't know to delete them as it doesn't automaticallyu know when they are empty.  Selecting this setting has it check for empty folders and delete them (at least on the Depot). Then select in **On submit:** `Revert unchanged files`.  Set **Automatically get all revisions** to `true`. This setting will get all the latest files the first time you log into the workspace (this option does not *stay* `true`). Now select <kbd>OK</kbd> to create this new workspace.
 
@@ -65,7 +65,7 @@ Select the **Advanced** tab.  Set **Modtime:** to `true` so that the timezone of
 
 ![](../images/line2.png)
 
-##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
+##### `Step 6.`\|`BTS`| 🔸 🔹
 
 Select the **Workspaces** tab and go to the top of the directory.  Press the <kbd>Get Latest</kbd> button on the top menu. This will create a directory and get all the folders in it.  Be patient, this could take a while if the project is large.
 
@@ -73,7 +73,7 @@ Select the **Workspaces** tab and go to the top of the directory.  Press the <kb
 
 ![](../images/line2.png)
 
-##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 7.`\|`BTS`| 🔸 🔹 🔹
 
 Now you will see all the **Depots** that you subscribed to in this **Workspace** in the folder you set it up in.
 
@@ -81,7 +81,7 @@ Now you will see all the **Depots** that you subscribed to in this **Workspace**
 
 ![](../images/line2.png)
 
-##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 8.`\|`BTS`| 🔸 🔹 🔹 🔹
 
 Now next time you run **p4v** you can select **Browse** next to **Workspace:** and select the workspace you want.  In this case it is **p4** and then I will press the <kbd>OK</kbd> button.  Then you are loaded into this workspace when it opens.
 
@@ -89,7 +89,7 @@ Now next time you run **p4v** you can select **Browse** next to **Workspace:** a
 
 ![](../images/line2.png)
 
-##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 9.`\|`BTS`| 🔸 🔹 🔹 🔹 🔹
 
 If you are not in a workspace or in the wrong workspace you can switch to it by select **Connection** and then `Switch to Workspace`. You will then select the workspace you would like to switch to.
 
