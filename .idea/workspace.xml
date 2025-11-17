@@ -5,6 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fa33d17-0d19-4319-8906-a1d31499bb08" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P4/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/P4/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme Template.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme Template.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/config/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/environment/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/environment/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ignore/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ignore/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/installing/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/installing/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new-asset/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/new-asset/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quitting-ue5/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/quitting-ue5/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raw/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/raw/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starting-ue5/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/starting-ue5/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ue5-existing/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ue5-existing/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ue5/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ue5/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workspaces/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/workspaces/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,21 +36,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/marcaubanel/Documents/GitHub/p4v-unreal",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/marcaubanel/Documents/GitHub/p4v-unreal&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -53,7 +66,8 @@
       <option name="presentableId" value="Default" />
       <updated>1763409076664</updated>
       <workItem from="1763409077939" duration="1865000" />
-      <workItem from="1763420198447" duration="143000" />
+      <workItem from="1763420198447" duration="219000" />
+      <workItem from="1763420438867" duration="970000" />
     </task>
     <servers />
   </component>

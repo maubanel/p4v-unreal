@@ -13,7 +13,7 @@ We are going to add new assets to Perforce that we create in the editor.  We wil
 ---
 
 
-##### `Step 1.`\|`BTS`|:small_blue_diamond:
+##### `Step 1.`\|`BTS`|🔹
 
 Open up your **Workspace** in **P4V** and open up your project by double left mouse clicking on the `.uproject` to open Unreal.
 
@@ -21,7 +21,7 @@ Open up your **Workspace** in **P4V** and open up your project by double left mo
 
 ![](../images/line2.png)
 
-##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
+##### `Step 2.`\|`BTS`|🔹🔹
 
  Now make sure that **Source Control** is green.  If not reconnect to source control by signing back in with **Unreal**.
 
@@ -31,7 +31,7 @@ Open up your **Workspace** in **P4V** and open up your project by double left mo
 
 ![](../images/line2.png)
 
-##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 3.`\|`BTS`|🔹🔹🔹
 
 Now select a new **Empty Level** then press the <kbd>Create</kbd> button.
 
@@ -39,7 +39,7 @@ Now select a new **Empty Level** then press the <kbd>Create</kbd> button.
 
 ![](../images/line2.png)
 
-##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 4.`\|`BTS`|🔹🔹🔹🔹
 
 Open up the **Content Drawer** (you can use the <kbd>Cntrl Space</kbd> as a keyboard shortcut) and right click on **Content** and select `New Folder`.
 
@@ -47,7 +47,7 @@ Open up the **Content Drawer** (you can use the <kbd>Cntrl Space</kbd> as a keyb
 
 ![](../images/line2.png)
 
-##### `Step 5.`\|`BTS`| :small_orange_diamond:
+##### `Step 5.`\|`BTS`| 🔸
 
 Call the new folder `Maps`.
 
@@ -55,7 +55,7 @@ Call the new folder `Maps`.
 
 ![](../images/line2.png)
 
-##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
+##### `Step 6.`\|`BTS`| 🔸🔹
 
 Now lets save this new level we created.  Press **File | Save Current Level**.
 
@@ -63,7 +63,7 @@ Now lets save this new level we created.  Press **File | Save Current Level**.
 
 ![](../images/line2.png)
 
-##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 7.`\|`BTS`| 🔸🔹🔹
 
 Select the **Maps** folder and name the level.  I named mine `HelloWorld`.  Press the <kbd>Save</kbd> button.
 
@@ -71,7 +71,7 @@ Select the **Maps** folder and name the level.  I named mine `HelloWorld`.  Pres
 
 ![](../images/line2.png)
 
-##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 8.`\|`BTS`| 🔸🔹🔹🔹
 
 Now right click on your project file and select **Source Control | Check In**.  This will add this file to the **Depot** so other members can **Sync** and see the newly completed level.
 
@@ -79,7 +79,7 @@ Now right click on your project file and select **Source Control | Check In**.  
 
 ![](../images/line2.png)
 
-##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 9.`\|`BTS`| 🔸🔹🔹🔹🔹
 
 Now add an approriate comment to the **Changelist Description**. Make sure the assets are correct, in my case the only thing we are doing is submitting the **Hello World** level to the **Depot**.
 
@@ -89,7 +89,7 @@ Press the <kbd>Submit</kbd> button.
 
 ![](../images/line2.png)
 
-##### `Step 10.`\|`BTS`| :large_blue_diamond:
+##### `Step 10.`\|`BTS`| 🔷
 
 Now you can confirm in **P4V** that this change was pushed to the server.  Select **View | History** and open that tab.  Click on the project ald look at the list of commits.  We can see the one we just created with our comment.
 
@@ -97,7 +97,7 @@ Now you can confirm in **P4V** that this change was pushed to the server.  Selec
 
 ![](../images/line2.png)
 
-##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
+##### `Step 11.`\|`BTS`| 🔷🔹
 
 You will also notice that in game the **Red X** is no longer on the file name. This indicates that it is in the **Perforce Depot** now.
 

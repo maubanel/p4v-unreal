@@ -13,7 +13,7 @@ The `.p4ignore` file plays a very important role.  It makes sure the repository 
 ---
 
 
-##### `Step 1.`\|`BTS`|:small_blue_diamond:
+##### `Step 1.`\|`BTS`|🔹
 
 Our basic UE5 [.p4ignore](../files/ue5/.p4ignore) is to make sure that files that don't need to be generated are not stored in the repository. 
 

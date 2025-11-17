@@ -13,7 +13,7 @@ This guide is for daily use of UE5 and the appropriate workflow. You can follow 
 ---
 
 
-##### `Step 1.`\|`P4VUE5`|:small_blue_diamond:
+##### `Step 1.`\|`P4VUE5`|🔹
 
 It is best practice to have **P4V** running when working in **UE5**.  To make sure you are doing this, it is good to launch the game from within the **P4V** interface.  Highlight the folder that holds your `.uproject` and press the <kbd>Get Latest</kbd> button. This will get the latest version of the game that is on the **Depot**. Double click on the `.uproject` within **P4V** to open the project from **P4V**.
 
@@ -21,7 +21,7 @@ It is best practice to have **P4V** running when working in **UE5**.  To make su
 
 ![](../images/line3.png)
 
-##### `Step 2.`\|`P4VUE5`|:small_blue_diamond: :small_blue_diamond: 
+##### `Step 2.`\|`P4VUE5`|🔹🔹
 
 If you have not set up automatic checkout out of files do it now!  This is only saved locally on the current machine and does not get shared across the project.  You will need to set this on each workstation you use. 
 
@@ -35,7 +35,7 @@ Go to **Edit | Edtior Preferences** and select **General | Loading & Saving** an
 
 ![](../images/line3.png)
 
-##### `Step 3.`\|`P4VUE5`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 3.`\|`P4VUE5`|🔹🔹🔹
 
 If you have a green check mark on Source Control you can skip to step 6 (bottom right of the editor). 
 
@@ -45,7 +45,7 @@ If there is not a green check markNow then select it and choose **Connect to Sou
 
 ![](../images/line3.png)
 
-##### `Step 4.`\|`P4VUE5`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 4.`\|`P4VUE5`|🔹🔹🔹🔹
 
 Now we enter the provider as **Perforce**, the **Server** as `ssl:helixcore.cct.lsu.edu:1818`, the user name and the workspace. To select the workspace select the **Available Workspace** list and all available workspaces will show up. Press the <kbd>Accept Settings</kbd> button.
 
@@ -53,7 +53,7 @@ Now we enter the provider as **Perforce**, the **Server** as `ssl:helixcore.cct.
 
 ![](../images/line3.png)
 
-##### `Step 5.`\|`P4VUE5`| :small_orange_diamond:
+##### `Step 5.`\|`P4VUE5`| 🔸
 
 If the settings were correct a pop up will briefly appear at the bottom right saying the connection was successful.
 
@@ -61,7 +61,7 @@ If the settings were correct a pop up will briefly appear at the bottom right sa
 
 ![](../images/line3.png)
 
-##### `Step 6.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond:
+##### `Step 6.`\|`P4VUE5`| 🔸🔹
 
 Now if I edit a file such as this material, it will automatically checkout the file.  In this case I am changing a blue material to pink. A red check mark will appear in **Content Drawer**.  Unreal has checked this out of Perforce which changes the file to writable - so Unreal can save over that file.
 
@@ -77,7 +77,7 @@ Only one person can change a file at a time.
 
 ![](../images/line3.png)
 
-##### `Step 7.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 7.`\|`P4VUE5`| 🔸🔹🔹
 
 This effectively does the same thing as checking out that file in **P4V**.  It is just easier and quicker to do it through the Unreal Engine which is tightly integrated with Perforce. 
 
@@ -87,7 +87,7 @@ But you will notice that the file is marked as checked out.  This will appear in
 
 ![](../images/line3.png)
 
-##### `Step 8.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 8.`\|`P4VUE5`| 🔸🔹🔹🔹
 
 Now that you have done this work, what if you want to change it back.  You have saved it and maybe you can no longer undo (or your undo chain is not long enough)?  You can right click on the file then select **Revision Control | Revert**. Confirm the file(s) to revert then press the **Revert** button on the pop-up confirmation.
 
@@ -95,7 +95,7 @@ Now that you have done this work, what if you want to change it back.  You have 
 
 ![](../images/line3.png)
 
-##### `Step 9.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 9.`\|`P4VUE5`| 🔸🔹🔹🔹🔹
 
 Confirm the revert by pressing the **Yes** button.
 
@@ -103,7 +103,7 @@ Confirm the revert by pressing the **Yes** button.
 
 ![](../images/line3.png)
 
-##### `Step 10.`\|`P4VUE5`| :large_blue_diamond:
+##### `Step 10.`\|`P4VUE5`| 🔷
 
 
 Now the material has reverted back to its original blue color.  Note that reverting is a destructive change.  So **Perforce** does not keep a history of reverts.  If you think you might go back then you can just change it manually back to blue and it will keep the prior pink version in the history that you can use later.
@@ -113,7 +113,7 @@ Now the material has reverted back to its original blue color.  Note that revert
 
 ![](../images/line3.png)
 
-##### `Step 11.`\|`P4VUE5`| :large_blue_diamond: :small_blue_diamond:
+##### `Step 11.`\|`P4VUE5`| 🔷🔹
 
 For objects in the **Content Drawer** the above procedure works fine.  For instances in levels there are two modes that **Unreal** works in which affects **Perforce** source control.
 
@@ -125,7 +125,7 @@ If you want to know if it is turned on or not then select **Window | World Parti
 
 ![](../images/line3.png)
 
-##### `Step 12.`\|`P4VUE5`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 12.`\|`P4VUE5`| 🔷🔹🔹
 
 So if one actor per file is turned off then a level is like any other asset.  Only one person can work on a level at a time.  The second you make a change you will check out the map/level and no one else on the team will be able to work on the level you are editing.
 
@@ -137,7 +137,7 @@ Since game levels are getting larger and larger, having the ability for multiple
 
 ![](../images/line3.png)
 
-##### `Step 13.`\|`P4VUE5`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond:
+##### `Step 13.`\|`P4VUE5`| 🔷🔹🔹🔹
 
 Now if you have **OFPA** turned on (either by default or after the fact) you have my prefered workflow.  When you are editing a level you are NOT checking out hte level.  Below I shifted the blocks on the letter **H**. Notice that it DID NOT check the level out.
 
@@ -145,7 +145,7 @@ Now if you have **OFPA** turned on (either by default or after the fact) you hav
 
 ![](../images/line3.png)
 
-##### `Step 14.`\|`P4VUE5`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond:
+##### `Step 14.`\|`P4VUE5`| 🔷🔹🔹🔹🔹
 
 Now you will notice that **Unreal** saves each file as a hashed name (cryptic) in the **_External Actors** folder which you will not see in the **Content Browser**.
 
@@ -153,7 +153,7 @@ Now you will notice that **Unreal** saves each file as a hashed name (cryptic) i
 
 ![](../images/line3.png)
 
-##### `Step 15.`\|`P4VUE5`| :large_blue_diamond: :small_orange_diamond:
+##### `Step 15.`\|`P4VUE5`| 🔷🔸
 
 Unreal warns that you HAVE to submit these files through the editor and NOT through P4V. 
 
@@ -161,7 +161,7 @@ Unreal warns that you HAVE to submit these files through the editor and NOT thro
 
 ![](../images/line3.png)
 
-##### `Step 16.`\|`P4VUE5`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond:
+##### `Step 16.`\|`P4VUE5`| 🔷🔸🔹
 
 If you want to revert you have to leave the level then revert the changes you want.  Then you can return to the level and continue on. In the below example I undid **Cube 5** on the left hand side of the **letter H**.
 
@@ -169,7 +169,7 @@ If you want to revert you have to leave the level then revert the changes you wa
 
 ![](../images/line3.png)
 
-##### `Step 17.`\|`P4VUE5`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 17.`\|`P4VUE5`| 🔷🔸🔹🔹
 
 Lets look at what happens when we add a new file to Unreal.
 
@@ -181,7 +181,7 @@ Drag and drop the .png files into the **LevelPrototyping | Textures** folder. No
 
 ![](../images/line3.png)
 
-##### `Step 18.`\|`P4VUE5`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 18.`\|`P4VUE5`| 🔷🔸🔹🔹🔹
 
 Do the same thing with the mesh and add **SM_SoloLSUGLove** to the **Level Prototyping | Meshes** folder.  Accept the default settings and press **Import All**. Now the icon goes from an **asterix** to a **+** when you press **Save**>
 
@@ -189,7 +189,7 @@ Do the same thing with the mesh and add **SM_SoloLSUGLove** to the **Level Proto
 
 ![](../images/line3.png)
 
-##### `Step 19.`\|`P4VUE5`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 19.`\|`P4VUE5`| 🔷🔸🔹🔹🔹🔹
 
 It has been now staged to add to **Perforce**.
 
@@ -197,20 +197,20 @@ It has been now staged to add to **Perforce**.
 
 ![](../images/line3.png)
 
-##### `Step 20.`\|`P4VUE5`| :large_blue_diamond: :large_blue_diamond:
+##### `Step 20.`\|`P4VUE5`| 🔷🔷
 Now lets look at the last method for adding assets to our projects that exposes a potential weakness.  Go to the **Add Asset** button and select **Quixel Bridge**.  Log into Quixel using your Unreal account. Select an assets and press the **Download** and **Add** buttons.  This will download it to your hard drive then add it to this project.
 ![save all and checkout files](images/QuixelAdd1.png)
 
 ![](../images/line3.png)
 
-##### `Step 21.`\|`P4VUE5`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
+##### `Step 21.`\|`P4VUE5`| 🔷🔷🔹
 
 Now if we press **Save All** we are still getting a question mark on the asset added.  These should have a **+** icon.  This means that **Unreal** and perforce did not communicate when importing these assets into the project.  So it is there in your directory but Perforce doesn't know about it.
 ![save all and checkout files](images/QuixelAdd2.png)
 
 ![](../images/line3.png)
 
-##### `Step 22.`\|`P4VUE5`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 22.`\|`P4VUE5`| 🔷🔷🔹🔹
 
 Now you have to go to **P4V** and in the **Workspace** tab click the top most project folder and right click and select **Reconcile Offline Work**.  Then press the **Reconcile** button and it will add it to the changelist.  Now go back to the game and you will see that these files now have the **+** signs indicating that Perforce knows about them and will submit them when you press the **Submit** button.
 

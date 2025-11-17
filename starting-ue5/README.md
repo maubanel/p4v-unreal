@@ -14,7 +14,7 @@ Watch the [YouTube video](https://www.youtube.com/watch?v=EICQQTC3KO4).
 ---
 
 
-##### `Step 1.`\|`P4VUE5`|:small_blue_diamond:
+##### `Step 1.`\|`P4VUE5`|🔹
 
 Launch **P4V** and enter your password.  The default setting for the server is 24 hours so you will have to re-enter your password at least once a day. Press **OK** to load up Perfroce.
 
@@ -22,7 +22,7 @@ Launch **P4V** and enter your password.  The default setting for the server is 2
 
 ![](../images/line3.png)
 
-##### `Step 2.`\|`P4VUE5`|:small_blue_diamond: :small_blue_diamond: 
+##### `Step 2.`\|`P4VUE5`|🔹🔹
 
 Now go into the **Workspace** you want to work in.  Make sure you are on the **Workspace** tab as we want to update what is on your local hard drive with the latest from the server. 
 
@@ -32,7 +32,7 @@ Select the top most folder and press the **Get Latest** button. This will get th
 
 ![](../images/line3.png)
 
-##### `Step 3.`\|`P4VUE5`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 3.`\|`P4VUE5`|🔹🔹🔹
 
 Double click and launch the `.uproject` Unreal project file from Perforce.  This is not necessary, it is just a step I take to remember to be logged into Perforce before running Unreal and using the right Workspace.
 
@@ -42,7 +42,7 @@ If everything is correct with your **Saved** and `.p4config` file you should alr
 
 ![](../images/line3.png)
 
-##### `Step 4.`\|`P4VUE5`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 4.`\|`P4VUE5`|🔹🔹🔹🔹
 
 If you are not connected to Perforce and select **Revision Control** and **Connect to Revision Control...**.  Set the server to **Perforce** then set your username, password and workspace.  Press the **Accept Settings** button. Then you should have a green check mark on the **Revision Control** tab on the bottom right.
 

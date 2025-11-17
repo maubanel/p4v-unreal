@@ -27,7 +27,7 @@ Now open up and loginto **P4V** and open up the app.  You need to select **View 
 
 ![](../images/line2.png)
 
-##### `Step 2.`\|`BTS`|🔹 🔹 
+##### `Step 2.`\|`BTS`|🔹🔹 
 
 Right mouse click and on the open area in the **Workspaces** tab and select **New Workspace...**.
 
@@ -35,7 +35,7 @@ Right mouse click and on the open area in the **Workspaces** tab and select **Ne
 
 ![](../images/line2.png)
 
-##### `Step 3.`\|`BTS`|🔹 🔹 🔹
+##### `Step 3.`\|`BTS`|🔹🔹🔹
 
 Now you get a pop up that has all the depots that you have permission to subscribe to. 
 
@@ -43,7 +43,7 @@ Now you get a pop up that has all the depots that you have permission to subscri
 
 ![](../images/line2.png)
 
-##### `Step 4.`\|`BTS`|🔹 🔹 🔹 🔹
+##### `Step 4.`\|`BTS`|🔹🔹🔹🔹
 
 Give the depot a **Workspace Name**. The default name is not very helpful, I would call it something short and descriptive that describes the project and the computer I am using.  For example I could use `UnrealClassLptp`. You cannot use the same name as the depot it will not allow a workspace to share the exact name with a **Depot**.
 
@@ -65,7 +65,7 @@ Select the **Advanced** tab.  Set **Modtime:** to `true` so that the timezone of
 
 ![](../images/line2.png)
 
-##### `Step 6.`\|`BTS`| 🔸 🔹
+##### `Step 6.`\|`BTS`| 🔸🔹
 
 Select the **Workspaces** tab and go to the top of the directory.  Press the <kbd>Get Latest</kbd> button on the top menu. This will create a directory and get all the folders in it.  Be patient, this could take a while if the project is large.
 
@@ -73,7 +73,7 @@ Select the **Workspaces** tab and go to the top of the directory.  Press the <kb
 
 ![](../images/line2.png)
 
-##### `Step 7.`\|`BTS`| 🔸 🔹 🔹
+##### `Step 7.`\|`BTS`| 🔸🔹🔹
 
 Now you will see all the **Depots** that you subscribed to in this **Workspace** in the folder you set it up in.
 
@@ -81,7 +81,7 @@ Now you will see all the **Depots** that you subscribed to in this **Workspace**
 
 ![](../images/line2.png)
 
-##### `Step 8.`\|`BTS`| 🔸 🔹 🔹 🔹
+##### `Step 8.`\|`BTS`| 🔸🔹🔹🔹
 
 Now next time you run **p4v** you can select **Browse** next to **Workspace:** and select the workspace you want.  In this case it is **p4** and then I will press the <kbd>OK</kbd> button.  Then you are loaded into this workspace when it opens.
 
@@ -89,7 +89,7 @@ Now next time you run **p4v** you can select **Browse** next to **Workspace:** a
 
 ![](../images/line2.png)
 
-##### `Step 9.`\|`BTS`| 🔸 🔹 🔹 🔹 🔹
+##### `Step 9.`\|`BTS`| 🔸🔹🔹🔹🔹
 
 If you are not in a workspace or in the wrong workspace you can switch to it by select **Connection** and then `Switch to Workspace`. You will then select the workspace you would like to switch to.
 

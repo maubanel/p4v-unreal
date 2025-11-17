@@ -15,7 +15,7 @@ You can watch it on [YouTube](https://www.youtube.com/watch?v=MGEVi9CsQtY).
 ---
 
 
-##### `Step 1.`\|`P4VUE5`|:small_blue_diamond:
+##### `Step 1.`\|`P4VUE5`|🔹
 
 I normally create a folder next to the Unreal project called **Assets** that holds all the source files we use to make the game.  I made added **Textures** folder and added a photograph (any image will do here).
 
@@ -23,7 +23,7 @@ I normally create a folder next to the Unreal project called **Assets** that hol
 
 ![](../images/line3.png)
 
-##### `Step 2.`\|`P4VUE5`|:small_blue_diamond: :small_blue_diamond: 
+##### `Step 2.`\|`P4VUE5`|🔹🔹
 
 Here is what the original photo looks like.
 
@@ -31,7 +31,7 @@ Here is what the original photo looks like.
 
 ![](../images/line3.png)
 
-##### `Step 3.`\|`P4VUE5`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 3.`\|`P4VUE5`|🔹🔹🔹
 
 I want to commit this at every step of the way. So in **P4V** go to the **Assets | Textures** folder and highlight the image.  Press the **+ Add** button and enter a message for the pending changelist.  I typed `Import original raw photograph`.
 
@@ -41,7 +41,7 @@ Finish submitting by pressing the **Submit** button.  We want to submit at EVERY
 
 ![](../images/line3.png)
 
-##### `Step 4.`\|`P4VUE5`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 4.`\|`P4VUE5`|🔹🔹🔹🔹
 
 Now Perforce will maintain a history of the file.  There is no need to number a file such as `T_File01`, `T_File02` etc...  We can just use one name and only have to hold the latest file on our hard drive.  Every other version will be saved on the server.
 
@@ -51,7 +51,7 @@ To see the history select **View | History** and select the file.  You can see i
 
 ![](../images/line3.png)
 
-##### `Step 5.`\|`P4VUE5`| :small_orange_diamond:
+##### `Step 5.`\|`P4VUE5`| 🔸
 
 Now lets make a change to the file.  Lets for example blur it and use it as a background.  I double click and tried to load the file but it went to a windows photo editing app.  I want to edit it in Photoshop.
 
@@ -61,7 +61,7 @@ I right click in **P4V** on the file and select **Show In | Show In Explorer**. 
 
 ![](../images/line3.png)
 
-##### `Step 6.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond:
+##### `Step 6.`\|`P4VUE5`| 🔸🔹
 
 Add a **Filter | Blur | Gaussian Blur** of strength `25` to blur the image. 
 
@@ -69,7 +69,7 @@ Add a **Filter | Blur | Gaussian Blur** of strength `25` to blur the image.
 
 ![](../images/line3.png)
 
-##### `Step 7.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 7.`\|`P4VUE5`| 🔸🔹🔹
 
 Now go and try and save the file.  You get an error stating you don't have the access permission.  This is how **Perforce** works.  You cannot work and save on a file unil you check it out. All files are **Read Only** by default. 
 
@@ -79,7 +79,7 @@ Go back to the file in explorer and select **Properties**.  Notice that it is in
 
 ![](../images/line3.png)
 
-##### `Step 8.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 8.`\|`P4VUE5`| 🔸🔹🔹🔹
 
 So to write to the file you need to check it out.  Go back to **P4V** and make sure you are on the **Workspace** (local hard drive) and select the `jpg` and press the **Checkout** button.  Select a **New Changelist** and add a description `Create a blurred background`.  
 
@@ -89,7 +89,7 @@ Now go back to **Photoshop** and you can now succesfully press **File | Save** a
 
 ![](../images/line3.png)
 
-##### `Step 9.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 9.`\|`P4VUE5`| 🔸🔹🔹🔹🔹
 
 Now your local hard drive has the latest version.  But the server just has the one original version of the photograph.  You need to be on the **Workspace** in **P4V** and select the `jpg` file and press the **Submit** button.
 
@@ -99,7 +99,7 @@ This will submit it to the server.  Now in the **History** tab you can see that 
 
 ![](../images/line3.png)
 
-##### `Step 10.`\|`P4VUE5`| :large_blue_diamond:
+##### `Step 10.`\|`P4VUE5`| 🔷
 
 Now everything in Perforce is a non destructive workflow.  So we can go back in time and recover prior work.  It is like having unlimited undo's. The more we commit to the server the more fine grained ability we have to back in time.
 
@@ -111,7 +111,7 @@ Go to **P4V** and select the `jpg` file and press the **- Delete** button.  Then
 
 ![](../images/line3.png)
 
-##### `Step 11.`\|`P4VUE5`| :large_blue_diamond: :small_blue_diamond: 
+##### `Step 11.`\|`P4VUE5`| 🔷🔹
 
 Now the file is not yet deleted.  You need to go to the **Changelist** and press the **Submit** button. Now the file disappears from the **Workspace** (local hard drive) and it looks like it disappears from the **Depot** (server).
 
@@ -122,7 +122,7 @@ But it is still there.
 ![](../images/line3.png)
 
 
-##### `Step 12.`\|`P4VUE5`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+##### `Step 12.`\|`P4VUE5`| 🔷🔹🔹
 
 In the **Depot** select the filter drop down and select **Show Deleted Depot Files**.  Then all of a sudden the file reappears and if you hover on it you get a message saying `deleted at head revision`.  The head revision is the latest version on the server.  So the history of the file is preserved but it is not sent to your workspace as it is now considered removed from the **head** of the project.
 
@@ -130,7 +130,7 @@ In the **Depot** select the filter drop down and select **Show Deleted Depot Fil
 
 ![](../images/line3.png)
 
-##### `Step 13.`\|`P4VUE5`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 13.`\|`P4VUE5`| 🔷🔹🔹🔹
 
 So what is the benefit of a non-destructive workflow?  We can go back in time. On the **Deport** tab select the deleted file and right click and select **Undo Changes...**. 
 
@@ -146,7 +146,7 @@ This will bring up with a filled in description which we can leave.  Press the *
 
 ![](../images/line3.png)
 
-##### `Step 14.`\|`P4VUE5`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 14.`\|`P4VUE5`| 🔷🔹🔹🔹🔹
 
 Now in your **Workspace** the file reappears.  If you open it up it is now the original un-blurred version as we requested.
 
@@ -154,7 +154,7 @@ Now in your **Workspace** the file reappears.  If you open it up it is now the o
 
 ![](../images/line3.png)
 
-##### `Step 15.`\|`P4VUE5`| :large_blue_diamond: :small_orange_diamond: 
+##### `Step 15.`\|`P4VUE5`| 🔷🔸 
 
 Now we can go back again to any point in our history.  If we want to go back to the blurred version we can easily do this.  On the **Workspace** we right click on the `jpg` and select **Undo Changes...**.
 
@@ -165,7 +165,7 @@ We then select **Undo changes from a selected point to the most recent version**
 
 ![](../images/line3.png)
 
-##### `Step 16.`\|`P4VUE5`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+##### `Step 16.`\|`P4VUE5`| 🔷🔸🔹
 
 Go to **P4V** and in the **Workspace** checkout the `jpg`.  Add a **New** changelist and add a description `Add the number 2 to foreground`. 
 
@@ -175,7 +175,7 @@ Now open the file up in **Photoshop and add the number 2 to the foreground.  Pre
 
 ![](../images/line3.png)
 
-##### `Step 17.`\|`P4VUE5`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 17.`\|`P4VUE5`| 🔷🔸🔹🔹
 
 Submit the changelist to the server to update the history to include this third change to the photograph.
 
@@ -183,7 +183,7 @@ Submit the changelist to the server to update the history to include this third 
 
 ![](../images/line3.png)
 
-##### `Step 18.`\|`P4VUE5`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 18.`\|`P4VUE5`| 🔷🔸🔹🔹🔹
 
 Now lets repeat and make a final change.  Check the `jpg` out and add the number 3 to the photo. Save and submit the change to the server.
 
@@ -191,7 +191,7 @@ Now lets repeat and make a final change.  Check the `jpg` out and add the number
 
 ![](../images/line3.png)
 
-##### `Step 19.`\|`P4VUE5`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 19.`\|`P4VUE5`| 🔷🔸🔹🔹🔹🔹
 
 Now one added feature of the history tab is that we can open up older versions (will download it from the server). Go back to **P4V** and select the **Workspace** and selet the `jpg`.  Select the **History** tab and double click on any change in history (except for deletion) and it will load up that version.  In the below screenshot I select revision 2 the blurred photo with no numbers.
 
@@ -201,7 +201,7 @@ Please note this is not changing anything on your local drive just a way of look
 
 ![](../images/line3.png)
 
-##### `Step 20.`\|`P4VUE5`| :large_blue_diamond: :large_blue_diamond:
+##### `Step 20.`\|`P4VUE5`| 🔷🔷
 
 Now we can actually temporarily load a file and replace the active one in our project. Right click in the **History** tab on **Revision** 2 and select **Get This Revision**. This will now replace the latest version with an older one. 
 
@@ -209,7 +209,7 @@ Now we can actually temporarily load a file and replace the active one in our pr
 
 ![](../images/line3.png)
 
-##### `Step 21.`\|`P4VUE5`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
+##### `Step 21.`\|`P4VUE5`| 🔷🔷🔹
 
 Now instead of a permanent change it just brings in version 2 into the project. No one else will see this you will only see it locally.  I use this sometimes to cut and paste a single element from an older version that I can paste back into the latest version.  Don't forget to undo this or you will be out of sync with the rest of the team.
 
@@ -217,7 +217,7 @@ Now instead of a permanent change it just brings in version 2 into the project. 
 
 ![](../images/line3.png)
 
-##### `Step 22.`\|`P4VUE5`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 22.`\|`P4VUE5`| 🔷🔷🔹🔹
 
 Right click on the `jpg` file and select **Get Latest Revision** to go back to the head of the project with this file which brings back the latest version with number 23. 
 

@@ -14,7 +14,7 @@ There are three main applications to install.  **P4V** which is the GUI controll
 ---
 
 
-##### `Step 1.`\|`BTS`|:small_blue_diamond:
+##### `Step 1.`\|`BTS`|🔹
 
 Download [P4V](https://www.perforce.com/downloads/helix-visual-client-p4v) which is the GUI manager that should work for most issues that arise.  This will install all the software you need. If you are installing on a mac you need to select either the Intel or Apple Silicone and which version of the OS you are running.  On a PC select the `.exe` if you are not familiar with installing `.msi` programs (they both do the same thing). 
 
@@ -22,7 +22,7 @@ Download [P4V](https://www.perforce.com/downloads/helix-visual-client-p4v) which
 
 ![](../images/line2.png)
 
-##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
+##### `Step 2.`\|`BTS`|🔹🔹
 
 Double click the `p4vinst64.msi` file. Install at least the **Helix Visual Client (P4V)** and **Command Line Client (P4)**.  The **Merge and Diff Tool** and **Administration Tool** are optional.
 
@@ -32,7 +32,7 @@ Then enter the address for your **P4 Server** address and **Username**. You can 
 
 ![](../images/line2.png)
 
-##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 3.`\|`BTS`|🔹🔹🔹
 
 Run **P4V** and use the same **Server** and port by entering `ssl:helixcore.cct.lsu.edu:1818`, and use your lsu **User** id *without* the @lsu.edu. We will leave the **Workspace** blank and login to the perforce server. 
 
@@ -42,7 +42,7 @@ Press the <kbd>OK</kbd> button. It will ask you to validate the fingerprint.  Th
 
 ![](../images/line2.png)
 
-##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 4.`\|`BTS`|🔹🔹🔹🔹
 
 When it loads up go to the **Depot** tab.  This is all the projects that you have access to that are on the server (cloud).  If you need access to a depot (project folder) then ask an administrator.
 
@@ -50,7 +50,7 @@ When it loads up go to the **Depot** tab.  This is all the projects that you hav
 
 ![](../images/line3.png)
 
-##### `Step 5.`\|`P4VUE5`| :small_orange_diamond:
+##### `Step 5.`\|`P4VUE5`| 🔸
 
 The one change to their default settings that i like to make is to avoid issues trying to load your prior repository.  The default behavior is to _Restore all previous opened connections_ which sounds convenient.  The issue arises when this server is not available or you are trying to load a different server.  It takes a long time to determine if it is available and you do not get the connection dialogue.
 

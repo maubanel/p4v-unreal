@@ -12,7 +12,7 @@ Perforce has some key environment variables that have to be set up correctly for
 
 Watch the [YouTube Video](https://youtu.be/ljbY4CH_JZE) for a more complete explanation.
 
-##### `Step 1.`\|`P4VUE5`|:small_blue_diamond:
+##### `Step 1.`\|`P4VUE5`|🔹
 
 It is a good idea to use a config file so that it automatically configs your environment correctly in each project. For PC's only, download the [set_p4_pc.bat](../files/ue5/setup_p4_pc.bat) for PCs or or [set_p4_mac.sh](../files/ue5/setup_p4_mac.sh) file for macs.
 
@@ -20,7 +20,7 @@ It is a good idea to use a config file so that it automatically configs your env
 
 ![](../images/line3.png)
 
-##### `Step 2.`\|`P4VUE5`|:small_blue_diamond: :small_blue_diamond:
+##### `Step 2.`\|`P4VUE5`|🔹🔹
 
 Right click on the **SetConfig.bat** file and select **Unblock**.  You only need to do this if you want to avoid getting a warning that it is not from a trusted developer everytime you run it.  The batch file just writes text the the directory it runs from. For the mac you will need to open up command prompt and run `./setup_p4_mac.sh`
 
@@ -28,7 +28,7 @@ Right click on the **SetConfig.bat** file and select **Unblock**.  You only need
 
 ![](../images/line3.png)
 
-##### `Step 3.`\|`P4VUE5`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 3.`\|`P4VUE5`|🔹🔹🔹
 
 Place this file into the root (top folder) of your project directory of your **Workspace**
 
@@ -36,7 +36,7 @@ Place this file into the root (top folder) of your project directory of your **W
 
 ![](../images/line3.png)
 
-##### `Step 4.`\|`P4VUE5`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 4.`\|`P4VUE5`|🔹🔹🔹🔹
 
 Run the batch file by double clicking it. The first thing it will ask is for you to enter the location of the repository.  Remember if it is a secure ssl connection you need to preface the name with `ssl:` and after the repository location you need to give the port used to set it up `ssl:location.com:1666`.
 
@@ -44,7 +44,7 @@ Run the batch file by double clicking it. The first thing it will ask is for you
 
 ![](../images/line3.png)
 
-##### `Step 5.`\|`P4VUE5`| :small_orange_diamond:
+##### `Step 5.`\|`P4VUE5`| 🔸
 
 Enter your user name (not your email address no `@gmail.com`). 
 
@@ -52,7 +52,7 @@ Enter your user name (not your email address no `@gmail.com`).
 
 ![](../images/line3.png)
 
-##### `Step 6.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond:
+##### `Step 6.`\|`P4VUE5`| 🔸🔹
 
 The final thing to do is to enter the name of the **Workspace**.  If you don't remember it go to the **Workspace** tab and double click the one you are using.  In the top right corner you can copy and paste the workspace name. 
 
@@ -60,7 +60,7 @@ The final thing to do is to enter the name of the **Workspace**.  If you don't r
 
 ![](../images/line3.png)
 
-##### `Step 7.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 7.`\|`P4VUE5`| 🔸🔹🔹
 
 Press enter and make sure all the data is entered correctly. Behind the scenes we ran two commands that are required to use the `.p4ignore` and the `.p4config`.  The script ran `p4 set P4IGNORE=.p4ignore` and `p4 set P4CONFIG=.p4config`.  Please remember that you need to activate show hidden files (google it) on your computer to see these files. Adding these two files is not enough you need to run the command to set them.  This is done once on your computer then it will not have to be repeated.
 
@@ -68,7 +68,7 @@ Press enter and make sure all the data is entered correctly. Behind the scenes w
 
 ![](../images/line3.png)
 
-##### `Step 8.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 8.`\|`P4VUE5`| 🔸🔹🔹🔹
 
 Now in **P4V** press the **Refresh** button and you should see a `.p4config` file.  Double click it and you should see a file similar to the one below.
 
@@ -76,7 +76,7 @@ Now in **P4V** press the **Refresh** button and you should see a `.p4config` fil
 
 ![](../images/line3.png)
 
-##### `Step 9.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 9.`\|`P4VUE5`| 🔸🔹🔹🔹🔹
 
 Lets test to make sure the `.p4config` file works properly.  Right click in **P4V** on any of the root folder files and select **Open Command Window Here**. Now in the command window type `p4 set` and press the **Enter/Return** key. You should see that it is loading from the config file.
 
@@ -84,7 +84,7 @@ Lets test to make sure the `.p4config` file works properly.  Right click in **P4
 
 ![](../images/line3.png)
 
-##### `Step 10.`\|`P4VUE5`| :large_blue_diamond:
+##### `Step 10.`\|`P4VUE5`| 🔷
 
 You need a separate workspace for each computer, which necessitates a separate `.p4config` file for each space.  Run the batch file on all the computers you are using and don't forget to do this when you are setting up!
 

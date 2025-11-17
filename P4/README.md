@@ -16,7 +16,7 @@ There are two ways of enforcing P4 Ignores.  One in the workspace and one on the
 ---
 
 
-##### `Step 1.`\|`P4VUE5`|:small_blue_diamond:
+##### `Step 1.`\|`P4VUE5`|🔹
 
 Lets create a new Unreal 5.X.X project. I am putting it in the root of a valid [Perforce Workspace](https://github.com/maubanel/p4v-unreal/blob/main/workspaces/README.md#user-content-workspaces-in-p4v). It is in a directory called `D:\P4Demo` and the project name is **P4Demo**. Press the **Create** button.
 
@@ -25,7 +25,7 @@ Lets create a new Unreal 5.X.X project. I am putting it in the root of a valid [
 
 ![](../images/line3.png)
 
-##### `Step 2.`\|`P4VUE5`|:small_blue_diamond: :small_blue_diamond: 
+##### `Step 2.`\|`P4VUE5`|🔹🔹
 
 Now if you go to **P4V** and refresh the folder you will see all your files and folders adn they are all unstaged (blank sheet of paper icon).
 
@@ -33,7 +33,7 @@ Now if you go to **P4V** and refresh the folder you will see all your files and 
 
 ![](../images/line3.png)
 
-##### `Step 3.`\|`P4VUE5`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 3.`\|`P4VUE5`|🔹🔹🔹
 
 Now the reason we need an ignore file is that there are folders that hold local work relative to my local machine.  The Derived Data Cache are shaders built from my specific video card, the Intermediate has compiled blueprints (again, native to my operating system will be different on mac and pc).
 
@@ -45,7 +45,7 @@ To demonstrate **Delete** the `DerivedDataCache`, `Intermediate`, and `Saved` fo
 
 ![](../images/line3.png)
 
-##### `Step 4.`\|`P4VUE5`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 4.`\|`P4VUE5`|🔹🔹🔹🔹
 
 Now run the game again from **Explorer**.  Notice that it rebuilds those three folders.  Please note you will lose any local settings that are cached (like your Perforcve settings) as this is stored in the **Saved** folder.
 
@@ -55,7 +55,7 @@ I am just showing this as an example of why these are local and MUSN'T be shared
 
 ![](../images/line3.png)
 
-##### `Step 5.`\|`P4VUE5`| :small_orange_diamond:
+##### `Step 5.`\|`P4VUE5`| 🔸
 
 So the issue if we stage the files by adding them (select the top folder and press the **+ Add** button). Notice that it adds all the files including the ones in the folders we don't want to upload.
 
@@ -63,7 +63,7 @@ So the issue if we stage the files by adding them (select the top folder and pre
 
 ![](../images/line3.png)
 
-##### `Step 6.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond:
+##### `Step 6.`\|`P4VUE5`| 🔸🔹
 
 One way of dealing with the issue is with a `.p4ignore` file. You should make sure you place the file in the root of the project. Here is the template that I use [.p4ignore](../files/ue5/.p4ignore). Make sure it is called `.p4ignore` and not `.p4ignore.txt` or `p4ignore.txt`.
 
@@ -77,7 +77,7 @@ Another great resource for p4 ignore templates is Perforce's own Jase Lindgren's
 
 ![](../images/line3.png)
 
-##### `Step 7.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 7.`\|`P4VUE5`| 🔸🔹🔹
 
 I reverted the previous commit.  I go to the top folder and press the **Add** button again to re-add files to the depot. Now I get a message saying that all the files in the protected folders will not be submitted.
 
@@ -87,7 +87,7 @@ This only works if you have the environment variables set up correct.  If you fo
 
 ![](../images/line3.png)
 
-##### `Step 8.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 8.`\|`P4VUE5`| 🔸🔹🔹🔹
 
 If it is not working click on any file at the root of your project (in this case the `.p4ignore`) and select **Open Command Window Here**. The type: `p4 set P4SET=.p4ignore`. Then type `p4 set` and enter.  You should see a valid:
 * Client (Workspace)
@@ -103,7 +103,7 @@ If you do see the ignore set up then try reverting and adding again and it shoul
 
 ![](../images/line3.png)
 
-##### `Step 9.`\|`P4VUE5`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 9.`\|`P4VUE5`| 🔸🔹🔹🔹🔹
 
 Now you can also ignore files on the server itself.  You cannot use wildcards so you are limited to how fancy you can get.  But we can block entire folders.  Go the the **Stream Graph** and right click on the stream (if you have the right levels of permission) and select **Edit Stream Main** (or whatever your stream is called.  
 
@@ -111,7 +111,7 @@ Now you can also ignore files on the server itself.  You cannot use wildcards so
 
 ![](../images/line3.png)
 
-##### `Step 10.`\|`P4VUE5`| :large_blue_diamond:
+##### `Step 10.`\|`P4VUE5`| 🔷
 
 Now you can  paste the contents of [StreamIgnore.txt](../files/ue5/StreamIgnore.txt). Paste into the **Advanced ** tab in the ignored section.
 
@@ -123,7 +123,7 @@ Press the **Apply** button. Now we are protected on the clients and on the serve
 
 ![](../images/line3.png)
 
-##### `Step 11.`\|`P4VUE5`| :large_blue_diamond: :small_blue_diamond: 
+##### `Step 11.`\|`P4VUE5`| 🔷🔹
 
 So now you will see on your **Workspace** locally you have all the files and folders.  The shared ones with the team and the ones for your computer and settings.  On the **Depot** tab the server just has the files you are all workign on together.  If you see the **Saved** or **Intermediate** folders on the server talk to your admin to have them permanently deleted (not removed through perforce as this is not going to remove them from the history and will take up unnecessary space on the server).
 
